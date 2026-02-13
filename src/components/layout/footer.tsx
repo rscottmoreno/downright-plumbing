@@ -160,29 +160,11 @@ export function Footer() {
 
         <Separator className="my-8 bg-white/10" />
 
-        {/* Trust Badges Row */}
-        <div className="flex flex-wrap items-center justify-center gap-6 mb-8">
-          {trustBadges.map((badge, index) => (
-            <motion.div
-              key={badge.label}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
-              className="flex items-center gap-2 text-gray-400"
-            >
-              <badge.icon className="h-5 w-5 text-brand-accent" />
-              <span className="text-sm font-medium">{badge.label}</span>
-            </motion.div>
-          ))}
-        </div>
-
-        <Separator className="my-8 bg-white/10" />
-
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
           <p>© {new Date().getFullYear()} Downright Plumbing. All rights reserved.</p>
           <p className="flex items-center gap-1">
-            Made with <Heart className="h-4 w-4 text-red-500 fill-red-500 animate-pulse-slow" /> for
+            Made with <Heart className="h-4 w-4 text-red-500 fill-red-500" /> for
             the Down syndrome community
           </p>
           <div className="flex gap-6">

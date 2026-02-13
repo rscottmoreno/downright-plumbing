@@ -2,9 +2,24 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
-import { Phone, Calendar, Menu, ChevronDown, Heart } from "lucide-react";
+import { motion } from "framer-motion";
+import {
+  Phone,
+  Calendar,
+  Menu,
+  ChevronDown,
+  Heart,
+  Wrench,
+  Droplets,
+  Flame,
+  Search,
+  Grip,
+  Droplet,
+  MapPin,
+  Star,
+  Shield,
+  ChevronRight,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import {
@@ -19,20 +34,20 @@ import {
 import { cn } from "@/lib/utils";
 
 const services = [
-  { title: "Plumbing Repairs", href: "/services/plumbing-repairs", description: "Expert repair services" },
-  { title: "Drain Cleaning", href: "/services/drain-cleaning", description: "Professional unclogging" },
-  { title: "Water Heaters", href: "/services/water-heater-repair", description: "Repair & installation" },
-  { title: "Leak Detection", href: "/services/leak-detection", description: "Advanced technology" },
-  { title: "Sewer & Water Lines", href: "/services/sewer-line-repair", description: "Repair & replacement" },
-  { title: "Faucets & Fixtures", href: "/services/faucet-installation", description: "Sinks, faucets & more" },
+  { title: "Plumbing Repairs", href: "/services/plumbing-repairs", description: "Expert repair services", icon: Wrench },
+  { title: "Drain Cleaning", href: "/services/drain-cleaning", description: "Professional unclogging", icon: Droplets },
+  { title: "Water Heaters", href: "/services/water-heater-repair", description: "Repair & installation", icon: Flame },
+  { title: "Leak Detection", href: "/services/leak-detection", description: "Advanced technology", icon: Search },
+  { title: "Sewer & Water Lines", href: "/services/sewer-line-repair", description: "Repair & replacement", icon: Grip },
+  { title: "Faucets & Fixtures", href: "/services/faucet-installation", description: "Sinks, faucets & more", icon: Droplet },
 ];
 
 const serviceAreas = [
-  { title: "Rockwall, TX", href: "/service-areas/rockwall" },
-  { title: "Heath, TX", href: "/service-areas/heath" },
-  { title: "Royse City, TX", href: "/service-areas/royse-city" },
-  { title: "Fate, TX", href: "/service-areas/fate" },
-  { title: "Rowlett, TX", href: "/service-areas/rowlett" },
+  { title: "Rockwall", href: "/service-areas/rockwall" },
+  { title: "Heath", href: "/service-areas/heath" },
+  { title: "Royse City", href: "/service-areas/royse-city" },
+  { title: "Fate", href: "/service-areas/fate" },
+  { title: "Rowlett", href: "/service-areas/rowlett" },
   { title: "View All Areas", href: "/service-areas" },
 ];
 
@@ -81,13 +96,9 @@ export function Header() {
           <NavigationMenu className="hidden lg:flex">
             <NavigationMenuList>
               <NavigationMenuItem>
-                <Link href="/">
-                  {/* @next-codemod-error This Link previously used the now removed `legacyBehavior` prop, and has a child that might not be an anchor. The codemod bailed out of lifting the child props to the Link. Check that the child component does not render an anchor, and potentially move the props manually to Link. */
-                  }
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Home
-                  </NavigationMenuLink>
-                </Link>
+                <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                  <Link href="/">Home</Link>
+                </NavigationMenuLink>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
@@ -99,12 +110,17 @@ export function Header() {
                         <NavigationMenuLink asChild>
                           <Link
                             href={service.href}
-                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                            className="flex items-start gap-3 select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                           >
-                            <div className="text-sm font-medium leading-none">{service.title}</div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                              {service.description}
-                            </p>
+                            <div className="w-8 h-8 rounded-md bg-amber-50 flex items-center justify-center flex-shrink-0 mt-0.5">
+                              <service.icon className="w-4 h-4 text-amber-600" />
+                            </div>
+                            <div className="space-y-1">
+                              <div className="text-sm font-medium leading-none">{service.title}</div>
+                              <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                                {service.description}
+                              </p>
+                            </div>
                           </Link>
                         </NavigationMenuLink>
                       </li>
@@ -116,14 +132,15 @@ export function Header() {
               <NavigationMenuItem>
                 <NavigationMenuTrigger>Service Areas</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid w-[300px] gap-2 p-4">
+                  <ul className="grid w-[300px] gap-1 p-4">
                     {serviceAreas.map((area) => (
                       <li key={area.href}>
                         <NavigationMenuLink asChild>
                           <Link
                             href={area.href}
-                            className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                            className="flex items-center gap-2 select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                           >
+                            <MapPin className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
                             <div className="text-sm font-medium">{area.title}</div>
                           </Link>
                         </NavigationMenuLink>
@@ -134,33 +151,21 @@ export function Header() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/about">
-                  {/* @next-codemod-error This Link previously used the now removed `legacyBehavior` prop, and has a child that might not be an anchor. The codemod bailed out of lifting the child props to the Link. Check that the child component does not render an anchor, and potentially move the props manually to Link. */
-                  }
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    About Us
-                  </NavigationMenuLink>
-                </Link>
+                <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                  <Link href="/about">About Us</Link>
+                </NavigationMenuLink>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/our-story">
-                  {/* @next-codemod-error This Link previously used the now removed `legacyBehavior` prop, and has a child that might not be an anchor. The codemod bailed out of lifting the child props to the Link. Check that the child component does not render an anchor, and potentially move the props manually to Link. */
-                  }
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Our Story
-                  </NavigationMenuLink>
-                </Link>
+                <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                  <Link href="/our-story">Our Story</Link>
+                </NavigationMenuLink>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/contact">
-                  {/* @next-codemod-error This Link previously used the now removed `legacyBehavior` prop, and has a child that might not be an anchor. The codemod bailed out of lifting the child props to the Link. Check that the child component does not render an anchor, and potentially move the props manually to Link. */
-                  }
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Contact
-                  </NavigationMenuLink>
-                </Link>
+                <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                  <Link href="/contact">Contact</Link>
+                </NavigationMenuLink>
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
@@ -177,7 +182,7 @@ export function Header() {
 
             <Button
               asChild
-              className="hidden md:flex bg-brand-red hover:bg-brand-red/90 text-white rounded-full px-6 shadow-lg shadow-brand-red/30 animate-pulse-slow"
+              className="hidden md:flex bg-brand-red hover:bg-brand-red/90 text-white rounded-full px-6 shadow-lg shadow-brand-red/30"
             >
               <Link href="/contact" className="flex items-center gap-2">
                 <Calendar className="h-4 w-4" />
@@ -188,12 +193,13 @@ export function Header() {
             {/* Mobile Menu Toggle */}
             <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
               <SheetTrigger asChild className="lg:hidden">
-                <Button variant="outline" size="icon">
+                <Button variant="outline" size="icon" aria-label="Open navigation menu">
                   <Menu className="h-6 w-6" />
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right" className="w-[300px] sm:w-[400px] overflow-y-auto">
-                <SheetHeader>
+              <SheetContent side="right" className="w-[320px] sm:w-[380px] overflow-y-auto p-0">
+                {/* Mobile Menu Header */}
+                <SheetHeader className="px-6 pt-6 pb-4 border-b border-gray-100">
                   <SheetTitle className="flex items-center gap-2">
                     <span className="text-xl font-heading font-bold text-brand-primary">
                       Downright
@@ -203,53 +209,85 @@ export function Header() {
                       Plumbing
                     </span>
                   </SheetTitle>
+                  <div className="flex items-center gap-2 mt-1">
+                    <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />
+                    <span className="text-xs text-gray-500 font-medium">5.0 Google Rating</span>
+                    <span className="text-xs text-gray-300">|</span>
+                    <Shield className="h-3.5 w-3.5 text-brand-primary" />
+                    <span className="text-xs text-gray-500 font-medium">Licensed & Insured</span>
+                  </div>
                 </SheetHeader>
 
-                <nav className="flex flex-col gap-4 mt-8">
+                <nav className="flex flex-col">
+                  {/* Main Nav Links */}
                   <Link
                     href="/"
                     onClick={() => setMobileMenuOpen(false)}
-                    className="text-lg font-medium hover:text-brand-primary transition-colors"
+                    className="flex items-center gap-3 px-6 py-4 text-base font-semibold text-gray-900 hover:bg-blue-50 transition-colors border-b border-gray-50"
                   >
                     Home
                   </Link>
 
-                  <div>
-                    <h3 className="font-semibold text-brand-primary mb-2">Services</h3>
-                    <div className="flex flex-col gap-2 ml-4">
+                  {/* Services Section - Collapsible */}
+                  <MobileAccordion title="Services" defaultOpen>
+                    <div className="grid gap-1 px-2 pb-3">
                       {services.map((service) => (
                         <Link
                           key={service.href}
                           href={service.href}
                           onClick={() => setMobileMenuOpen(false)}
-                          className="text-sm hover:text-brand-primary transition-colors"
+                          className="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 transition-colors group"
                         >
-                          {service.title}
+                          <div className="w-9 h-9 rounded-lg bg-amber-50 group-hover:bg-amber-100 flex items-center justify-center flex-shrink-0 transition-colors">
+                            <service.icon className="w-4.5 h-4.5 text-amber-600" />
+                          </div>
+                          <div>
+                            <span className="text-sm font-medium text-gray-900">{service.title}</span>
+                            <span className="block text-xs text-gray-500">{service.description}</span>
+                          </div>
                         </Link>
                       ))}
+                      <Link
+                        href="/services"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="flex items-center justify-center gap-1 px-4 py-2.5 mt-1 text-sm font-semibold text-brand-primary hover:bg-blue-50 rounded-lg transition-colors"
+                      >
+                        View All Services
+                        <ChevronRight className="w-4 h-4" />
+                      </Link>
                     </div>
-                  </div>
+                  </MobileAccordion>
 
-                  <div>
-                    <h3 className="font-semibold text-brand-primary mb-2">Service Areas</h3>
-                    <div className="flex flex-col gap-2 ml-4">
-                      {serviceAreas.map((area) => (
+                  {/* Service Areas Section - Collapsible */}
+                  <MobileAccordion title="Service Areas">
+                    <div className="grid grid-cols-2 gap-1 px-2 pb-3">
+                      {serviceAreas.slice(0, -1).map((area) => (
                         <Link
                           key={area.href}
                           href={area.href}
                           onClick={() => setMobileMenuOpen(false)}
-                          className="text-sm hover:text-brand-primary transition-colors"
+                          className="flex items-center gap-2 px-3 py-2.5 rounded-lg hover:bg-blue-50 transition-colors"
                         >
-                          {area.title}
+                          <MapPin className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
+                          <span className="text-sm font-medium text-gray-700">{area.title}</span>
                         </Link>
                       ))}
                     </div>
-                  </div>
+                    <Link
+                      href="/service-areas"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="flex items-center justify-center gap-1 mx-2 mb-3 px-4 py-2.5 text-sm font-semibold text-brand-primary hover:bg-blue-50 rounded-lg transition-colors"
+                    >
+                      View All Areas
+                      <ChevronRight className="w-4 h-4" />
+                    </Link>
+                  </MobileAccordion>
 
+                  {/* Other Links */}
                   <Link
                     href="/about"
                     onClick={() => setMobileMenuOpen(false)}
-                    className="text-lg font-medium hover:text-brand-primary transition-colors"
+                    className="flex items-center gap-3 px-6 py-4 text-base font-semibold text-gray-900 hover:bg-blue-50 transition-colors border-b border-gray-50"
                   >
                     About Us
                   </Link>
@@ -257,31 +295,33 @@ export function Header() {
                   <Link
                     href="/our-story"
                     onClick={() => setMobileMenuOpen(false)}
-                    className="text-lg font-medium hover:text-brand-primary transition-colors"
+                    className="flex items-center gap-3 px-6 py-4 text-base font-semibold text-gray-900 hover:bg-blue-50 transition-colors border-b border-gray-50"
                   >
                     Our Story
+                    <Heart className="w-4 h-4 text-red-400 fill-red-400 ml-auto" />
                   </Link>
 
                   <Link
                     href="/contact"
                     onClick={() => setMobileMenuOpen(false)}
-                    className="text-lg font-medium hover:text-brand-primary transition-colors"
+                    className="flex items-center gap-3 px-6 py-4 text-base font-semibold text-gray-900 hover:bg-blue-50 transition-colors border-b border-gray-50"
                   >
                     Contact
                   </Link>
 
-                  <div className="pt-4 mt-4 border-t space-y-3">
+                  {/* CTA Section */}
+                  <div className="mt-auto p-6 bg-gradient-to-b from-gray-50 to-white border-t border-gray-100 space-y-3">
                     <a
                       href="tel:2148023042"
-                      className="flex items-center gap-2 text-brand-primary font-semibold text-lg"
+                      className="flex items-center justify-center gap-2 w-full bg-brand-primary hover:bg-brand-primary/90 text-white font-semibold py-3.5 px-6 rounded-xl transition-colors shadow-md"
                     >
                       <Phone className="h-5 w-5" />
-                      (214) 802-3042
+                      Call (214) 802-3042
                     </a>
 
                     <Button
                       asChild
-                      className="w-full bg-brand-red hover:bg-brand-red/90 text-white rounded-full shadow-lg shadow-brand-red/30"
+                      className="w-full bg-brand-red hover:bg-brand-red/90 text-white rounded-xl shadow-md shadow-brand-red/20 py-3.5 h-auto font-semibold"
                     >
                       <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
                         <Calendar className="h-4 w-4 mr-2" />
@@ -296,5 +336,41 @@ export function Header() {
         </div>
       </div>
     </motion.header>
+  );
+}
+
+/* Collapsible accordion for mobile menu sections */
+function MobileAccordion({
+  title,
+  defaultOpen = false,
+  children,
+}: {
+  title: string;
+  defaultOpen?: boolean;
+  children: React.ReactNode;
+}) {
+  const [isOpen, setIsOpen] = useState(defaultOpen);
+
+  return (
+    <div className="border-b border-gray-50">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex items-center justify-between w-full px-6 py-4 text-base font-semibold text-gray-900 hover:bg-blue-50 transition-colors"
+        aria-expanded={isOpen}
+      >
+        {title}
+        <ChevronDown
+          className={cn(
+            "w-4 h-4 text-gray-400 transition-transform duration-200",
+            isOpen && "rotate-180"
+          )}
+        />
+      </button>
+      {isOpen && (
+        <div className="bg-gray-50/50">
+          {children}
+        </div>
+      )}
+    </div>
   );
 }

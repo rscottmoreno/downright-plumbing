@@ -32,7 +32,7 @@ export function FloatingCTA() {
       <Button
         asChild
         size="lg"
-        className="bg-brand-secondary hover:bg-brand-secondary/90 text-white rounded-full shadow-2xl px-6 py-6 text-base font-semibold animate-bounce-subtle hover:animate-none"
+        className="bg-brand-secondary hover:bg-brand-secondary/90 text-white rounded-full shadow-2xl px-6 py-6 text-base font-semibold"
       >
         <Link href="/contact" className="flex items-center gap-2">
           <Calendar className="h-5 w-5" />

@@ -28,7 +28,7 @@ export function StickyCTABar() {
           <Button
             asChild
             size="lg"
-            className="bg-brand-red hover:bg-brand-red-light text-white rounded-full font-semibold shadow-lg shadow-brand-red/30 animate-pulse-slow"
+            className="bg-brand-red hover:bg-brand-red-light text-white rounded-full font-semibold shadow-lg shadow-brand-red/30"
           >
             <Link href="/contact" className="flex items-center justify-center gap-2">
               <Calendar className="h-5 w-5" />

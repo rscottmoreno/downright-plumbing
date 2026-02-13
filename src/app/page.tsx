@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import type { Metadata } from 'next';
 import {
   Phone,
   Clock,
@@ -157,32 +156,50 @@ function TestimonialCarousel() {
         </div>
       </motion.div>
 
+      {/* Navigation arrows - hidden on very small screens, use dots instead */}
       <button
         onClick={prevTestimonial}
-        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-16 bg-white rounded-full p-3 shadow-lg hover:bg-amber-50 transition-colors"
+        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-4 md:-translate-x-16 bg-white rounded-full p-2 sm:p-3 shadow-lg hover:bg-amber-50 transition-colors hidden sm:block"
         aria-label="Previous testimonial"
       >
-        <ChevronLeft className="w-6 h-6 text-amber-600" />
+        <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6 text-amber-600" />
       </button>
       <button
         onClick={nextTestimonial}
-        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-16 bg-white rounded-full p-3 shadow-lg hover:bg-amber-50 transition-colors"
+        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-4 md:translate-x-16 bg-white rounded-full p-2 sm:p-3 shadow-lg hover:bg-amber-50 transition-colors hidden sm:block"
         aria-label="Next testimonial"
       >
-        <ChevronRight className="w-6 h-6 text-amber-600" />
+        <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 text-amber-600" />
       </button>
 
-      <div className="flex justify-center gap-2 mt-8">
-        {testimonials.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => setCurrentIndex(i)}
-            className={`w-2 h-2 rounded-full transition-all ${
-              i === currentIndex ? 'bg-amber-600 w-8' : 'bg-gray-300'
-            }`}
-            aria-label={`Go to testimonial ${i + 1}`}
-          />
-        ))}
+      {/* Dots navigation + mobile prev/next */}
+      <div className="flex items-center justify-center gap-3 mt-8">
+        <button
+          onClick={prevTestimonial}
+          className="sm:hidden p-2 rounded-full bg-white shadow hover:bg-amber-50 transition-colors"
+          aria-label="Previous testimonial"
+        >
+          <ChevronLeft className="w-5 h-5 text-amber-600" />
+        </button>
+        <div className="flex gap-2">
+          {testimonials.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setCurrentIndex(i)}
+              className={`h-2 rounded-full transition-all ${
+                i === currentIndex ? 'bg-amber-600 w-8' : 'bg-gray-300 w-2'
+              }`}
+              aria-label={`Go to testimonial ${i + 1}`}
+            />
+          ))}
+        </div>
+        <button
+          onClick={nextTestimonial}
+          className="sm:hidden p-2 rounded-full bg-white shadow hover:bg-amber-50 transition-colors"
+          aria-label="Next testimonial"
+        >
+          <ChevronRight className="w-5 h-5 text-amber-600" />
+        </button>
       </div>
     </div>
   );
@@ -575,8 +592,8 @@ export default function HomePage() {
                   },
                   {
                     icon: Award,
-                    title: 'Licensed & Certified',
-                    description: 'Fully licensed Texas plumbers with ongoing training.',
+                    title: '20+ Years of Expertise',
+                    description: 'Two decades of hands-on plumbing experience you can rely on.',
                   },
                 ].map((feature, index) => (
                   <motion.div
@@ -749,7 +766,7 @@ export default function HomePage() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3">
             {[
               'Rockwall',
               'Heath',
@@ -776,7 +793,7 @@ export default function HomePage() {
             ].map((city, index) => (
               <motion.div
                 key={city}
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.3, delay: index * 0.02 }}
@@ -784,10 +801,10 @@ export default function HomePage() {
               >
                 <Link
                   href={`/service-areas/${city.toLowerCase().replace(/\s+/g, '-')}`}
-                  className="block bg-gradient-to-br from-blue-50 to-amber-50 hover:from-amber-100 hover:to-orange-100 rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-all group"
+                  className="block bg-gradient-to-br from-blue-50 to-amber-50 hover:from-amber-100 hover:to-orange-100 rounded-lg p-3 text-center shadow-sm hover:shadow-md transition-all group"
                 >
-                  <MapPin className="w-6 h-6 text-amber-600 mx-auto mb-2 group-hover:scale-110 transition-transform" />
-                  <span className="font-semibold text-gray-900">{city}</span>
+                  <MapPin className="w-5 h-5 text-amber-600 mx-auto mb-1 group-hover:scale-110 transition-transform" />
+                  <span className="font-semibold text-gray-900 text-sm">{city}</span>
                 </Link>
               </motion.div>
             ))}
@@ -857,7 +874,7 @@ export default function HomePage() {
 
       {/* Section 9: Final CTA */}
       <section className="relative py-24 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-amber-900" />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-red via-red-800 to-brand-red" />
 
         {/* Decorative floating elements */}
         <div className="absolute inset-0 overflow-hidden">
@@ -907,22 +924,22 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
                 href="/contact"
-                className="bg-brand-red hover:bg-brand-red-light text-white font-bold py-5 px-10 rounded-full text-xl transition-all transform hover:scale-105 shadow-2xl shadow-brand-red/40 inline-flex items-center gap-2 w-full sm:w-auto justify-center"
+                className="bg-white hover:bg-gray-100 text-brand-red font-bold py-5 px-10 rounded-full text-xl transition-all transform hover:scale-105 shadow-2xl inline-flex items-center gap-2 w-full sm:w-auto justify-center"
               >
                 <CalendarCheck className="w-6 h-6" />
                 Schedule Service Now
               </Link>
               <a
                 href="tel:2148023042"
-                className="bg-white hover:bg-gray-100 text-blue-900 font-bold py-5 px-10 rounded-full text-xl transition-all transform hover:scale-105 shadow-2xl inline-flex items-center gap-2 w-full sm:w-auto justify-center"
+                className="bg-transparent hover:bg-white/10 text-white font-bold py-5 px-10 rounded-full text-xl transition-all transform hover:scale-105 shadow-2xl border-2 border-white inline-flex items-center gap-2 w-full sm:w-auto justify-center"
               >
                 <Phone className="w-6 h-6" />
                 Call (214) 802-3042
               </a>
             </div>
 
-            <p className="text-white/70 mt-8 text-sm">
-              Monday-Friday, 8 AM - 5 PM • Licensed & Insured • 100% Satisfaction Guaranteed
+            <p className="text-white/80 mt-8 text-sm">
+              Monday-Friday, 8 AM - 5 PM &bull; Licensed & Insured &bull; 100% Satisfaction Guaranteed
             </p>
           </motion.div>
         </div>
