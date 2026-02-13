@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import { ThemeProvider } from "next-themes";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Toaster } from "@/components/ui/sonner";
 import { Header } from "@/components/layout/header";
 import { AnnouncementBar } from "@/components/layout/announcement-bar";
@@ -201,8 +199,6 @@ export default function RootLayout({
             <FloatingCTA />
           </div>
           <Toaster />
-          <Analytics />
-          <SpeedInsights />
         </ThemeProvider>
       </body>
     </html>
