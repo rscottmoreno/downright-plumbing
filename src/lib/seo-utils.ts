@@ -7,11 +7,9 @@ export const SITE_CONFIG = {
   description: 'Professional plumbing services in Rockwall, TX and surrounding areas. Licensed & insured plumbers serving Monday-Friday, 8 AM - 5 PM.',
   phone: '+1-214-802-3042',
   email: 'dougw@downrightplumbingtx.com',
-  address: {
-    street: '123 Main St',
+  serviceArea: {
     city: 'Rockwall',
     state: 'TX',
-    zip: '75087',
     country: 'US'
   },
   social: {

@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import Link from 'next/link';
 import {
   Phone,
   Mail,
@@ -415,26 +416,22 @@ export default function ContactPage() {
                     </div>
                   </div>
 
-                  {/* Address */}
+                  {/* Service Area */}
                   <div className="flex gap-4">
                     <div className="bg-green-100 w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                       <MapPin className="w-6 h-6 text-green-600" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 mb-1">Address</h4>
+                      <h4 className="font-bold text-gray-900 mb-1">Service Area</h4>
                       <p className="text-gray-700">
-                        504 E Interstate 30 #424
-                        <br />
-                        Rockwall, TX 75087
+                        Rockwall, TX & surrounding DFW Metroplex
                       </p>
-                      <a
-                        href="https://maps.google.com/?q=504+E+Interstate+30+424+Rockwall+TX+75087"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <Link
+                        href="/service-areas"
                         className="text-sm text-green-600 hover:text-green-700 font-semibold mt-2 inline-block"
                       >
-                        Get Directions →
-                      </a>
+                        View All Service Areas →
+                      </Link>
                     </div>
                   </div>
 
@@ -507,50 +504,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">
-              Find Us on the Map
-            </h2>
-            <div className="aspect-[16/9] md:aspect-[21/9] rounded-2xl overflow-hidden shadow-2xl bg-gray-200 flex items-center justify-center">
-              {/* Google Maps Embed Placeholder */}
-              <div className="text-center p-8">
-                <MapPin className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-                <p className="text-gray-600 text-lg mb-4">
-                  504 E Interstate 30 #424, Rockwall, TX 75087
-                </p>
-                <a
-                  href="https://maps.google.com/?q=504+E+Interstate+30+424+Rockwall+TX+75087"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all"
-                >
-                  <MapPin className="w-5 h-5" />
-                  Open in Google Maps
-                </a>
-              </div>
-              {/* To add actual Google Maps embed, replace the above div with:
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d..."
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-              */}
-            </div>
-          </motion.div>
-        </div>
-      </section>
     </main>
   );
 }

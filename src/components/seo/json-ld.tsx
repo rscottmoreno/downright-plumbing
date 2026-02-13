@@ -7,10 +7,10 @@ export interface LocalBusinessSchema {
   telephone: string;
   email: string;
   address: {
-    streetAddress: string;
+    streetAddress?: string;
     addressLocality: string;
     addressRegion: string;
-    postalCode: string;
+    postalCode?: string;
     addressCountry: string;
   };
   geo: {
@@ -71,10 +71,8 @@ export function LocalBusinessJsonLd({
   telephone = "+1-214-802-3042",
   email = "dougw@downrightplumbingtx.com",
   address = {
-    streetAddress: "123 Main St",
     addressLocality: "Rockwall",
     addressRegion: "TX",
-    postalCode: "75087",
     addressCountry: "US"
   },
   geo = {
@@ -85,9 +83,9 @@ export function LocalBusinessJsonLd({
   priceRange = "$$",
   openingHoursSpecification = [
     {
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      opens: "00:00",
-      closes: "23:59"
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "08:00",
+      closes: "17:00"
     }
   ],
   areaServed = [
@@ -120,10 +118,10 @@ export function LocalBusinessJsonLd({
     "email": email,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": address.streetAddress,
+      ...(address.streetAddress && { "streetAddress": address.streetAddress }),
       "addressLocality": address.addressLocality,
       "addressRegion": address.addressRegion,
-      "postalCode": address.postalCode,
+      ...(address.postalCode && { "postalCode": address.postalCode }),
       "addressCountry": address.addressCountry
     },
     "geo": {

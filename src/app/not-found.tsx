@@ -313,9 +313,9 @@ export default function NotFound() {
 
                 <div className="text-center p-4 bg-amber-50 rounded-lg">
                   <MapPin className="w-8 h-8 text-amber-600 mx-auto mb-3" />
-                  <h3 className="font-bold text-gray-900 mb-1">Visit Us</h3>
+                  <h3 className="font-bold text-gray-900 mb-1">Service Area</h3>
                   <p className="text-amber-600 font-semibold text-sm">
-                    Rockwall, TX 75087
+                    Rockwall, TX & DFW Metroplex
                   </p>
                 </div>
               </div>

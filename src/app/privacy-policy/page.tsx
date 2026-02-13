@@ -487,9 +487,9 @@ export default function PrivacyPolicyPage() {
                       <p className="text-gray-700">
                         Down Right Plumbing
                         <br />
-                        504 E Interstate 30 #424
+                        Rockwall, TX
                         <br />
-                        Rockwall, TX 75087
+                        dougw@downrightplumbingtx.com
                       </p>
                     </div>
                   </div>

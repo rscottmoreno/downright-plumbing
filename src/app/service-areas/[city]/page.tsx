@@ -80,10 +80,8 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
       <LocalBusinessJsonLd
         areaServed={[cityData.name]}
         address={{
-          streetAddress: "123 Main St",
           addressLocality: "Rockwall",
           addressRegion: "TX",
-          postalCode: "75087",
           addressCountry: "US",
         }}
       />
@@ -281,58 +279,6 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
         </section>
       )}
 
-      {/* Google Maps Section */}
-      <section className="py-16 md:py-24 bg-gray-50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <span className="text-sm font-semibold uppercase tracking-wider text-brand-primary">
-                Location
-              </span>
-              <h2 className="text-3xl md:text-4xl font-bold font-heading text-brand-text-primary mt-3 mb-4">
-                Serving {cityData.name} and Surrounding Areas
-              </h2>
-              <p className="text-lg text-gray-600">
-                Based in Rockwall, just {cityData.distance.toLowerCase()}, we
-                provide rapid response throughout {cityData.name}
-              </p>
-            </div>
-
-            {/* Map Placeholder - Replace with actual Google Maps embed */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-              <div className="aspect-video bg-gradient-to-br from-blue-100 to-blue-50 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <MapPin className="w-16 h-16 text-brand-primary mx-auto mb-4" aria-hidden="true" />
-                  <p className="text-xl font-semibold text-gray-700 mb-2">
-                    {cityData.fullName}
-                  </p>
-                  <p className="text-gray-600">
-                    {cityData.distance} from Down Right Plumbing HQ
-                  </p>
-                  <Badge variant="outline" className="mt-4">
-                    Coordinates:{" "}
-                    {cityData.coordinates
-                      ? `${cityData.coordinates.lat}, ${cityData.coordinates.lng}`
-                      : "N/A"}
-                  </Badge>
-                </div>
-              </div>
-            </div>
-
-            {/* Optional: Add actual Google Maps iframe here */}
-            {/* 
-            {cityData.coordinates && (
-              <iframe
-                className="w-full h-96 rounded-2xl shadow-lg"
-                loading="lazy"
-                allowFullScreen
-                src={`https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=${cityData.coordinates.lat},${cityData.coordinates.lng}&zoom=12`}
-              ></iframe>
-            )}
-            */}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <CTASection

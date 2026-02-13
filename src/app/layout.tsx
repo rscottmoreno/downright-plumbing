@@ -101,10 +101,8 @@ const jsonLd = {
   email: "dougw@downrightplumbingtx.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "504 E Interstate 30 #424",
     addressLocality: "Rockwall",
     addressRegion: "TX",
-    postalCode: "75087",
     addressCountry: "US",
   },
   geo: {
