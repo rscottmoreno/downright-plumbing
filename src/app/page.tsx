@@ -223,8 +223,8 @@ function FAQAccordion() {
       answer: 'Our licensed plumbers use advanced camera inspection technology to diagnose drain issues accurately. If you have recurring clogs, slow drains, or foul odors, we\'ll inspect the line and provide honest recommendations. Many issues can be resolved with professional drain cleaning, but we\'ll let you know if pipe replacement is necessary.',
     },
     {
-      question: 'Do you offer financing options for major plumbing repairs?',
-      answer: 'Yes! We understand that major plumbing repairs like water heater replacement, repiping, or sewer line work can be significant investments. We offer flexible financing options to help make these necessary repairs affordable. Ask about current financing promotions when you call.',
+      question: 'What payment methods do you accept?',
+      answer: 'We accept cash, checks, and all major credit cards including Visa, MasterCard, American Express, and Discover. We provide upfront pricing before starting any work so there are never any surprises.',
     },
     {
       question: 'Are you licensed and insured plumbers?',

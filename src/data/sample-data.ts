@@ -134,7 +134,7 @@ export const sampleFAQs = [
   {
     question: "What payment methods do you accept?",
     answer:
-      "We accept cash, checks, and all major credit cards including Visa, MasterCard, American Express, and Discover. We also offer financing options for larger projects.",
+      "We accept cash, checks, and all major credit cards including Visa, MasterCard, American Express, and Discover.",
   },
   {
     question: "Do you warranty your work?",

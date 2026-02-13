@@ -50,7 +50,7 @@ export const services: Service[] = [
         },
         {
           title: "Plumbing Repair Pricing and Payment",
-          content: "At Downright Plumbing, we believe in transparent, upfront pricing. Before beginning any repair, we'll provide a clear quote that includes labor and materials. There are no hidden charges or surprise add-ons. We accept multiple payment methods including all major credit cards, checks, and cash for your convenience. For larger repairs, we offer financing options through approved credit. Many homeowners insurance policies cover plumbing repairs, especially when they prevent further water damage—we're happy to provide detailed documentation for insurance claims. We keep our pricing fair and competitive while maintaining the highest quality of workmanship. Our services are accessible and affordable for Rockwall area homeowners, and we're committed to providing excellent value for professional plumbing repairs."
+          content: "At Downright Plumbing, we believe in transparent, upfront pricing. Before beginning any repair, we'll provide a clear quote that includes labor and materials. There are no hidden charges or surprise add-ons. We accept multiple payment methods including all major credit cards, checks, and cash for your convenience. Many homeowners insurance policies cover plumbing repairs, especially when they prevent further water damage—we're happy to provide detailed documentation for insurance claims. We keep our pricing fair and competitive while maintaining the highest quality of workmanship. Our services are accessible and affordable for Rockwall area homeowners, and we're committed to providing excellent value for professional plumbing repairs."
         }
       ]
     },

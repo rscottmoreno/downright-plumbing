@@ -86,7 +86,7 @@ When you choose Downright Plumbing, you're choosing a local company that truly c
 
 Doug is licensed, background-checked, and extensively trained in the latest plumbing techniques and technologies. He arrives in a clean, well-stocked truck, wears shoe covers in your home, and cleans up thoroughly after every job. We believe professionalism matters, and our Rockwall customers consistently tell us they appreciate our attention to detail.
 
-We also believe in transparent, upfront pricing. Before we start any work, we'll explain exactly what needs to be done and provide a clear estimate. No hidden fees, no surprise charges—just honest pricing for quality work. We offer various financing options for larger projects, making it easier to address necessary plumbing repairs and upgrades without breaking your budget.
+We also believe in transparent, upfront pricing. Before we start any work, we'll explain exactly what needs to be done and provide a clear estimate. No hidden fees, no surprise charges—just honest pricing for quality work.
 
 **Serving Every Neighborhood in Rockwall**
 
@@ -291,7 +291,7 @@ Many Fate homeowners are investing in irrigation systems to maintain their lands
 
 Fate residents are building their dream homes and investing in their community's future. You deserve a plumbing company that shares your commitment to quality and long-term value. Doug treats every Fate home with respect, arriving in clean attire, using shoe covers, and cleaning up thoroughly after every job.
 
-We believe in transparent, upfront pricing. Before starting any work, we'll explain exactly what needs to be done and provide a clear estimate. No hidden fees or surprise charges—just honest pricing for quality work. We also offer financing options for larger projects, making it easier to address necessary repairs or upgrades.
+We believe in transparent, upfront pricing. Before starting any work, we'll explain exactly what needs to be done and provide a clear estimate. No hidden fees or surprise charges—just honest pricing for quality work.
 
 **Local Expertise, Fast Response**
 
@@ -393,7 +393,7 @@ We typically reach Royse City locations within 45 minutes to an hour for service
 
 **Why Royse City Trusts Downright Plumbing**
 
-Royse City residents value honesty, quality work, and fair pricing—traditional values that align perfectly with our business philosophy. We provide upfront pricing with no hidden fees, a licensed, background-checked plumber, respect for your property with shoe covers and cleanup, quality parts and materials built to last, and flexible financing for larger projects.
+Royse City residents value honesty, quality work, and fair pricing—traditional values that align perfectly with our business philosophy. We provide upfront pricing with no hidden fees, a licensed, background-checked plumber, respect for your property with shoe covers and cleanup, and quality parts and materials built to last.
 
 Many of our Royse City customers have been with us for years, trusting us for everything from routine maintenance to major renovations. We've earned this loyalty by consistently delivering on our promises and treating every customer with respect and professionalism.
 
@@ -721,8 +721,8 @@ Whether you're in Firewheel, Duck Creek, or anywhere else in Garland, Downright 
         answer: "Water heater replacement costs vary based on the type and size of heater you choose. Traditional 40-50 gallon tank heaters typically range from $1,200-$2,500 installed, while tankless systems range from $2,500-$4,500. We provide free estimates and explain all options so you can make an informed decision."
       },
       {
-        question: "Do you offer financing for larger plumbing projects in Garland?",
-        answer: "Yes, we offer flexible financing options for larger projects like repiping, water heater replacements, and major repairs. We believe necessary plumbing work shouldn't be delayed due to budget constraints, and our financing makes it easier to address important repairs and upgrades."
+        question: "What payment methods do you accept in Garland?",
+        answer: "We accept all major credit cards, checks, and cash. We provide upfront pricing before starting any work, so you always know the cost before we begin."
       }
     ]
   },
@@ -1084,7 +1084,7 @@ Whether you're in a quiet East Plano neighborhood, a thriving West Plano communi
       },
       {
         question: "What payment options do you offer for Plano customers?",
-        answer: "We accept all major credit cards, checks, and cash. We also offer financing options for larger projects, making it easier to address necessary repairs and upgrades without straining your budget."
+        answer: "We accept all major credit cards, checks, and cash. We provide upfront pricing before starting any work, so you always know the cost before we begin."
       }
     ]
   },
@@ -1248,8 +1248,8 @@ Whether you're in historic downtown, an established neighborhood, or a luxury de
         answer: "Yes, McKinney's diversity is what makes it special, and we're equipped to handle everything from century-old downtown properties to brand-new luxury homes, from single-family residences to commercial buildings. Our broad experience serves all of McKinney."
       },
       {
-        question: "Do you offer financing for larger plumbing projects in McKinney?",
-        answer: "Yes, we offer flexible financing options for larger projects like repiping, water heater replacements, and major renovations. We believe necessary plumbing work shouldn't be delayed due to budget constraints."
+        question: "What payment methods do you accept in McKinney?",
+        answer: "We accept all major credit cards, checks, and cash. We provide upfront, transparent pricing before starting any work."
       }
     ]
   },
@@ -1418,8 +1418,8 @@ Whether you're a homeowner, property manager, or business owner in Mesquite, Dow
         answer: "We typically reach Mesquite locations within 45 minutes to an hour for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped service vehicles are ready to handle most situations immediately."
       },
       {
-        question: "Do you offer financing for larger projects like repiping in Mesquite?",
-        answer: "Yes, we offer flexible financing options for larger projects including repiping, water heater replacements, and major repairs. We believe necessary plumbing work shouldn't be delayed due to budget constraints."
+        question: "What payment methods do you accept in Mesquite?",
+        answer: "We accept all major credit cards, checks, and cash. We provide upfront pricing before starting any work, so there are never any surprises."
       }
     ]
   },
@@ -1891,7 +1891,7 @@ Whether you're a Terrell homeowner, property manager, or business owner, Downrig
       },
       {
         question: "What payment options do you offer for Terrell customers?",
-        answer: "We accept all major credit cards, checks, and cash. We also offer financing options for larger projects, making it easier to address necessary repairs and upgrades."
+        answer: "We accept all major credit cards, checks, and cash. We provide upfront pricing before starting any work, so you always know the cost before we begin."
       },
       {
         question: "Do you offer the same quality service in Terrell as in closer areas?",
@@ -2056,8 +2056,8 @@ Whether you're a Richardson homeowner, property manager, or business owner, Down
         answer: "Yes, we serve several property management companies in Richardson with maintenance contracts, tenant improvement work, and reliable plumbing service for apartment complexes and rental properties."
       },
       {
-        question: "What financing options do you offer for larger projects in Richardson?",
-        answer: "We offer flexible financing for larger projects like repiping, water heater replacements, and major repairs. We believe necessary plumbing work shouldn't be delayed due to budget constraints and make it easier to address important updates."
+        question: "What payment methods do you accept in Richardson?",
+        answer: "We accept all major credit cards, checks, and cash. We provide upfront, transparent pricing so you always know the cost before we begin any work."
       }
     ]
   },
