@@ -1,9 +1,8 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import type { LucideIcon } from 'lucide-react';
 import {
   Phone,
   Clock,
@@ -289,60 +288,6 @@ function FAQAccordion() {
   );
 }
 
-// ── Service card: pure CSS animation + lightweight IntersectionObserver ──
-// No Framer Motion → no hydration flash, GPU-composited by the browser.
-interface ServiceItem {
-  icon: LucideIcon;
-  title: string;
-  description: string;
-  link: string;
-}
-
-function ServiceCard({ service, index }: { service: ServiceItem; index: number }) {
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    // Observe → add .revealed (starts CSS animation) → on animationend add .done (enables hover)
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          el.classList.add('revealed');
-          el.addEventListener('animationend', () => el.classList.add('done'), { once: true });
-          observer.disconnect();
-        }
-      },
-      { rootMargin: '0px 0px -40px 0px', threshold: 0.1 }
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  return (
-    <div
-      ref={ref}
-      className="service-card bg-white rounded-xl shadow-md p-6 group"
-      style={{ '--delay': `${index * 80}ms` } as React.CSSProperties}
-    >
-      <div className="bg-amber-100 w-14 h-14 rounded-lg flex items-center justify-center mb-4 group-hover:bg-amber-500 transition-colors">
-        <service.icon className="w-7 h-7 text-amber-600 group-hover:text-white transition-colors" />
-      </div>
-      <h3 className="text-xl font-bold text-gray-900 mb-2">{service.title}</h3>
-      <p className="text-gray-600 mb-4">{service.description}</p>
-      <Link
-        href={service.link}
-        className="text-amber-600 font-semibold hover:text-amber-700 inline-flex items-center gap-1 group/link"
-      >
-        Learn More
-        <ChevronRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
-      </Link>
-    </div>
-  );
-}
-
 export default function HomePage() {
   // Hero scroll indicator animation
   const [showScrollIndicator, setShowScrollIndicator] = useState(true);
@@ -578,7 +523,33 @@ export default function HomePage() {
                 link: '/services/gas-line-services',
               },
             ].map((service, index) => (
-              <ServiceCard key={index} service={service} index={index} />
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 40, scale: 0.95 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 12,
+                  delay: index * 0.08,
+                }}
+                whileHover={{ y: -8, transition: { duration: 0.2 } }}
+                className="fm-hide-initial bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow p-6 group"
+              >
+                <div className="bg-amber-100 w-14 h-14 rounded-lg flex items-center justify-center mb-4 group-hover:bg-amber-500 transition-colors">
+                  <service.icon className="w-7 h-7 text-amber-600 group-hover:text-white transition-colors" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">{service.title}</h3>
+                <p className="text-gray-600 mb-4">{service.description}</p>
+                <Link
+                  href={service.link}
+                  className="text-amber-600 font-semibold hover:text-amber-700 inline-flex items-center gap-1 group/link"
+                >
+                  Learn More
+                  <ChevronRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
+                </Link>
+              </motion.div>
             ))}
           </div>
         </div>
