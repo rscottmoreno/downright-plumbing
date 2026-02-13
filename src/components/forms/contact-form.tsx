@@ -74,20 +74,51 @@ export function ContactForm({ className, onSuccess }: ContactFormProps) {
 
   async function onSubmit(data: ContactFormValues) {
     setIsSubmitting(true);
+    const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID;
+
     try {
-      // TODO: Implement actual form submission to API
-      await new Promise((resolve) => setTimeout(resolve, 2000));
-      console.log("Form data:", data);
-      
-      toast.success("Thank you!", {
-        description: "We'll get back to you within 24 hours.",
+      if (!formspreeId) {
+        const subject = encodeURIComponent(`Contact Form: ${data.serviceType} - ${data.firstName} ${data.lastName}`);
+        const body = encodeURIComponent(
+          `Name: ${data.firstName} ${data.lastName}\nEmail: ${data.email}\nPhone: ${data.phone}\nService: ${data.serviceType}\nPreferred Date: ${data.preferredDate || 'N/A'}\nPreferred Time: ${data.preferredTime || 'N/A'}\nAddress: ${data.address || 'N/A'}\nCity: ${data.city || 'N/A'}\nZIP: ${data.zipCode || 'N/A'}\n\nMessage:\n${data.message}`
+        );
+        window.location.href = `mailto:dougw@downrightplumbingtx.com?subject=${subject}&body=${body}`;
+        setIsSubmitting(false);
+        return;
+      }
+
+      const response = await fetch(`https://formspree.io/f/${formspreeId}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          name: `${data.firstName} ${data.lastName}`,
+          email: data.email,
+          phone: data.phone,
+          service: data.serviceType,
+          preferredDate: data.preferredDate || "N/A",
+          preferredTime: data.preferredTime || "N/A",
+          serviceAddress: data.address || "N/A",
+          city: data.city || "N/A",
+          zipCode: data.zipCode || "N/A",
+          message: data.message,
+          _subject: `Contact Form: ${data.serviceType} from ${data.firstName} ${data.lastName}`,
+        }),
       });
-      
-      form.reset();
-      onSuccess?.();
+
+      if (response.ok) {
+        toast.success("Thank you!", {
+          description: "We'll get back to you within 1 hour during business hours.",
+        });
+        form.reset();
+        onSuccess?.();
+      } else {
+        toast.error("Failed to send", {
+          description: "Please call us at (214) 802-3042 instead.",
+        });
+      }
     } catch {
       toast.error("Error", {
-        description: "Something went wrong. Please try again.",
+        description: "Unable to send. Please call (214) 802-3042 instead.",
       });
     } finally {
       setIsSubmitting(false);

@@ -41,31 +41,72 @@ export default function ContactPage() {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
-    setIsSubmitting(false);
-    setSubmitStatus('success');
-    
-    // Reset form after success
-    setTimeout(() => {
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        service: '',
-        city: '',
-        preferredDate: '',
-        message: '',
-        isEmergency: false,
+    setErrorMessage('');
+
+    const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID;
+
+    if (!formspreeId) {
+      // Fallback: open mailto if Formspree is not configured
+      const subject = encodeURIComponent(`New Contact: ${formData.service || 'General Inquiry'} - ${formData.name}`);
+      const body = encodeURIComponent(
+        `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nService: ${formData.service}\nCity: ${formData.city}\nPreferred Date: ${formData.preferredDate}\nUrgent: ${formData.isEmergency ? 'Yes' : 'No'}\n\nMessage:\n${formData.message}`
+      );
+      window.location.href = `mailto:dougw@downrightplumbingtx.com?subject=${subject}&body=${body}`;
+      setIsSubmitting(false);
+      return;
+    }
+
+    try {
+      const response = await fetch(`https://formspree.io/f/${formspreeId}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          service: formData.service,
+          city: formData.city,
+          preferredDate: formData.preferredDate,
+          message: formData.message,
+          urgent: formData.isEmergency ? 'Yes' : 'No',
+          _subject: `New Contact: ${formData.service || 'General Inquiry'} from ${formData.name}`,
+        }),
       });
-      setSubmitStatus('idle');
-    }, 3000);
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setTimeout(() => {
+          setFormData({
+            name: '',
+            email: '',
+            phone: '',
+            service: '',
+            city: '',
+            preferredDate: '',
+            message: '',
+            isEmergency: false,
+          });
+          setSubmitStatus('idle');
+        }, 5000);
+      } else {
+        const data = await response.json();
+        setErrorMessage(data?.errors?.[0]?.message || 'Something went wrong. Please try again or call us directly.');
+        setSubmitStatus('error');
+      }
+    } catch {
+      setErrorMessage('Unable to send message. Please call us at (214) 802-3042 instead.');
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const services = [
@@ -366,7 +407,25 @@ export default function ContactPage() {
                         <div>
                           <p className="font-semibold text-green-900">Message sent successfully!</p>
                           <p className="text-sm text-green-700 mt-1">
-                            We'll get back to you within 1 hour during business hours.
+                            We&apos;ll get back to you within 1 hour during business hours.
+                          </p>
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
+
+                  {submitStatus === 'error' && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      className="bg-red-50 border border-red-200 rounded-lg p-4"
+                    >
+                      <div className="flex gap-3">
+                        <AlertCircle className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
+                        <div>
+                          <p className="font-semibold text-red-900">Failed to send message</p>
+                          <p className="text-sm text-red-700 mt-1">
+                            {errorMessage || 'Please try again or call us at (214) 802-3042.'}
                           </p>
                         </div>
                       </div>

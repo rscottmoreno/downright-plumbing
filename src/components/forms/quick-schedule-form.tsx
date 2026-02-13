@@ -63,20 +63,47 @@ export function QuickScheduleForm({
 
   async function onSubmit(data: QuickScheduleValues) {
     setIsSubmitting(true);
-    try {
-      // TODO: Implement actual form submission to API
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-      console.log("Quick schedule data:", data);
+    const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID;
 
-      toast.success("Request Received!", {
-        description: "We'll contact you shortly to confirm your appointment.",
+    try {
+      if (!formspreeId) {
+        // Fallback: mailto
+        const subject = encodeURIComponent(`Quick Schedule: ${data.serviceType} - ${data.name}`);
+        const body = encodeURIComponent(
+          `Name: ${data.name}\nPhone: ${data.phone}\nEmail: ${data.email}\nService: ${data.serviceType}\nUrgency: ${data.urgency}`
+        );
+        window.location.href = `mailto:dougw@downrightplumbingtx.com?subject=${subject}&body=${body}`;
+        setIsSubmitting(false);
+        return;
+      }
+
+      const response = await fetch(`https://formspree.io/f/${formspreeId}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          name: data.name,
+          phone: data.phone,
+          email: data.email,
+          service: data.serviceType,
+          urgency: data.urgency,
+          _subject: `Quick Schedule: ${data.serviceType} from ${data.name}`,
+        }),
       });
 
-      form.reset();
-      onSuccess?.();
+      if (response.ok) {
+        toast.success("Request Received!", {
+          description: "We'll contact you shortly to confirm your appointment.",
+        });
+        form.reset();
+        onSuccess?.();
+      } else {
+        toast.error("Failed to send", {
+          description: "Please call us at (214) 802-3042 instead.",
+        });
+      }
     } catch {
       toast.error("Error", {
-        description: "Something went wrong. Please try again.",
+        description: "Unable to send. Please call (214) 802-3042 instead.",
       });
     } finally {
       setIsSubmitting(false);
