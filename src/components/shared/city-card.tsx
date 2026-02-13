@@ -1,6 +1,5 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { MapPin } from "lucide-react";
 import Link from "next/link";
@@ -15,12 +14,6 @@ interface CityCardProps {
   delay?: number;
 }
 
-function useHydrated() {
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => { setHydrated(true); }, []);
-  return hydrated;
-}
-
 export function CityCard({
   name,
   href,
@@ -28,10 +21,9 @@ export function CityCard({
   className,
   delay = 0,
 }: CityCardProps) {
-  const hydrated = useHydrated();
   return (
     <motion.div
-      initial={hydrated ? { opacity: 0, scale: 0.95 } : false}
+      initial={{ opacity: 0, scale: 0.95 }}
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay }}

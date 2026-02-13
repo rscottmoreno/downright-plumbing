@@ -1,6 +1,5 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
@@ -16,12 +15,6 @@ interface OurStoryTeaserProps {
   className?: string;
 }
 
-function useHydrated() {
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => { setHydrated(true); }, []);
-  return hydrated;
-}
-
 export function OurStoryTeaser({
   title = "Our Story",
   description = "Down Right Plumbing has been serving Oklahoma communities for over 15 years with integrity, expertise, and a commitment to excellence. We're a family-owned business that treats every customer like family.",
@@ -30,7 +23,6 @@ export function OurStoryTeaser({
   buttonHref = "/our-story",
   className,
 }: OurStoryTeaserProps) {
-  const hydrated = useHydrated();
   return (
     <section
       className={cn(
@@ -42,7 +34,7 @@ export function OurStoryTeaser({
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Image */}
           <motion.div
-            initial={hydrated ? { opacity: 0, x: -50 } : false}
+            initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -60,7 +52,7 @@ export function OurStoryTeaser({
 
           {/* Content */}
           <motion.div
-            initial={hydrated ? { opacity: 0, x: 50 } : false}
+            initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}

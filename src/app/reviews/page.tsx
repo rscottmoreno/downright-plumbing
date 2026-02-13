@@ -1,6 +1,5 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import {
   Star,
@@ -13,12 +12,6 @@ import {
 } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-
-function useHydrated() {
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => { setHydrated(true); }, []);
-  return hydrated;
-}
 
 // Real Google Reviews - copy-pasted from actual Google page
 const googleReviews = [
@@ -65,7 +58,6 @@ const googleReviews = [
 ];
 
 export default function ReviewsPage() {
-  const hydrated = useHydrated();
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -130,7 +122,7 @@ export default function ReviewsPage() {
               {googleReviews.map((review, index) => (
                 <motion.div
                   key={review.id}
-                  initial={hydrated ? { opacity: 0, y: 40, scale: 0.95 } : false}
+                  initial={{ opacity: 0, y: 40, scale: 0.95 }}
                   whileInView={{ opacity: 1, y: 0, scale: 1 }}
                   viewport={{ once: true, margin: "-50px" }}
                   transition={{

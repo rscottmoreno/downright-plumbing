@@ -1,6 +1,5 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -19,12 +18,6 @@ interface CTASectionProps {
   className?: string;
 }
 
-function useHydrated() {
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => { setHydrated(true); }, []);
-  return hydrated;
-}
-
 export function CTASection({
   variant = "standard",
   title,
@@ -34,7 +27,6 @@ export function CTASection({
   showPhoneButton = true,
   className,
 }: CTASectionProps) {
-  const hydrated = useHydrated();
   const variants = {
     standard: {
       bg: "bg-gradient-to-r from-brand-primary to-brand-secondary",
@@ -70,7 +62,7 @@ export function CTASection({
     <section className={cn("py-16 md:py-20", config.bg, className)}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
-          initial={hydrated ? { opacity: 0, y: 20 } : false}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}

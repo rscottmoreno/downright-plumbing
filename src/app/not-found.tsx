@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import {
@@ -69,14 +69,7 @@ const popularPages = [
   },
 ];
 
-function useHydrated() {
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => { setHydrated(true); }, []);
-  return hydrated;
-}
-
 export default function NotFound() {
-  const hydrated = useHydrated();
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleSearch = (e: React.FormEvent) => {
@@ -197,7 +190,7 @@ export default function NotFound() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <motion.div
-              initial={hydrated ? { opacity: 0, y: 20 } : false}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
@@ -215,7 +208,7 @@ export default function NotFound() {
               {popularPages.map((page, index) => (
                 <motion.div
                   key={page.href}
-                  initial={hydrated ? { opacity: 0, y: 20 } : false}
+                  initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -246,7 +239,7 @@ export default function NotFound() {
       <section className="py-12 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -278,7 +271,7 @@ export default function NotFound() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <motion.div
-              initial={hydrated ? { opacity: 0, y: 20 } : false}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}

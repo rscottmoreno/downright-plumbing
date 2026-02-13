@@ -206,17 +206,8 @@ function TestimonialCarousel() {
   );
 }
 
-// Hook: prevents Framer Motion from flashing elements hidden after SSR paint.
-// Returns false during SSR and the first client paint, true once hydrated.
-function useHydrated() {
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => { setHydrated(true); }, []);
-  return hydrated;
-}
-
 // FAQ Accordion Component
 function FAQAccordion() {
-  const hydrated = useHydrated();
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const faqs = [
@@ -259,7 +250,7 @@ function FAQAccordion() {
       {faqs.map((faq, index) => (
         <motion.div
           key={index}
-          initial={hydrated ? { opacity: 0, y: 25 } : false}
+          initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-30px" }}
           transition={{
@@ -353,8 +344,6 @@ function ServiceCard({ service, index }: { service: ServiceItem; index: number }
 }
 
 export default function HomePage() {
-  const hydrated = useHydrated();
-
   // Hero scroll indicator animation
   const [showScrollIndicator, setShowScrollIndicator] = useState(true);
 
@@ -500,7 +489,7 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -600,7 +589,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
-              initial={hydrated ? { opacity: 0, x: -30 } : false}
+              initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
@@ -648,7 +637,7 @@ export default function HomePage() {
                 ].map((feature, index) => (
                   <motion.div
                     key={index}
-                    initial={hydrated ? { opacity: 0, x: -20 } : false}
+                    initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true, margin: "-30px" }}
                     transition={{
@@ -672,7 +661,7 @@ export default function HomePage() {
             </motion.div>
 
             <motion.div
-              initial={hydrated ? { opacity: 0, x: 30 } : false}
+              initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
@@ -716,7 +705,7 @@ export default function HomePage() {
       <section className="py-20 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -769,7 +758,7 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -786,7 +775,7 @@ export default function HomePage() {
           <TestimonialCarousel />
 
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -807,7 +796,7 @@ export default function HomePage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -848,7 +837,7 @@ export default function HomePage() {
             ].map((city, index) => (
               <motion.div
                 key={city}
-                initial={hydrated ? { opacity: 0, y: 15, scale: 0.9 } : false}
+                initial={{ opacity: 0, y: 15, scale: 0.9 }}
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true, margin: "-20px" }}
                 transition={{
@@ -871,7 +860,7 @@ export default function HomePage() {
           </div>
 
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -895,7 +884,7 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -912,7 +901,7 @@ export default function HomePage() {
           <FAQAccordion />
 
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -966,7 +955,7 @@ export default function HomePage() {
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}

@@ -1,6 +1,5 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import {
   Award,
@@ -67,12 +66,6 @@ const defaultReasons: Reason[] = [
   },
 ];
 
-function useHydrated() {
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => { setHydrated(true); }, []);
-  return hydrated;
-}
-
 export function WhyChooseUs({
   reasons = defaultReasons,
   title = "Why Choose Down Right Plumbing?",
@@ -80,7 +73,6 @@ export function WhyChooseUs({
   description = "We're dedicated to providing exceptional plumbing services that exceed your expectations.",
   className,
 }: WhyChooseUsProps) {
-  const hydrated = useHydrated();
   return (
     <section className={cn("py-16 md:py-24 bg-white", className)}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -97,7 +89,7 @@ export function WhyChooseUs({
             return (
               <motion.div
                 key={index}
-                initial={hydrated ? { opacity: 0, y: 20 } : false}
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}

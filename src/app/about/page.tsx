@@ -25,12 +25,6 @@ import {
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
-function useHydrated() {
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => { setHydrated(true); }, []);
-  return hydrated;
-}
-
 // Animated Counter Component
 function AnimatedCounter({ end, duration = 2, suffix = '', prefix = '' }: { end: number; duration?: number; suffix?: string; prefix?: string }) {
   const [count, setCount] = useState(0);
@@ -61,7 +55,6 @@ function AnimatedCounter({ end, duration = 2, suffix = '', prefix = '' }: { end:
 }
 
 export default function AboutPage() {
-  const hydrated = useHydrated();
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -90,7 +83,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
-              initial={hydrated ? { opacity: 0, x: -30 } : false}
+              initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
@@ -121,7 +114,7 @@ export default function AboutPage() {
             </motion.div>
 
             <motion.div
-              initial={hydrated ? { opacity: 0, x: 30 } : false}
+              initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
@@ -165,7 +158,7 @@ export default function AboutPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -215,7 +208,7 @@ export default function AboutPage() {
             ].map((value, index) => (
               <motion.div
                 key={index}
-                initial={hydrated ? { opacity: 0, y: 20 } : false}
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -236,7 +229,7 @@ export default function AboutPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -251,7 +244,7 @@ export default function AboutPage() {
           </motion.div>
 
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
@@ -273,7 +266,7 @@ export default function AboutPage() {
           </motion.div>
 
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -311,7 +304,7 @@ export default function AboutPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -345,7 +338,7 @@ export default function AboutPage() {
             ].map((cert, index) => (
               <motion.div
                 key={index}
-                initial={hydrated ? { opacity: 0, y: 20 } : false}
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -365,7 +358,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
-              initial={hydrated ? { opacity: 0, x: -30 } : false}
+              initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
@@ -379,7 +372,7 @@ export default function AboutPage() {
             </motion.div>
 
             <motion.div
-              initial={hydrated ? { opacity: 0, x: 30 } : false}
+              initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
@@ -441,7 +434,7 @@ export default function AboutPage() {
       <section className="py-20 bg-gradient-to-br from-blue-900 to-blue-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -466,7 +459,7 @@ export default function AboutPage() {
             ].map((item, index) => (
               <motion.div
                 key={index}
-                initial={hydrated ? { opacity: 0, scale: 0.9 } : false}
+                initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.3, delay: index * 0.1 }}
@@ -484,7 +477,7 @@ export default function AboutPage() {
       <section className="py-20 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
-            initial={hydrated ? { opacity: 0, y: 20 } : false}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}

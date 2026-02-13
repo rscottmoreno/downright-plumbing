@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import {
@@ -27,14 +27,7 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 
-function useHydrated() {
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => { setHydrated(true); }, []);
-  return hydrated;
-}
-
 export default function ContactPage() {
-  const hydrated = useHydrated();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -214,7 +207,7 @@ export default function ContactPage() {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <motion.div
-              initial={hydrated ? { opacity: 0, x: -30 } : false}
+              initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
@@ -444,7 +437,7 @@ export default function ContactPage() {
 
             {/* Contact Information */}
             <motion.div
-              initial={hydrated ? { opacity: 0, x: 30 } : false}
+              initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
