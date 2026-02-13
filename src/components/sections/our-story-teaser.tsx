@@ -17,7 +17,7 @@ interface OurStoryTeaserProps {
 
 export function OurStoryTeaser({
   title = "Our Story",
-  description = "Downright Plumbing has been serving Oklahoma communities for over 15 years with integrity, expertise, and a commitment to excellence. We're a family-owned business that treats every customer like family.",
+  description = "Down Right Plumbing has been serving Oklahoma communities for over 15 years with integrity, expertise, and a commitment to excellence. We're a family-owned business that treats every customer like family.",
   image = "/images/team-photo.jpg",
   buttonText = "Learn More About Us",
   buttonHref = "/our-story",
@@ -42,7 +42,7 @@ export function OurStoryTeaser({
           >
             <Image
               src={image}
-              alt="Downright Plumbing"
+              alt="Down Right Plumbing"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"

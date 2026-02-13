@@ -51,7 +51,7 @@ const testimonials = [
     date: '2024-01-25',
     rating: 5,
     service: 'Drain Cleaning',
-    text: 'Downright Plumbing cleared our stubborn drain when two other companies couldn\'t. They used camera inspection to find the issue and fixed it right away. Professional, honest, and reasonably priced.',
+    text: 'Down Right Plumbing cleared our stubborn drain when two other companies couldn\'t. They used camera inspection to find the issue and fixed it right away. Professional, honest, and reasonably priced.',
   },
   {
     id: 4,
@@ -439,7 +439,7 @@ export default function ReviewsPage() {
               Had a Great Experience?
             </h2>
             <p className="text-xl text-gray-700 mb-8">
-              We'd love to hear about your experience with Downright Plumbing!
+              We'd love to hear about your experience with Down Right Plumbing!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-white" asChild>
@@ -472,7 +472,7 @@ export default function ReviewsPage() {
                 Find Us on Google Reviews
               </h2>
               <p className="text-xl text-gray-600">
-                Check out our reviews on Google and see why customers trust Downright Plumbing
+                Check out our reviews on Google and see why customers trust Down Right Plumbing
               </p>
             </div>
 
@@ -512,10 +512,10 @@ export default function ReviewsPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Experience the Downright Difference
+              Experience the Down Right Difference
             </h2>
             <p className="text-xl text-white/90 mb-8">
-              Experience the Downright difference. Professional, honest, and reliable plumbing service in Rockwall and DFW.
+              Experience the Down Right difference. Professional, honest, and reliable plumbing service in Rockwall and DFW.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>

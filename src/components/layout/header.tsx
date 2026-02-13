@@ -202,7 +202,7 @@ export function Header() {
                 <SheetHeader className="px-6 pt-6 pb-4 border-b border-gray-100">
                   <SheetTitle className="flex items-center gap-2">
                     <span className="text-xl font-heading font-bold text-brand-primary">
-                      Downright
+                      Down Right
                     </span>
                     <Heart className="h-4 w-4 text-red-500 fill-red-500" />
                     <span className="text-xl font-heading text-brand-text-secondary">

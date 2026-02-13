@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${post.title} | Downright Plumbing`,
+    title: `${post.title} | Down Right Plumbing`,
     description: post.excerpt,
     openGraph: {
       title: post.title,
@@ -76,7 +76,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Downright Plumbing",
+      "name": "Down Right Plumbing",
       "logo": {
         "@type": "ImageObject",
         "url": "https://downrightplumbingtx.com/logo.png"
@@ -258,7 +258,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 Need Professional Plumbing Service?
               </h2>
               <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                Don't let plumbing problems disrupt your life. Contact Downright Plumbing today for expert service in Rockwall and throughout the DFW area.
+                Don't let plumbing problems disrupt your life. Contact Down Right Plumbing today for expert service in Rockwall and throughout the DFW area.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="secondary" asChild>

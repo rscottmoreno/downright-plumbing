@@ -1,7 +1,7 @@
 # Blog Feature Documentation
 
 ## Overview
-The blog structure has been successfully implemented for the Downright Plumbing Next.js website with 5 comprehensive, SEO-optimized blog posts about plumbing topics relevant to Rockwall, TX homeowners.
+The blog structure has been successfully implemented for the Down Right Plumbing Next.js website with 5 comprehensive, SEO-optimized blog posts about plumbing topics relevant to Rockwall, TX homeowners.
 
 ## Files Created
 
@@ -106,7 +106,7 @@ Each blog post includes Article schema with:
 - Headline and description
 - Publication date
 - Author information
-- Publisher (Downright Plumbing) details
+- Publisher (Down Right Plumbing) details
 - Main entity of page reference
 
 ### Technical SEO
@@ -206,7 +206,7 @@ Then visit:
 
 ## Notes
 
-- All content is original and written specifically for Downright Plumbing
+- All content is original and written specifically for Down Right Plumbing
 - Posts are optimized for Rockwall, TX, and surrounding DFW area
 - Content matches the professional, trustworthy tone of the rest of the site
 - No placeholder or lorem ipsum text used

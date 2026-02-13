@@ -1,6 +1,6 @@
 # 🎉 All Components Created Successfully!
 
-All reusable components for the Downright Plumbing website have been created and are ready to use.
+All reusable components for the Down Right Plumbing website have been created and are ready to use.
 
 ## 📦 What Was Created
 

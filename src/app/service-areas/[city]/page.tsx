@@ -41,7 +41,7 @@ export async function generateMetadata({
 
   if (!cityData) {
     return {
-      title: "City Not Found | Downright Plumbing",
+      title: "City Not Found | Down Right Plumbing",
     };
   }
 
@@ -92,7 +92,7 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
       {/* Hero Section */}
       <Hero
         variant="city"
-        title={`Trusted Plumber in ${cityData.fullName} — Downright Plumbing`}
+        title={`Trusted Plumber in ${cityData.fullName} — Down Right Plumbing`}
         subtitle={`Professional Plumbing Services in ${cityData.name}`}
         description={`Local, licensed plumbers serving ${cityData.name}. Just ${cityData.distance} from our Rockwall headquarters.`}
         showCTA={true}
@@ -307,7 +307,7 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
                     {cityData.fullName}
                   </p>
                   <p className="text-gray-600">
-                    {cityData.distance} from Downright Plumbing HQ
+                    {cityData.distance} from Down Right Plumbing HQ
                   </p>
                   <Badge variant="outline" className="mt-4">
                     Coordinates:{" "}
@@ -338,7 +338,7 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
       <CTASection
         variant="standard"
         title={`Ready for Reliable Plumbing Service in ${cityData.name}?`}
-        description={`Contact Downright Plumbing today for professional plumbing service throughout ${cityData.name}. Monday-Friday 8 AM - 5 PM.`}
+        description={`Contact Down Right Plumbing today for professional plumbing service throughout ${cityData.name}. Monday-Friday 8 AM - 5 PM.`}
         primaryButtonText="Schedule Service"
         primaryButtonHref="/contact"
         showPhoneButton={true}

@@ -68,7 +68,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              About Downright Plumbing
+              About Down Right Plumbing
             </h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
               Family-owned plumbing excellence serving Rockwall & DFW. 
@@ -96,7 +96,7 @@ export default function AboutPage() {
                 Plumbing with Purpose & Heart
               </h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Downright Plumbing is a brand new company built on 20+ years of hands-on 
+                Down Right Plumbing is a brand new company built on 20+ years of hands-on 
                 plumbing experience. Owner Doug White spent two decades mastering the trade 
                 before launching his own business in January 2026—right here in Rockwall, TX.
               </p>
@@ -107,7 +107,7 @@ export default function AboutPage() {
                 respect, honesty, and care.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Our name &quot;Downright&quot; isn&apos;t just a name—it&apos;s a tribute to 
+                Our name &quot;Down Right&quot; isn&apos;t just a name—it&apos;s a tribute to 
                 our daughter and a commitment to being downright honest, downright reliable, 
                 and downright excellent in everything we do.
               </p>
@@ -165,7 +165,7 @@ export default function AboutPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              The Downright Way
+              The Down Right Way
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Our mission is simple: Do things the right way, every time. No shortcuts, 
@@ -177,32 +177,32 @@ export default function AboutPage() {
             {[
               {
                 icon: Handshake,
-                title: 'Downright Honest',
+                title: 'Down Right Honest',
                 description: 'Upfront pricing, transparent communication, and honest recommendations. We never upsell services you don\'t need.',
               },
               {
                 icon: Shield,
-                title: 'Downright Reliable',
+                title: 'Down Right Reliable',
                 description: 'Monday-Friday 8 AM - 5 PM service, on-time arrivals, and repairs done right the first time. You can count on us.',
               },
               {
                 icon: Heart,
-                title: 'Downright Caring',
+                title: 'Down Right Caring',
                 description: 'We treat your home like our own and your family like ours. Respect, cleanliness, and care in every job.',
               },
               {
                 icon: Star,
-                title: 'Downright Excellence',
+                title: 'Down Right Excellence',
                 description: 'Licensed professionals using top-quality materials and advanced techniques. Excellence is our standard.',
               },
               {
                 icon: Users,
-                title: 'Downright Local',
+                title: 'Down Right Local',
                 description: 'Family-owned and operated right here in Rockwall. We\'re your neighbors, serving our community.',
               },
               {
                 icon: Target,
-                title: 'Downright Committed',
+                title: 'Down Right Committed',
                 description: '100% satisfaction guarantee on every job. We stand behind our work and our word.',
               },
             ].map((value, index) => (
@@ -258,7 +258,7 @@ export default function AboutPage() {
               <p className="text-amber-600 font-semibold text-lg mb-4">Owner</p>
               <p className="text-gray-700 leading-relaxed">
                 With over 20 years of experience in the plumbing industry, Doug leads 
-                Downright Plumbing with a hands-on approach and a commitment to doing 
+                Down Right Plumbing with a hands-on approach and a commitment to doing 
                 things the right way. His dedication to honest service and quality 
                 workmanship is the foundation of everything we do.
               </p>
@@ -456,7 +456,7 @@ export default function AboutPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Why Rockwall Trusts Downright Plumbing
+              Why Rockwall Trusts Down Right Plumbing
             </h2>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
               New company, veteran plumber—here&apos;s what sets us apart
@@ -498,7 +498,7 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Experience the Downright Difference
+              Experience the Down Right Difference
             </h2>
             <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
               Experience 20+ years of plumbing expertise with the personal touch of a local, family-owned business.

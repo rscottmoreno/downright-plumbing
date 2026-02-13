@@ -68,7 +68,7 @@ const defaultReasons: Reason[] = [
 
 export function WhyChooseUs({
   reasons = defaultReasons,
-  title = "Why Choose Downright Plumbing?",
+  title = "Why Choose Down Right Plumbing?",
   subtitle = "Our Commitment",
   description = "We're dedicated to providing exceptional plumbing services that exceed your expectations.",
   className,

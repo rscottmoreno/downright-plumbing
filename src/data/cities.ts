@@ -1,5 +1,5 @@
 /**
- * Cities/Service Areas Data for Downright Plumbing
+ * Cities/Service Areas Data for Down Right Plumbing
  * Complete data for all 24+ service areas with unique, SEO-optimized content
  */
 
@@ -54,7 +54,7 @@ export const citiesData: CityData[] = [
       lat: 32.9312,
       lng: -96.4597
     },
-    content: `Welcome to Downright Plumbing, Rockwall's most trusted local plumbing company! As proud residents and business owners in this beautiful lakeside community, we've been serving Rockwall homeowners and businesses with integrity, expertise, and exceptional customer service for years.
+    content: `Welcome to Down Right Plumbing, Rockwall's most trusted local plumbing company! As proud residents and business owners in this beautiful lakeside community, we've been serving Rockwall homeowners and businesses with integrity, expertise, and exceptional customer service for years.
 
 **Your Rockwall Plumbing Experts**
 
@@ -80,9 +80,9 @@ Water heater service is another specialty area for Doug. Whether you have a trad
 
 Leak detection is critical in Rockwall, where many homes are built on concrete slabs. Slab leaks can cause extensive damage if not caught early, and they're notoriously difficult to locate without professional equipment. Doug uses electronic leak detection technology to pinpoint leaks without unnecessary demolition, saving you time, money, and stress.
 
-**Why Rockwall Residents Choose Downright Plumbing**
+**Why Rockwall Residents Choose Down Right Plumbing**
 
-When you choose Downright Plumbing, you're choosing a local company that truly cares about this community. We sponsor local youth sports teams, support Rockwall schools, and participate in community events. We're your neighbors, and we treat every home we service as if it were our own.
+When you choose Down Right Plumbing, you're choosing a local company that truly cares about this community. We sponsor local youth sports teams, support Rockwall schools, and participate in community events. We're your neighbors, and we treat every home we service as if it were our own.
 
 Doug is licensed, background-checked, and extensively trained in the latest plumbing techniques and technologies. He arrives in a clean, well-stocked truck, wears shoe covers in your home, and cleans up thoroughly after every job. We believe professionalism matters, and our Rockwall customers consistently tell us they appreciate our attention to detail.
 
@@ -106,18 +106,18 @@ Many of our Rockwall customers are on annual maintenance plans that include prio
 
 **Your Rockwall Plumbing Partner for Life**
 
-At Downright Plumbing, we're not looking for one-time transactions—we're building lasting relationships with Rockwall families and businesses. We want to be the plumbing company you trust for decades to come, the plumber you recommend to your friends and neighbors, the professionals you call whenever you need plumbing service.
+At Down Right Plumbing, we're not looking for one-time transactions—we're building lasting relationships with Rockwall families and businesses. We want to be the plumbing company you trust for decades to come, the plumber you recommend to your friends and neighbors, the professionals you call whenever you need plumbing service.
 
-Whether you're planning a bathroom renovation, considering a water heater upgrade, or just need a reliable plumber you can trust for future needs, we're here for you Monday-Friday 8 AM - 5 PM. Call Downright Plumbing today and experience the difference of working with Rockwall's premier plumbing company.`,
+Whether you're planning a bathroom renovation, considering a water heater upgrade, or just need a reliable plumber you can trust for future needs, we're here for you Monday-Friday 8 AM - 5 PM. Call Down Right Plumbing today and experience the difference of working with Rockwall's premier plumbing company.`,
     testimonial: {
-      quote: "As a long-time Rockwall resident, I've used several plumbers over the years, but Downright Plumbing is by far the best. They fixed a complex slab leak in our Chandlers Landing home quickly and professionally. They're now the only plumber I'll call!",
+      quote: "As a long-time Rockwall resident, I've used several plumbers over the years, but Down Right Plumbing is by far the best. They fixed a complex slab leak in our Chandlers Landing home quickly and professionally. They're now the only plumber I'll call!",
       author: "Jennifer Morrison",
       neighborhood: "Chandlers Landing"
     },
     faqs: [
       {
         question: "Why should I choose a local Rockwall plumber instead of a big chain company?",
-        answer: "Local plumbers like Downright Plumbing understand Rockwall's unique plumbing challenges, including hard water from Lake Ray Hubbard, the aging pipes in historic neighborhoods, and the specific building codes in our area. We can respond faster because we're based right here in Rockwall, and we're invested in our community's satisfaction—your neighbors are our neighbors. Plus, you're supporting a local business that gives back to Rockwall through sponsorships and community involvement."
+        answer: "Local plumbers like Down Right Plumbing understand Rockwall's unique plumbing challenges, including hard water from Lake Ray Hubbard, the aging pipes in historic neighborhoods, and the specific building codes in our area. We can respond faster because we're based right here in Rockwall, and we're invested in our community's satisfaction—your neighbors are our neighbors. Plus, you're supporting a local business that gives back to Rockwall through sponsorships and community involvement."
       },
       {
         question: "How quickly can you respond to service calls in Rockwall?",
@@ -167,7 +167,7 @@ Whether you're planning a bathroom renovation, considering a water heater upgrad
       lat: 32.9373,
       lng: -96.4722
     },
-    content: `Downright Plumbing is proud to serve the beautiful community of Heath, Texas, where lakeside living meets small-town charm. Heath's unique character—with its larger lots, lake properties, and mix of well water and municipal supply—requires plumbers who understand the specific challenges of this area. That's exactly what we provide.
+    content: `Down Right Plumbing is proud to serve the beautiful community of Heath, Texas, where lakeside living meets small-town charm. Heath's unique character—with its larger lots, lake properties, and mix of well water and municipal supply—requires plumbers who understand the specific challenges of this area. That's exactly what we provide.
 
 **Understanding Heath's Unique Plumbing Landscape**
 
@@ -189,7 +189,7 @@ Given Heath's larger lots, outdoor plumbing is a significant focus. We install, 
 
 Indoor plumbing services include fixture installations and repairs, kitchen and bathroom remodels, garbage disposal service, sump pump installation and repair, and all drain cleaning services. We're experienced with both standard municipal water systems and private well systems, adapting our approach to your specific setup.
 
-**Why Heath Residents Trust Downright Plumbing**
+**Why Heath Residents Trust Down Right Plumbing**
 
 Heath residents value quality, professionalism, and respect for their properties—and that's exactly what we deliver. We arrive on time, communicate clearly, protect your home with shoe covers and drop cloths, and clean up thoroughly after every job. Doug is licensed, background-checked, and trained in the latest plumbing technologies.
 
@@ -205,9 +205,9 @@ Our local knowledge extends beyond plumbing. We're familiar with Heath's local r
 
 Many of our Heath customers are on preventive maintenance programs that include regular well pump checks, water heater inspections, drain cleaning, and irrigation system tune-ups. These programs catch small issues before they become expensive repairs and extend the life of your plumbing systems—particularly important for well systems and lake property plumbing that face unique challenges.
 
-Whether you need routine maintenance or a major installation project, Downright Plumbing is Heath's trusted local choice. Call us today to experience professional plumbing service from a plumber who understands Heath's unique needs. We're available Monday-Friday 8 AM - 5 PM.`,
+Whether you need routine maintenance or a major installation project, Down Right Plumbing is Heath's trusted local choice. Call us today to experience professional plumbing service from a plumber who understands Heath's unique needs. We're available Monday-Friday 8 AM - 5 PM.`,
     testimonial: {
-      quote: "Our well pump failed and we needed help fast. Downright Plumbing had Doug at our Heath home within an hour—he diagnosed the issue and had us back in service the same day. Incredible response and expertise with well systems!",
+      quote: "Our well pump failed and we needed help fast. Down Right Plumbing had Doug at our Heath home within an hour—he diagnosed the issue and had us back in service the same day. Incredible response and expertise with well systems!",
       author: "Mark and Susan Taylor",
       neighborhood: "Coventry"
     },
@@ -263,11 +263,11 @@ Whether you need routine maintenance or a major installation project, Downright 
       lat: 32.9423,
       lng: -96.3789
     },
-    content: `Fate, Texas is one of the fastest-growing communities in the Dallas-Fort Worth metroplex, and Downright Plumbing is proud to serve Fate residents with 20+ years of plumbing expertise. As new neighborhoods like Chamberlain Crossing and Buffalo Creek continue to develop, we provide expert plumbing for both new construction support and service for Fate's established homes.
+    content: `Fate, Texas is one of the fastest-growing communities in the Dallas-Fort Worth metroplex, and Down Right Plumbing is proud to serve Fate residents with 20+ years of plumbing expertise. As new neighborhoods like Chamberlain Crossing and Buffalo Creek continue to develop, we provide expert plumbing for both new construction support and service for Fate's established homes.
 
 **Your Trusted Plumber in Growing Fate**
 
-Fate's rapid growth brings unique plumbing challenges. New developments mean builder-grade plumbing that sometimes needs upgrading, newly constructed infrastructure that occasionally has growing pains, and homeowners who need a reliable local plumber they can trust for the long term. That's where Downright Plumbing comes in.
+Fate's rapid growth brings unique plumbing challenges. New developments mean builder-grade plumbing that sometimes needs upgrading, newly constructed infrastructure that occasionally has growing pains, and homeowners who need a reliable local plumber they can trust for the long term. That's where Down Right Plumbing comes in.
 
 We've worked extensively in Fate's newest neighborhoods, from Chamberlain Crossing to Legacy Bend, helping homeowners address post-construction plumbing issues, upgrade builder-grade fixtures, and maintain their new plumbing systems. We've also served Fate's more established areas like Old Town Fate, where older homes sometimes need updated plumbing to meet modern needs and standards.
 
@@ -287,7 +287,7 @@ For planned services, we offer complete plumbing installations and repairs inclu
 
 Many Fate homeowners are investing in irrigation systems to maintain their landscapes, and we're experts in outdoor plumbing. We install hose bibs, outdoor kitchens, pool and spa plumbing, and irrigation systems designed for efficiency and compliance with local watering guidelines.
 
-**Why Fate Homeowners Choose Downright Plumbing**
+**Why Fate Homeowners Choose Down Right Plumbing**
 
 Fate residents are building their dream homes and investing in their community's future. You deserve a plumbing company that shares your commitment to quality and long-term value. Doug treats every Fate home with respect, arriving in clean attire, using shoe covers, and cleaning up thoroughly after every job.
 
@@ -301,11 +301,11 @@ Our proximity means we can respond quickly during business hours (Monday-Friday 
 
 **Growing with Fate**
 
-As Fate continues to grow and thrive, Downright Plumbing is committed to growing alongside this wonderful community. We're here for the long haul—not just for one-time jobs, but to be your trusted plumbing partner for years to come. Whether you've just moved to Chamberlain Crossing or you've been in Old Town Fate for decades, we're here to serve you with professionalism, expertise, and genuine care during our business hours (Monday-Friday 8 AM - 5 PM).
+As Fate continues to grow and thrive, Down Right Plumbing is committed to growing alongside this wonderful community. We're here for the long haul—not just for one-time jobs, but to be your trusted plumbing partner for years to come. Whether you've just moved to Chamberlain Crossing or you've been in Old Town Fate for decades, we're here to serve you with professionalism, expertise, and genuine care during our business hours (Monday-Friday 8 AM - 5 PM).
 
-From repairs to major installations, from fixture upgrades to whole-house plumbing inspections, Downright Plumbing is Fate's local plumbing company. Call us today and experience the difference of working with professionals who understand and value this growing community.`,
+From repairs to major installations, from fixture upgrades to whole-house plumbing inspections, Down Right Plumbing is Fate's local plumbing company. Call us today and experience the difference of working with professionals who understand and value this growing community.`,
     testimonial: {
-      quote: "We bought a new home in Chamberlain Crossing and discovered the builder-grade water heater wasn't keeping up with our family's needs. Downright Plumbing installed a beautiful tankless system, and now we have endless hot water! They were professional, clean, and thoroughly explained all our options. Highly recommend!",
+      quote: "We bought a new home in Chamberlain Crossing and discovered the builder-grade water heater wasn't keeping up with our family's needs. Down Right Plumbing installed a beautiful tankless system, and now we have endless hot water! They were professional, clean, and thoroughly explained all our options. Highly recommend!",
       author: "David and Rachel Chen",
       neighborhood: "Chamberlain Crossing"
     },
@@ -361,7 +361,7 @@ From repairs to major installations, from fixture upgrades to whole-house plumbi
       lat: 32.9751,
       lng: -96.3310
     },
-    content: `Royse City perfectly blends small-town Texas charm with modern growth, and Downright Plumbing is proud to serve this diverse community. From historic downtown properties to brand-new developments, from rural homesteads with wells and septic systems to modern subdivisions on municipal utilities, we understand the full spectrum of Royse City's plumbing needs.
+    content: `Royse City perfectly blends small-town Texas charm with modern growth, and Down Right Plumbing is proud to serve this diverse community. From historic downtown properties to brand-new developments, from rural homesteads with wells and septic systems to modern subdivisions on municipal utilities, we understand the full spectrum of Royse City's plumbing needs.
 
 **Understanding Royse City's Diverse Plumbing Landscape**
 
@@ -391,7 +391,7 @@ Whether you're in downtown Royse City or on a large property on the outskirts, w
 
 We typically reach Royse City locations within 45 minutes to an hour for service calls, and Doug's well-equipped service vehicle allows us to resolve most issues on the first visit. This rapid response minimizes water damage and gets your life back to normal as quickly as possible.
 
-**Why Royse City Trusts Downright Plumbing**
+**Why Royse City Trusts Down Right Plumbing**
 
 Royse City residents value honesty, quality work, and fair pricing—traditional values that align perfectly with our business philosophy. We provide upfront pricing with no hidden fees, a licensed, background-checked plumber, respect for your property with shoe covers and cleanup, and quality parts and materials built to last.
 
@@ -401,9 +401,9 @@ Many of our Royse City customers have been with us for years, trusting us for ev
 
 We understand Royse City's local codes, permitting processes, and specific ordinances. When work requires permits, we handle that process efficiently, ensuring everything is done legally and correctly. We also maintain relationships with local builders, real estate professionals, and property managers, making us the plumbing company Royse City professionals recommend.
 
-Whether you're maintaining a cherished historic home, settling into a new development, or managing a rural property, Downright Plumbing is Royse City's trusted local plumber. Call us today for service that respects your property and exceeds your expectations.`,
+Whether you're maintaining a cherished historic home, settling into a new development, or managing a rural property, Down Right Plumbing is Royse City's trusted local plumber. Call us today for service that respects your property and exceeds your expectations.`,
     testimonial: {
-      quote: "Our family ranch has been in Royse City for three generations, and we've dealt with our share of plumbers over the years. Downright Plumbing stands out for their expertise with our well system and barn plumbing. They're responsive, knowledgeable, and understand rural properties. Finally found a plumber we can count on!",
+      quote: "Our family ranch has been in Royse City for three generations, and we've dealt with our share of plumbers over the years. Down Right Plumbing stands out for their expertise with our well system and barn plumbing. They're responsive, knowledgeable, and understand rural properties. Finally found a plumber we can count on!",
       author: "Tom Henderson",
       neighborhood: "Rural Royse City"
     },
@@ -458,7 +458,7 @@ Whether you're maintaining a cherished historic home, settling into a new develo
       lat: 32.8659,
       lng: -96.3769
     },
-    content: `McLendon-Chisholm represents some of the finest residential living in the Rockwall area, and Downright Plumbing is honored to serve this distinguished community. From the elegant estates in Kingsbridge to the luxurious homes at Waterscape and Stone Canyon, we provide plumbing services that match the quality and sophistication McLendon-Chisholm homeowners expect and deserve.
+    content: `McLendon-Chisholm represents some of the finest residential living in the Rockwall area, and Down Right Plumbing is honored to serve this distinguished community. From the elegant estates in Kingsbridge to the luxurious homes at Waterscape and Stone Canyon, we provide plumbing services that match the quality and sophistication McLendon-Chisholm homeowners expect and deserve.
 
 **Premier Plumbing for Premier Homes**
 
@@ -496,15 +496,15 @@ Even the finest plumbing systems can experience unexpected failures. When they d
 
 Our service vehicles carry premium fixtures and parts, allowing us to provide same-day repairs even for high-end systems. We work quickly and carefully to resolve issues while protecting your beautiful property.
 
-**Why McLendon-Chisholm Homeowners Choose Downright Plumbing**
+**Why McLendon-Chisholm Homeowners Choose Down Right Plumbing**
 
 McLendon-Chisholm residents expect excellence, and that's exactly what we deliver. Doug is licensed, experienced with luxury systems, meticulously clean and respectful of your home, trained in the latest plumbing technologies, and committed to workmanship that reflects the quality of your property.
 
 We provide transparent pricing appropriate for high-quality work, stand behind all our services with comprehensive warranties, and build long-term relationships with homeowners who trust us as their plumbing partner for life.
 
-From repairs to ambitious renovation projects, from routine maintenance to custom installations, Downright Plumbing is McLendon-Chisholm's choice for professional plumbing service that matches the quality of this exceptional community. Call us Monday-Friday 8 AM - 5 PM to experience the difference of working with true professionals.`,
+From repairs to ambitious renovation projects, from routine maintenance to custom installations, Down Right Plumbing is McLendon-Chisholm's choice for professional plumbing service that matches the quality of this exceptional community. Call us Monday-Friday 8 AM - 5 PM to experience the difference of working with true professionals.`,
     testimonial: {
-      quote: "We recently completed an extensive master bathroom renovation in our Kingsbridge home, including a custom shower with six body jets and a rainfall head. Downright Plumbing handled the complex installation flawlessly. They're the only plumber in the area we trust with our luxury home's plumbing needs.",
+      quote: "We recently completed an extensive master bathroom renovation in our Kingsbridge home, including a custom shower with six body jets and a rainfall head. Down Right Plumbing handled the complex installation flawlessly. They're the only plumber in the area we trust with our luxury home's plumbing needs.",
       author: "Richard and Patricia Walker",
       neighborhood: "Kingsbridge"
     },
@@ -561,7 +561,7 @@ From repairs to ambitious renovation projects, from routine maintenance to custo
       lat: 32.9029,
       lng: -96.5639
     },
-    content: `Downright Plumbing is proud to serve Rowlett, a vibrant lakeside community with a rich history and diverse neighborhoods. From established areas like Pecan Grove and Herfurth to waterfront properties along Lake Ray Hubbard, we understand the unique plumbing challenges Rowlett homes face and provide reliable solutions that Rowlett residents trust.
+    content: `Down Right Plumbing is proud to serve Rowlett, a vibrant lakeside community with a rich history and diverse neighborhoods. From established areas like Pecan Grove and Herfurth to waterfront properties along Lake Ray Hubbard, we understand the unique plumbing challenges Rowlett homes face and provide reliable solutions that Rowlett residents trust.
 
 **Understanding Rowlett's Plumbing Landscape**
 
@@ -591,9 +591,9 @@ Rowlett's location along Lake Ray Hubbard is one of its greatest assets, and man
 
 We've worked on numerous Rowlett lakefront properties and understand these specific challenges. From protecting outdoor plumbing from winter freezes to ensuring proper drainage that protects your foundation, we provide comprehensive care for lake property plumbing.
 
-**Why Rowlett Residents Trust Downright Plumbing**
+**Why Rowlett Residents Trust Down Right Plumbing**
 
-Rowlett residents value reliability, honesty, and quality work—values that define Downright Plumbing. We've built our reputation on upfront, transparent pricing with no hidden fees, a licensed, background-checked plumber, prompt arrival and efficient service, respect for your home with shoe covers and cleanup, and quality repairs that last.
+Rowlett residents value reliability, honesty, and quality work—values that define Down Right Plumbing. We've built our reputation on upfront, transparent pricing with no hidden fees, a licensed, background-checked plumber, prompt arrival and efficient service, respect for your home with shoe covers and cleanup, and quality repairs that last.
 
 Many of our Rowlett customers have been with us for years, trusting us for everything from routine maintenance to major repairs and renovations. We've earned this loyalty by consistently delivering excellent service and treating every customer with respect and professionalism.
 
@@ -601,9 +601,9 @@ Many of our Rowlett customers have been with us for years, trusting us for every
 
 Given the age of many Rowlett homes, preventive maintenance is particularly valuable. Our maintenance programs catch small problems before they become expensive repairs and extend the life of aging plumbing systems. Services include annual drain cleaning to prevent root intrusion, water heater flushes to combat hard water buildup, pipe inspections to identify developing problems, and seasonal checks of outdoor plumbing.
 
-Whether you're maintaining an established Rowlett home, settling into a newer property, or managing a lakefront retreat, Downright Plumbing is your local plumbing partner. Call us today for service that exceeds your expectations.`,
+Whether you're maintaining an established Rowlett home, settling into a newer property, or managing a lakefront retreat, Down Right Plumbing is your local plumbing partner. Call us today for service that exceeds your expectations.`,
     testimonial: {
-      quote: "Our 1980s home in Pecan Grove had original galvanized pipes that were badly corroded. Downright Plumbing re-piped the entire house with minimal disruption and at a fair price. Water pressure and quality are incredible now! They were professional, clean, and completed the work faster than expected.",
+      quote: "Our 1980s home in Pecan Grove had original galvanized pipes that were badly corroded. Down Right Plumbing re-piped the entire house with minimal disruption and at a fair price. Water pressure and quality are incredible now! They were professional, clean, and completed the work faster than expected.",
       author: "James and Linda Martinez",
       neighborhood: "Pecan Grove"
     },
@@ -659,11 +659,11 @@ Whether you're maintaining an established Rowlett home, settling into a newer pr
       lat: 32.9126,
       lng: -96.6389
     },
-    content: `Garland is one of the largest cities in Dallas County, and Downright Plumbing is proud to serve this diverse, vibrant community. From the bustling Firewheel area to established neighborhoods like Duck Creek and Pleasant Valley, we provide reliable plumbing services that Garland residents and businesses trust.
+    content: `Garland is one of the largest cities in Dallas County, and Down Right Plumbing is proud to serve this diverse, vibrant community. From the bustling Firewheel area to established neighborhoods like Duck Creek and Pleasant Valley, we provide reliable plumbing services that Garland residents and businesses trust.
 
 **Serving Garland's Diverse Communities**
 
-Garland's size and diversity mean varied plumbing needs. The city includes everything from historic homes in older neighborhoods to modern developments, from single-family residences to large apartment complexes, from small businesses to major commercial properties. This diversity requires a plumbing company with extensive experience across all types of properties and systems—exactly what Downright Plumbing provides.
+Garland's size and diversity mean varied plumbing needs. The city includes everything from historic homes in older neighborhoods to modern developments, from single-family residences to large apartment complexes, from small businesses to major commercial properties. This diversity requires a plumbing company with extensive experience across all types of properties and systems—exactly what Down Right Plumbing provides.
 
 Many of Garland's residential neighborhoods feature homes built from the 1960s through 1980s, now reaching the age where major plumbing components need updating. Galvanized pipes are corroding, original water heaters are failing, and sewer lines are experiencing root intrusion and deterioration. We specialize in these updates, providing modern solutions that restore reliability and improve performance.
 
@@ -687,15 +687,15 @@ Based in nearby Rockwall, we provide rapid response to service calls throughout 
 
 We offer convenient scheduling to accommodate your needs. We offer flexible scheduling and respond quickly, so you spend less time waiting and more time getting your plumbing issues resolved.
 
-**Why Garland Chooses Downright Plumbing**
+**Why Garland Chooses Down Right Plumbing**
 
 Garland residents and business owners value reliability, quality, and fair pricing. We deliver on all three with a licensed, experienced plumber, transparent upfront pricing, prompt arrival and efficient service, clean, professional appearance and conduct, and quality work backed by warranties.
 
 We've built strong relationships throughout Garland, earning trust through consistent, excellent service. Many of our Garland customers have been with us for years, relying on us for everything from routine maintenance to major repairs.
 
-Whether you're in Firewheel, Duck Creek, or anywhere else in Garland, Downright Plumbing is your local plumbing partner. Call us today for service you can trust.`,
+Whether you're in Firewheel, Duck Creek, or anywhere else in Garland, Down Right Plumbing is your local plumbing partner. Call us today for service you can trust.`,
     testimonial: {
-      quote: "Our Garland home had terrible water pressure due to corroded galvanized pipes. Downright Plumbing replaced all the supply lines in just two days. The difference is incredible—strong water pressure in every faucet! They were professional, affordable, and cleaned up perfectly after the job.",
+      quote: "Our Garland home had terrible water pressure due to corroded galvanized pipes. Down Right Plumbing replaced all the supply lines in just two days. The difference is incredible—strong water pressure in every faucet! They were professional, affordable, and cleaned up perfectly after the job.",
       author: "Carlos Rodriguez",
       neighborhood: "Duck Creek"
     },
@@ -750,7 +750,7 @@ Whether you're in Firewheel, Duck Creek, or anywhere else in Garland, Downright 
       lat: 32.9762,
       lng: -96.5486
     },
-    content: `Sachse, "The City of Family," is a rapidly growing community that perfectly balances small-town charm with modern amenities. Downright Plumbing is proud to serve Sachse's families and businesses with professional plumbing services that match this community's high standards.
+    content: `Sachse, "The City of Family," is a rapidly growing community that perfectly balances small-town charm with modern amenities. Down Right Plumbing is proud to serve Sachse's families and businesses with professional plumbing services that match this community's high standards.
 
 **Understanding Sachse's Growing Community**
 
@@ -778,15 +778,15 @@ We offer convenient scheduling for drain cleaning, fixture installations, water 
 
 Sachse residents are investing in their futures, building great lives in a wonderful community. You deserve a plumbing company that shares your commitment to quality and reliability. We provide a licensed, background-checked plumber who is safe around your family, transparent upfront pricing with no hidden surprises, clean, professional service with respect for your home, and quality work that lasts.
 
-Many Sachse families have made Downright Plumbing their trusted plumber for all their needs. We've earned this trust through consistent, excellent service and by treating every Sachse home with the care and professionalism it deserves.
+Many Sachse families have made Down Right Plumbing their trusted plumber for all their needs. We've earned this trust through consistent, excellent service and by treating every Sachse home with the care and professionalism it deserves.
 
 **Supporting the Sachse Community**
 
-We're more than just a service provider—we're invested in the Sachse community's success. We support local schools, sponsor youth activities, and participate in community events. When you choose Downright Plumbing, you're supporting a company that gives back to the community you love.
+We're more than just a service provider—we're invested in the Sachse community's success. We support local schools, sponsor youth activities, and participate in community events. When you choose Down Right Plumbing, you're supporting a company that gives back to the community you love.
 
-Whether you need routine maintenance, fixture upgrades, or major installations, Downright Plumbing is Sachse's local plumbing company. Call us Monday-Friday 8 AM - 5 PM and experience the quality service Sachse families trust.`,
+Whether you need routine maintenance, fixture upgrades, or major installations, Down Right Plumbing is Sachse's local plumbing company. Call us Monday-Friday 8 AM - 5 PM and experience the quality service Sachse families trust.`,
     testimonial: {
-      quote: "We moved into our new Sachse home and quickly realized the builder-grade water heater couldn't keep up with our family of five. Downright Plumbing installed a tankless system, and now we have endless hot water! They were professional, explained everything clearly, and completed the job in one day. Highly recommend!",
+      quote: "We moved into our new Sachse home and quickly realized the builder-grade water heater couldn't keep up with our family of five. Down Right Plumbing installed a tankless system, and now we have endless hot water! They were professional, explained everything clearly, and completed the job in one day. Highly recommend!",
       author: "Amanda Patterson",
       neighborhood: "Woodbridge"
     },
@@ -813,7 +813,7 @@ Whether you need routine maintenance, fixture upgrades, or major installations, 
       },
       {
         question: "What should I look for in a plumber serving Sachse?",
-        answer: "Look for licensed and insured plumbers with good local reviews, transparent upfront pricing, a licensed, background-checked plumber (important when someone's entering your home), experience with both newer homes and established properties, and genuine commitment to customer service. Downright Plumbing checks all these boxes and has built a strong reputation throughout Sachse."
+        answer: "Look for licensed and insured plumbers with good local reviews, transparent upfront pricing, a licensed, background-checked plumber (important when someone's entering your home), experience with both newer homes and established properties, and genuine commitment to customer service. Down Right Plumbing checks all these boxes and has built a strong reputation throughout Sachse."
       }
     ]
   },
@@ -842,7 +842,7 @@ Whether you need routine maintenance, fixture upgrades, or major installations, 
       lat: 33.0151,
       lng: -96.5389
     },
-    content: `Wylie, Texas combines friendly small-town atmosphere with big-city amenities, and Downright Plumbing is honored to serve this wonderful community. From historic downtown to newer developments like Inspiration and Waterford Park, from lakefront properties to growing commercial areas, we provide comprehensive plumbing services throughout Wylie.
+    content: `Wylie, Texas combines friendly small-town atmosphere with big-city amenities, and Down Right Plumbing is honored to serve this wonderful community. From historic downtown to newer developments like Inspiration and Waterford Park, from lakefront properties to growing commercial areas, we provide comprehensive plumbing services throughout Wylie.
 
 **Serving Wylie's Diverse Neighborhoods**
 
@@ -872,7 +872,7 @@ Many Wylie residents are concerned about water quality, particularly hard water 
 
 These systems protect your plumbing and appliances, improve water taste and quality, eliminate spotting on dishes and fixtures, and provide better-quality water for your family.
 
-**Why Wylie Trusts Downright Plumbing**
+**Why Wylie Trusts Down Right Plumbing**
 
 Wylie residents value community, integrity, and quality work—values we share and demonstrate every day. We provide a licensed, experienced plumber, transparent, upfront pricing, clean, professional service, rapid response during business hours, and quality work backed by warranties.
 
@@ -882,9 +882,9 @@ We're active in the Wylie community, supporting local schools, sponsoring youth 
 
 Wylie's location along Lake Lavon is one of its greatest assets. We've worked on numerous lakefront properties and understand their unique plumbing needs including moisture and corrosion management, outdoor plumbing for docks and lake houses, proper drainage near the water, and winterization for seasonal properties.
 
-Whether you're planning a renovation or just need a reliable plumber for routine maintenance, Downright Plumbing is Wylie's local choice. Call us Monday-Friday 8 AM - 5 PM for service that exceeds your expectations.`,
+Whether you're planning a renovation or just need a reliable plumber for routine maintenance, Down Right Plumbing is Wylie's local choice. Call us Monday-Friday 8 AM - 5 PM for service that exceeds your expectations.`,
     testimonial: {
-      quote: "Our historic home in downtown Wylie needed extensive plumbing updates. Downright Plumbing replaced all the old galvanized pipes and updated fixtures while maintaining the character of our 1940s home. They were respectful of the property, communicated clearly, and did beautiful work. We couldn't be happier!",
+      quote: "Our historic home in downtown Wylie needed extensive plumbing updates. Down Right Plumbing replaced all the old galvanized pipes and updated fixtures while maintaining the character of our 1940s home. They were respectful of the property, communicated clearly, and did beautiful work. We couldn't be happier!",
       author: "Gregory and Anne Chen",
       neighborhood: "Downtown Wylie"
     },
@@ -939,11 +939,11 @@ Whether you're planning a renovation or just need a reliable plumber for routine
       lat: 33.0151,
       lng: -96.6128
     },
-    content: `Murphy, Texas is a gem of a community featuring beautiful homes, excellent schools, and a small-town feel within the Dallas metroplex. Downright Plumbing is proud to serve Murphy's families and businesses with professional plumbing services that match this community's high standards.
+    content: `Murphy, Texas is a gem of a community featuring beautiful homes, excellent schools, and a small-town feel within the Dallas metroplex. Down Right Plumbing is proud to serve Murphy's families and businesses with professional plumbing services that match this community's high standards.
 
 **Premier Service for Murphy's Quality Homes**
 
-Murphy is known for well-maintained properties, quality construction, and residents who invest in their homes. From the elegant homes in Maxwell Creek and Sorrento to the family-friendly neighborhoods like Wilson Creek Ranch and Prairie Creek, Murphy homeowners expect excellence—and that's exactly what Downright Plumbing delivers.
+Murphy is known for well-maintained properties, quality construction, and residents who invest in their homes. From the elegant homes in Maxwell Creek and Sorrento to the family-friendly neighborhoods like Wilson Creek Ranch and Prairie Creek, Murphy homeowners expect excellence—and that's exactly what Down Right Plumbing delivers.
 
 Many Murphy homes feature upscale fixtures, sophisticated systems, and quality finishes that require knowledgeable, careful service. Doug is experienced with high-end plumbing components, familiar with premium brands, and committed to workmanship that matches the quality of Murphy's beautiful homes.
 
@@ -973,9 +973,9 @@ We've built strong relationships throughout Murphy, earning trust through excell
 
 We're invested in Murphy's success, supporting local schools, sponsoring youth activities, and participating in community events. We're grateful for the trust Murphy residents have placed in us, and we work hard every day to maintain and deserve that trust.
 
-Whether you need routine maintenance, an upscale bathroom renovation, or any other plumbing service, Downright Plumbing is Murphy's trusted local choice. Call us Monday-Friday 8 AM - 5 PM and experience the professional service Murphy residents recommend to their neighbors.`,
+Whether you need routine maintenance, an upscale bathroom renovation, or any other plumbing service, Down Right Plumbing is Murphy's trusted local choice. Call us Monday-Friday 8 AM - 5 PM and experience the professional service Murphy residents recommend to their neighbors.`,
     testimonial: {
-      quote: "We completely renovated our master bathroom in our Maxwell Creek home, installing a walk-in shower with six spray heads and a beautiful soaking tub. Downright Plumbing handled the complex installation flawlessly, ensuring perfect water pressure and drainage. They're true professionals who do exceptional work!",
+      quote: "We completely renovated our master bathroom in our Maxwell Creek home, installing a walk-in shower with six spray heads and a beautiful soaking tub. Down Right Plumbing handled the complex installation flawlessly, ensuring perfect water pressure and drainage. They're true professionals who do exceptional work!",
       author: "Robert and Jennifer Lee",
       neighborhood: "Maxwell Creek"
     },
@@ -1031,7 +1031,7 @@ Whether you need routine maintenance, an upscale bathroom renovation, or any oth
       lat: 33.0198,
       lng: -96.6989
     },
-    content: `Plano is one of the most dynamic cities in Texas, and Downright Plumbing is proud to serve this thriving metroplex community. From established East Plano neighborhoods to the corporate corridors of Legacy, from single-family homes to high-rise condos, we provide comprehensive plumbing services throughout Plano.
+    content: `Plano is one of the most dynamic cities in Texas, and Down Right Plumbing is proud to serve this thriving metroplex community. From established East Plano neighborhoods to the corporate corridors of Legacy, from single-family homes to high-rise condos, we provide comprehensive plumbing services throughout Plano.
 
 **Serving Plano's Diverse Property Types**
 
@@ -1051,13 +1051,13 @@ For commercial clients, we offer maintenance contracts for property managers, te
 
 Plano takes water conservation seriously, and we help residents and businesses comply with local ordinances while maintaining beautiful landscapes and efficient operations. We install WaterSense-certified fixtures, smart irrigation controllers, drip irrigation systems, greywater systems where appropriate, and water-efficient commercial equipment.
 
-**Why Plano Chooses Downright Plumbing**
+**Why Plano Chooses Down Right Plumbing**
 
 Plano residents and business owners expect professional, reliable service. We deliver with a licensed, experienced plumber, transparent pricing with no hidden fees, rapid response throughout Plano, clean, professional service, and quality work backed by warranties.
 
-Whether you're in a quiet East Plano neighborhood, a thriving West Plano community, or anywhere else in this great city, Downright Plumbing is here to serve you with excellence. Call us today for all your plumbing needs.`,
+Whether you're in a quiet East Plano neighborhood, a thriving West Plano community, or anywhere else in this great city, Down Right Plumbing is here to serve you with excellence. Call us today for all your plumbing needs.`,
     testimonial: {
-      quote: "Managing rental properties in Plano means dealing with plumbing issues regularly. Downright Plumbing has become our go-to company because they're responsive, professional, and their work holds up. Tenants consistently report positive experiences with him.",
+      quote: "Managing rental properties in Plano means dealing with plumbing issues regularly. Down Right Plumbing has become our go-to company because they're responsive, professional, and their work holds up. Tenants consistently report positive experiences with him.",
       author: "Michael Tran, Property Manager",
       neighborhood: "East Plano"
     },
@@ -1112,7 +1112,7 @@ Whether you're in a quiet East Plano neighborhood, a thriving West Plano communi
       lat: 33.1031,
       lng: -96.6706
     },
-    content: `Allen, Texas is a thriving community known for excellent schools, beautiful neighborhoods, and quality of life. Downright Plumbing is proud to serve Allen's families and businesses with professional plumbing services that match this community's high standards.
+    content: `Allen, Texas is a thriving community known for excellent schools, beautiful neighborhoods, and quality of life. Down Right Plumbing is proud to serve Allen's families and businesses with professional plumbing services that match this community's high standards.
 
 **Premier Service for Allen's Quality Communities**
 
@@ -1138,9 +1138,9 @@ Allen residents expect professionalism and quality, and we consistently deliver 
 
 Many Allen families have made us their exclusive plumbing company, trusting us for everything from routine maintenance to major projects. We've earned this loyalty through excellence and genuine care for every customer.
 
-Whether you need routine maintenance or are planning a renovation, Downright Plumbing is Allen's trusted local plumber. Call us Monday-Friday 8 AM - 5 PM and experience the quality service Allen families recommend.`,
+Whether you need routine maintenance or are planning a renovation, Down Right Plumbing is Allen's trusted local plumber. Call us Monday-Friday 8 AM - 5 PM and experience the quality service Allen families recommend.`,
     testimonial: {
-      quote: "We've lived in Allen for 12 years and have used Downright Plumbing for everything from urgent repairs to our recent master bathroom renovation. They're consistently professional, fairly priced, and do excellent work. They're the only plumber we'll use!",
+      quote: "We've lived in Allen for 12 years and have used Down Right Plumbing for everything from urgent repairs to our recent master bathroom renovation. They're consistently professional, fairly priced, and do excellent work. They're the only plumber we'll use!",
       author: "Kevin and Lisa Thompson",
       neighborhood: "Twin Creeks"
     },
@@ -1196,7 +1196,7 @@ Whether you need routine maintenance or are planning a renovation, Downright Plu
       lat: 33.1972,
       lng: -96.6397
     },
-    content: `McKinney blends historic charm with modern growth, and Downright Plumbing serves this diverse community with expertise spanning from century-old downtown properties to brand-new luxury developments like Craig Ranch and Adriatica Village.
+    content: `McKinney blends historic charm with modern growth, and Down Right Plumbing serves this diverse community with expertise spanning from century-old downtown properties to brand-new luxury developments like Craig Ranch and Adriatica Village.
 
 **Understanding McKinney's Diversity**
 
@@ -1220,9 +1220,9 @@ McKinney's historic downtown is a treasure, and we're honored to help preserve t
 
 McKinney's upscale communities expect exceptional service, and we deliver with high-end fixture expertise, sophisticated system knowledge, quality workmanship, and professional presentation matching these communities' standards.
 
-Whether you're in historic downtown, an established neighborhood, or a luxury development, Downright Plumbing is McKinney's trusted plumber. Call us today for professional service throughout this great city.`,
+Whether you're in historic downtown, an established neighborhood, or a luxury development, Down Right Plumbing is McKinney's trusted plumber. Call us today for professional service throughout this great city.`,
     testimonial: {
-      quote: "Our 1905 home in downtown McKinney needed complete repiping. Downright Plumbing did an amazing job updating the plumbing while being incredibly respectful of our home's historic character. They're true professionals who understand old homes!",
+      quote: "Our 1905 home in downtown McKinney needed complete repiping. Down Right Plumbing did an amazing job updating the plumbing while being incredibly respectful of our home's historic character. They're true professionals who understand old homes!",
       author: "Thomas and Elizabeth Sanders",
       neighborhood: "Historic Downtown"
     },
@@ -1277,11 +1277,11 @@ Whether you're in historic downtown, an established neighborhood, or a luxury de
       lat: 32.7479,
       lng: -96.4719
     },
-    content: `Forney is one of the fastest-growing communities in Texas, and Downright Plumbing has been right alongside Forney residents throughout this exciting growth. From new developments like Gateway Parks and Devonshire to historic downtown and rural properties, we serve all of Forney with professional plumbing expertise.
+    content: `Forney is one of the fastest-growing communities in Texas, and Down Right Plumbing has been right alongside Forney residents throughout this exciting growth. From new developments like Gateway Parks and Devonshire to historic downtown and rural properties, we serve all of Forney with professional plumbing expertise.
 
 **Serving Growing Forney**
 
-Forney's rapid growth brings unique plumbing challenges. New neighborhoods mean builder-grade systems sometimes needing upgrades, rapidly expanding infrastructure occasionally having growing pains, and homeowners needing reliable local plumbers they can trust long-term. That's where Downright Plumbing excels.
+Forney's rapid growth brings unique plumbing challenges. New neighborhoods mean builder-grade systems sometimes needing upgrades, rapidly expanding infrastructure occasionally having growing pains, and homeowners needing reliable local plumbers they can trust long-term. That's where Down Right Plumbing excels.
 
 We work extensively in Forney's newest developments, helping homeowners address post-construction issues, upgrade builder-grade components, and maintain new plumbing systems. We also serve Forney's established areas and rural properties with well systems and larger lots requiring specialized service.
 
@@ -1299,13 +1299,13 @@ Many Forney properties remain rural or semi-rural with well water systems, septi
 
 We work with several Forney builders and developers providing new construction plumbing, pre-closing inspections for buyers, warranty work coordination, and post-closing upgrades or corrections.
 
-**Why Forney Trusts Downright Plumbing**
+**Why Forney Trusts Down Right Plumbing**
 
 Forney residents are building their futures in this growing community and deserve plumbing service matching their investment. We provide a licensed, experienced plumber, transparent, fair pricing, clean, professional service, rapid response during business hours, and quality work built to last.
 
-Whether you're in Gateway Parks, Valley Ranch, downtown Forney, or on a rural property, Downright Plumbing is your trusted local plumber. Call us today for service you can count on.`,
+Whether you're in Gateway Parks, Valley Ranch, downtown Forney, or on a rural property, Down Right Plumbing is your trusted local plumber. Call us today for service you can count on.`,
     testimonial: {
-      quote: "We moved to Forney from out of state and bought a new home in Gateway Parks. The builder-grade water heater was tiny! Downright Plumbing installed a tankless system that provides endless hot water for our family. Professional, efficient, and great price. Highly recommend!",
+      quote: "We moved to Forney from out of state and bought a new home in Gateway Parks. The builder-grade water heater was tiny! Down Right Plumbing installed a tankless system that provides endless hot water for our family. Professional, efficient, and great price. Highly recommend!",
       author: "Brandon and Nicole Williams",
       neighborhood: "Gateway Parks"
     },
@@ -1360,7 +1360,7 @@ Whether you're in Gateway Parks, Valley Ranch, downtown Forney, or on a rural pr
       lat: 32.7668,
       lng: -96.5991
     },
-    content: `Mesquite is a vibrant, diverse city with deep roots in the Dallas metroplex, and Downright Plumbing is proud to serve this community's extensive residential and commercial plumbing needs. From established neighborhoods to commercial corridors, we provide reliable plumbing services throughout Mesquite.
+    content: `Mesquite is a vibrant, diverse city with deep roots in the Dallas metroplex, and Down Right Plumbing is proud to serve this community's extensive residential and commercial plumbing needs. From established neighborhoods to commercial corridors, we provide reliable plumbing services throughout Mesquite.
 
 **Understanding Mesquite's Plumbing Landscape**
 
@@ -1384,15 +1384,15 @@ We understand the importance of minimizing business and tenant disruption and wo
 
 Sewer line problems are particularly common in Mesquite's older neighborhoods. We use video camera inspection to diagnose issues accurately, then provide appropriate solutions from cleaning and root removal to trenchless repair and complete replacement with modern materials.
 
-**Why Mesquite Trusts Downright Plumbing**
+**Why Mesquite Trusts Down Right Plumbing**
 
 Mesquite residents and business owners need reliable, affordable plumbing service, and that's what we provide. A licensed, experienced plumber, transparent, fair pricing, rapid response during business hours, professional, clean service, and quality work that lasts.
 
 Many Mesquite customers have relied on us for years, trusting us for everything from routine maintenance to major emergencies and renovations.
 
-Whether you're a homeowner, property manager, or business owner in Mesquite, Downright Plumbing is your local plumbing partner. Call us today for service you can trust.`,
+Whether you're a homeowner, property manager, or business owner in Mesquite, Down Right Plumbing is your local plumbing partner. Call us today for service you can trust.`,
     testimonial: {
-      quote: "Our 1970s home in Meadowcreek had terrible water pressure and rust-colored water from corroded galvanized pipes. Downright Plumbing repiped the entire house at a reasonable price and now our water is clear and pressure is excellent! Professional crew who cleaned up nicely afterward.",
+      quote: "Our 1970s home in Meadowcreek had terrible water pressure and rust-colored water from corroded galvanized pipes. Down Right Plumbing repiped the entire house at a reasonable price and now our water is clear and pressure is excellent! Professional crew who cleaned up nicely afterward.",
       author: "Daniel Jackson",
       neighborhood: "Meadowcreek"
     },
@@ -1446,7 +1446,7 @@ Whether you're a homeowner, property manager, or business owner in Mesquite, Dow
       lat: 32.7968,
       lng: -96.5572
     },
-    content: `Sunnyvale is a hidden gem—a small, tight-knit community nestled between larger cities, where residents enjoy peaceful living while remaining connected to the metroplex. Downright Plumbing is proud to serve Sunnyvale's families with personalized plumbing service that matches this community's friendly, neighborly character.
+    content: `Sunnyvale is a hidden gem—a small, tight-knit community nestled between larger cities, where residents enjoy peaceful living while remaining connected to the metroplex. Down Right Plumbing is proud to serve Sunnyvale's families with personalized plumbing service that matches this community's friendly, neighborly character.
 
 **Small Town Service**
 
@@ -1472,9 +1472,9 @@ Sunnyvale residents value honesty, reliability, and fair pricing—traditional v
 
 Many Sunnyvale families consider us their exclusive plumber, trusting us for everything from routine maintenance to major emergencies. We've earned this loyalty through consistent, excellent service.
 
-Whether you're planning upgrades or need routine maintenance, Downright Plumbing is Sunnyvale's trusted local choice. Call us Monday-Friday 8 AM - 5 PM for friendly, professional service.`,
+Whether you're planning upgrades or need routine maintenance, Down Right Plumbing is Sunnyvale's trusted local choice. Call us Monday-Friday 8 AM - 5 PM for friendly, professional service.`,
     testimonial: {
-      quote: "Living in Sunnyvale, we appreciate the small-town feel and personal service. Downright Plumbing perfectly fits this community—they're friendly, professional, and treat us like neighbors. They've handled everything from our well pump issues to a bathroom remodel. Highly recommend!",
+      quote: "Living in Sunnyvale, we appreciate the small-town feel and personal service. Down Right Plumbing perfectly fits this community—they're friendly, professional, and treat us like neighbors. They've handled everything from our well pump issues to a bathroom remodel. Highly recommend!",
       author: "Steve and Karen Mitchell",
       neighborhood: "Sunnyvale Meadows"
     },
@@ -1527,7 +1527,7 @@ Whether you're planning upgrades or need routine maintenance, Downright Plumbing
       lat: 33.0276,
       lng: -96.4361
     },
-    content: `Lavon is a small lakeside community offering peaceful waterfront living and country charm. Downright Plumbing serves this unique community with specialized expertise in lake property plumbing, rural systems, and the distinctive needs of Lavon's residents.
+    content: `Lavon is a small lakeside community offering peaceful waterfront living and country charm. Down Right Plumbing serves this unique community with specialized expertise in lake property plumbing, rural systems, and the distinctive needs of Lavon's residents.
 
 **Lake Property Specialists**
 
@@ -1551,9 +1551,9 @@ We provide plumbing service for Lavon during business hours (Monday-Friday 8 AM 
 
 Lavon residents value expertise with unique property types, understanding of lake and rural challenges, rapid response during business hours, professional, reliable service, and fair, transparent pricing.
 
-Whether you're enjoying lakefront living, maintaining a rural property, or anywhere in Lavon, Downright Plumbing is your trusted plumbing partner. Call us today for expert service.`,
+Whether you're enjoying lakefront living, maintaining a rural property, or anywhere in Lavon, Down Right Plumbing is your trusted plumbing partner. Call us today for expert service.`,
     testimonial: {
-      quote: "Our lakefront property in Lavon is our weekend retreat. Downright Plumbing winterized all our outdoor plumbing and dock systems perfectly—no freeze damage this year! They understand lake properties and the unique challenges they present.",
+      quote: "Our lakefront property in Lavon is our weekend retreat. Down Right Plumbing winterized all our outdoor plumbing and dock systems perfectly—no freeze damage this year! They understand lake properties and the unique challenges they present.",
       author: "Jim and Carol Peterson",
       neighborhood: "Lake Lavon Estates"
     },
@@ -1605,7 +1605,7 @@ Whether you're enjoying lakefront living, maintaining a rural property, or anywh
       lat: 33.0426,
       lng: -96.3740
     },
-    content: `Nevada, Texas (pronounced nuh-VAY-duh) is a charming small town where everybody knows your name and community matters. Downright Plumbing is proud to serve Nevada's families and businesses with personalized, professional plumbing service that matches this town's friendly character.
+    content: `Nevada, Texas (pronounced nuh-VAY-duh) is a charming small town where everybody knows your name and community matters. Down Right Plumbing is proud to serve Nevada's families and businesses with personalized, professional plumbing service that matches this town's friendly character.
 
 **Small Town, Big Service**
 
@@ -1631,9 +1631,9 @@ Nevada residents value honest, fair service from people who care about the commu
 
 In small towns, reputation is everything. We're proud Nevada residents trust and recommend us to their neighbors.
 
-Whether you're maintaining a historic Nevada home or managing a rural property, Downright Plumbing is your trusted local plumber. Call us Monday-Friday 8 AM - 5 PM.`,
+Whether you're maintaining a historic Nevada home or managing a rural property, Down Right Plumbing is your trusted local plumber. Call us Monday-Friday 8 AM - 5 PM.`,
     testimonial: {
-      quote: "Nevada is a small town where everyone knows everyone, so reputation really matters. Downright Plumbing has earned a great reputation here by doing honest work at fair prices. They fixed our well pump quickly and didn't try to sell us things we didn't need. That's the kind of integrity we appreciate!",
+      quote: "Nevada is a small town where everyone knows everyone, so reputation really matters. Down Right Plumbing has earned a great reputation here by doing honest work at fair prices. They fixed our well pump quickly and didn't try to sell us things we didn't need. That's the kind of integrity we appreciate!",
       author: "Billy and Martha Hayes",
       neighborhood: "Nevada"
     },
@@ -1685,7 +1685,7 @@ Whether you're maintaining a historic Nevada home or managing a rural property, 
       lat: 33.0651,
       lng: -96.2244
     },
-    content: `Caddo Mills is a peaceful rural community where country living meets friendly small-town atmosphere. Downright Plumbing serves Caddo Mills with expertise in rural property plumbing, agricultural systems, and the unique needs of this area's homes and properties.
+    content: `Caddo Mills is a peaceful rural community where country living meets friendly small-town atmosphere. Down Right Plumbing serves Caddo Mills with expertise in rural property plumbing, agricultural systems, and the unique needs of this area's homes and properties.
 
 **Rural Property Specialists**
 
@@ -1711,9 +1711,9 @@ Caddo Mills residents value expertise with rural systems, understanding of agric
 
 We understand country living and the unique requirements of rural properties. We're not just technically competent—we genuinely appreciate and respect the Caddo Mills lifestyle.
 
-Whether you're maintaining a working ranch or updating a country home, Downright Plumbing is your trusted plumbing partner in Caddo Mills. Call us Monday-Friday 8 AM - 5 PM.`,
+Whether you're maintaining a working ranch or updating a country home, Down Right Plumbing is your trusted plumbing partner in Caddo Mills. Call us Monday-Friday 8 AM - 5 PM.`,
     testimonial: {
-      quote: "Our family ranch in Caddo Mills depends on reliable well and livestock watering systems. Downright Plumbing keeps everything running smoothly. They understand agricultural plumbing and respond quickly when we need them. Glad to have found a plumber who understands rural properties!",
+      quote: "Our family ranch in Caddo Mills depends on reliable well and livestock watering systems. Down Right Plumbing keeps everything running smoothly. They understand agricultural plumbing and respond quickly when we need them. Glad to have found a plumber who understands rural properties!",
       author: "Travis Morrison",
       neighborhood: "Rural Caddo Mills"
     },
@@ -1767,7 +1767,7 @@ Whether you're maintaining a working ranch or updating a country home, Downright
       lat: 33.1384,
       lng: -96.1108
     },
-    content: `Greenville is a historic city with rich character and growing opportunities. While a bit further from our Rockwall base, Downright Plumbing is proud to serve Greenville's residents and businesses with professional plumbing expertise for this diverse community.
+    content: `Greenville is a historic city with rich character and growing opportunities. While a bit further from our Rockwall base, Down Right Plumbing is proud to serve Greenville's residents and businesses with professional plumbing expertise for this diverse community.
 
 **Serving Greenville's Diverse Needs**
 
@@ -1787,9 +1787,9 @@ While Greenville is further from our base, we typically arrive within 60-90 minu
 
 Greenville residents and business owners value reliable service from experienced professionals. We provide a licensed, experienced plumber, transparent, fair pricing, expertise across all property types, professional, clean service, and genuine commitment to customer satisfaction.
 
-Whether you're maintaining a historic downtown building, managing residential properties, or operating a Greenville business, Downright Plumbing provides professional plumbing service you can trust. Call us today.`,
+Whether you're maintaining a historic downtown building, managing residential properties, or operating a Greenville business, Down Right Plumbing provides professional plumbing service you can trust. Call us today.`,
     testimonial: {
-      quote: "Our historic building in downtown Greenville needed extensive plumbing updates. Downright Plumbing did excellent work updating the systems while being respectful of the building's character. Professional service and fair pricing. Glad we found them!",
+      quote: "Our historic building in downtown Greenville needed extensive plumbing updates. Down Right Plumbing did excellent work updating the systems while being respectful of the building's character. Professional service and fair pricing. Glad we found them!",
       author: "Margaret Phillips, Property Owner",
       neighborhood: "Downtown Greenville"
     },
@@ -1842,7 +1842,7 @@ Whether you're maintaining a historic downtown building, managing residential pr
       lat: 32.7359,
       lng: -96.2753
     },
-    content: `Terrell is a vibrant city with deep history and growing opportunities. Downright Plumbing serves Terrell's residents and businesses with comprehensive plumbing services for this diverse, thriving community.
+    content: `Terrell is a vibrant city with deep history and growing opportunities. Down Right Plumbing serves Terrell's residents and businesses with comprehensive plumbing services for this diverse, thriving community.
 
 **Understanding Terrell's Plumbing Needs**
 
@@ -1866,9 +1866,9 @@ Terrell businesses trust us for maintenance contracts, equipment installation, b
 
 Terrell residents and business owners value reliable service, fair pricing, and experienced professionals. We provide a licensed, experienced plumber, transparent, upfront pricing, rapid response during business hours, professional, clean service, and quality work backed by warranties.
 
-Whether you're a Terrell homeowner, property manager, or business owner, Downright Plumbing provides professional plumbing service you can trust. Call us today.`,
+Whether you're a Terrell homeowner, property manager, or business owner, Down Right Plumbing provides professional plumbing service you can trust. Call us today.`,
     testimonial: {
-      quote: "Our Terrell home's original water heater finally gave out after 15 years. Downright Plumbing came out quickly, explained our options clearly, and installed a new tankless system in one day. Professional service and great price. Highly recommend!",
+      quote: "Our Terrell home's original water heater finally gave out after 15 years. Down Right Plumbing came out quickly, explained our options clearly, and installed a new tankless system in one day. Professional service and great price. Highly recommend!",
       author: "Robert and Linda Garcia",
       neighborhood: "Terrell"
     },
@@ -1923,7 +1923,7 @@ Whether you're a Terrell homeowner, property manager, or business owner, Downrig
       lat: 32.7767,
       lng: -96.7970
     },
-    content: `Dallas is the heart of the metroplex, and while we're based in Rockwall, Downright Plumbing proudly serves East Dallas neighborhoods including Lake Highlands, White Rock, Lakewood, and surrounding areas with professional plumbing expertise.
+    content: `Dallas is the heart of the metroplex, and while we're based in Rockwall, Down Right Plumbing proudly serves East Dallas neighborhoods including Lake Highlands, White Rock, Lakewood, and surrounding areas with professional plumbing expertise.
 
 **Serving East Dallas**
 
@@ -1947,9 +1947,9 @@ East Dallas businesses trust us for commercial plumbing including maintenance co
 
 East Dallas residents and business owners value reliable service from experienced professionals. We provide a licensed, experienced plumber, transparent, fair pricing, rapid response during business hours, professional, clean service, and quality work you can trust.
 
-Whether you're in Lake Highlands, Lakewood, White Rock, or surrounding East Dallas areas, Downright Plumbing provides professional plumbing service. Call us today.`,
+Whether you're in Lake Highlands, Lakewood, White Rock, or surrounding East Dallas areas, Down Right Plumbing provides professional plumbing service. Call us today.`,
     testimonial: {
-      quote: "Our 1960s home in Lake Highlands had terrible plumbing issues—low pressure, rusty water, and frequent leaks. Downright Plumbing replaced all the old pipes and now everything works perfectly. They were professional, efficient, and fairly priced. Excellent work!",
+      quote: "Our 1960s home in Lake Highlands had terrible plumbing issues—low pressure, rusty water, and frequent leaks. Down Right Plumbing replaced all the old pipes and now everything works perfectly. They were professional, efficient, and fairly priced. Excellent work!",
       author: "Marcus Johnson",
       neighborhood: "Lake Highlands"
     },
@@ -2004,7 +2004,7 @@ Whether you're in Lake Highlands, Lakewood, White Rock, or surrounding East Dall
       lat: 32.9483,
       lng: -96.7299
     },
-    content: `Richardson is a thriving city known for excellent schools, diverse community, and strong business presence. Downright Plumbing serves Richardson's residents and businesses with professional plumbing expertise for this dynamic city.
+    content: `Richardson is a thriving city known for excellent schools, diverse community, and strong business presence. Down Right Plumbing serves Richardson's residents and businesses with professional plumbing expertise for this dynamic city.
 
 **Understanding Richardson's Plumbing Needs**
 
@@ -2028,9 +2028,9 @@ Richardson businesses and property managers trust us for maintenance contracts, 
 
 Richardson residents and business owners value reliable service, fair pricing, and experienced professionals. We provide a licensed, experienced plumber, transparent, upfront pricing, rapid response during business hours, professional, clean service, and quality work backed by warranties.
 
-Whether you're a Richardson homeowner, property manager, or business owner, Downright Plumbing provides professional plumbing service you can trust. Call us today.`,
+Whether you're a Richardson homeowner, property manager, or business owner, Down Right Plumbing provides professional plumbing service you can trust. Call us today.`,
     testimonial: {
-      quote: "Our Richardson home needed complete repiping due to corroded galvanized pipes. Downright Plumbing did excellent work replacing everything with PEX in just three days. Water pressure is amazing now and no more rusty water! Professional crew, fair price, and they cleaned up perfectly.",
+      quote: "Our Richardson home needed complete repiping due to corroded galvanized pipes. Down Right Plumbing did excellent work replacing everything with PEX in just three days. Water pressure is amazing now and no more rusty water! Professional crew, fair price, and they cleaned up perfectly.",
       author: "Paul and Susan Kim",
       neighborhood: "Canyon Creek"
     },
@@ -2083,7 +2083,7 @@ Whether you're a Richardson homeowner, property manager, or business owner, Down
       lat: 33.0851,
       lng: -96.5764
     },
-    content: `Lucas is an exclusive community featuring beautiful estates, larger lots, and rural character with upscale amenities. Downright Plumbing serves Lucas with expertise in luxury home plumbing, estate systems, and the sophisticated installations this community demands.
+    content: `Lucas is an exclusive community featuring beautiful estates, larger lots, and rural character with upscale amenities. Down Right Plumbing serves Lucas with expertise in luxury home plumbing, estate systems, and the sophisticated installations this community demands.
 
 **Premier Service for Lucas Estates**
 
@@ -2107,9 +2107,9 @@ Lucas residents expect excellence, and we deliver with experience with luxury sy
 
 Many Lucas families trust us as their exclusive plumbing partner for everything from routine maintenance to ambitious projects.
 
-Whether you need routine maintenance, luxury installations, or estate plumbing management, Downright Plumbing is Lucas's trusted choice. Call us Monday-Friday 8 AM - 5 PM.`,
+Whether you need routine maintenance, luxury installations, or estate plumbing management, Down Right Plumbing is Lucas's trusted choice. Call us Monday-Friday 8 AM - 5 PM.`,
     testimonial: {
-      quote: "Our Lucas estate has extensive irrigation, a pool, outdoor kitchen, and guest house. Downright Plumbing maintains all our plumbing systems and has handled several upgrades including our master bathroom spa installation. They're professionals who understand upscale properties and deliver exceptional work.",
+      quote: "Our Lucas estate has extensive irrigation, a pool, outdoor kitchen, and guest house. Down Right Plumbing maintains all our plumbing systems and has handled several upgrades including our master bathroom spa installation. They're professionals who understand upscale properties and deliver exceptional work.",
       author: "Christopher and Diana Bennett",
       neighborhood: "Brockdale"
     },
@@ -2166,7 +2166,7 @@ export function getCityMetadata(slug: string) {
   if (!city) return null;
 
   return {
-    title: `Plumber in ${city.fullName} | Professional Plumbing Service | Downright Plumbing`,
+    title: `Plumber in ${city.fullName} | Professional Plumbing Service | Down Right Plumbing`,
     description: `Trusted plumbing services in ${city.fullName}. ${city.distance} from our Rockwall HQ. Licensed plumbers, upfront pricing. Mon-Fri 8 AM - 5 PM. Call today!`,
   };
 }

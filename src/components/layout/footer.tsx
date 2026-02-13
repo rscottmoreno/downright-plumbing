@@ -70,7 +70,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-lg font-heading font-semibold mb-4">Downright Plumbing</h3>
+            <h3 className="text-lg font-heading font-semibold mb-4">Down Right Plumbing</h3>
             <p className="text-gray-400 mb-6 text-sm leading-relaxed">
               Professional plumbing services with heart. Serving the Rockwall, TX area with integrity,
               expertise, and a commitment to excellence.
@@ -162,7 +162,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-          <p>© {new Date().getFullYear()} Downright Plumbing. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Down Right Plumbing. All rights reserved.</p>
           <p className="flex items-center gap-1">
             Made with <Heart className="h-4 w-4 text-red-500 fill-red-500" /> for
             the Down syndrome community

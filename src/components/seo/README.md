@@ -1,6 +1,6 @@
 # SEO Infrastructure Documentation
 
-This directory contains all SEO-related components and utilities for the Downright Plumbing website.
+This directory contains all SEO-related components and utilities for the Down Right Plumbing website.
 
 ## Components
 
@@ -242,7 +242,7 @@ const canonical = generateCanonicalUrl('/services/drain-cleaning');
 const breadcrumbs = pathnameToBreadcrumbs('/services/drain-cleaning');
 
 // Access site configuration
-console.log(SITE_CONFIG.name); // 'Downright Plumbing'
+console.log(SITE_CONFIG.name); // 'Down Right Plumbing'
 console.log(SITE_CONFIG.phone); // '+1-214-802-3042'
 console.log(SITE_CONFIG.serviceAreas); // Array of cities
 ```

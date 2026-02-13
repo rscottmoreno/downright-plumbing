@@ -66,7 +66,7 @@ export interface WebSiteSchema {
 
 // LocalBusiness JSON-LD Component
 export function LocalBusinessJsonLd({
-  name = "Downright Plumbing",
+  name = "Down Right Plumbing",
   image = "https://downrightplumbingtx.com/logo.png",
   telephone = "+1-214-802-3042",
   email = "dougw@downrightplumbingtx.com",
@@ -166,7 +166,7 @@ export function ServiceJsonLd({
   name,
   description,
   provider = {
-    name: "Downright Plumbing",
+    name: "Down Right Plumbing",
     telephone: "+1-214-802-3042"
   },
   areaServed = [
@@ -256,7 +256,7 @@ export function BreadcrumbJsonLd({ items }: { items: BreadcrumbItem[] }) {
 
 // WebSite with SearchAction JSON-LD Component
 export function WebSiteJsonLd({
-  name = "Downright Plumbing",
+  name = "Down Right Plumbing",
   url = "https://downrightplumbingtx.com",
   potentialAction
 }: Partial<WebSiteSchema> = {}) {

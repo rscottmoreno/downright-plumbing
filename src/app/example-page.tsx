@@ -61,7 +61,7 @@ export default function ExamplePage() {
 
       {/* ===== WHY CHOOSE US ===== */}
       <WhyChooseUs
-        title="Why Choose Downright Plumbing?"
+        title="Why Choose Down Right Plumbing?"
         subtitle="Our Commitment"
         description="We're dedicated to providing exceptional plumbing services that exceed your expectations."
       />
@@ -77,7 +77,7 @@ export default function ExamplePage() {
       {/* ===== OUR STORY TEASER ===== */}
       <OurStoryTeaser
         title="Our Story"
-        description="Downright Plumbing has been serving Oklahoma communities for over 15 years with integrity, expertise, and a commitment to excellence. We're a family-owned business that treats every customer like family."
+        description="Down Right Plumbing has been serving Oklahoma communities for over 15 years with integrity, expertise, and a commitment to excellence. We're a family-owned business that treats every customer like family."
         image="/images/team-photo.jpg"
         buttonText="Learn More About Us"
         buttonHref="/our-story"

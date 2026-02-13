@@ -1,4 +1,4 @@
-# Downright Plumbing - Reusable Components
+# Down Right Plumbing - Reusable Components
 
 This document provides an overview of all reusable components in the project and how to use them.
 

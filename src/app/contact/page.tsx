@@ -125,7 +125,7 @@ export default function ContactPage() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Get in Touch with Downright Plumbing
+              Get in Touch with Down Right Plumbing
             </h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
               Monday-Friday 8 AM - 5 PM. We're here to help with all your plumbing needs.
@@ -482,7 +482,7 @@ export default function ContactPage() {
               {/* Why Choose Us Card */}
               <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl shadow-xl p-8 text-white">
                 <Wrench className="w-10 h-10 mb-4" />
-                <h3 className="text-2xl font-bold mb-4">Why Choose Downright?</h3>
+                <h3 className="text-2xl font-bold mb-4">Why Choose Down Right?</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 flex-shrink-0 mt-0.5" />

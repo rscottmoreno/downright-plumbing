@@ -26,8 +26,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://downrightplumbingtx.com"),
   title: {
-    default: "Downright Plumbing | Professional Plumbing Services in Rockwall, TX",
-    template: "%s | Downright Plumbing",
+    default: "Down Right Plumbing | Professional Plumbing Services in Rockwall, TX",
+    template: "%s | Down Right Plumbing",
   },
   description:
     "Professional plumbing services in Rockwall, TX and surrounding areas. Licensed & insured. Expert repairs, installations, and maintenance with heart. Monday-Friday, 8 AM - 5 PM.",
@@ -42,9 +42,9 @@ export const metadata: Metadata = {
     "pipe repair",
     "plumbing services",
   ],
-  authors: [{ name: "Downright Plumbing" }],
-  creator: "Downright Plumbing",
-  publisher: "Downright Plumbing",
+  authors: [{ name: "Down Right Plumbing" }],
+  creator: "Down Right Plumbing",
+  publisher: "Down Right Plumbing",
   formatDetection: {
     email: false,
     address: false,
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://downrightplumbingtx.com",
-    siteName: "Downright Plumbing",
-    title: "Downright Plumbing | Professional Plumbing Services in Rockwall, TX",
+    siteName: "Down Right Plumbing",
+    title: "Down Right Plumbing | Professional Plumbing Services in Rockwall, TX",
     description:
       "Professional plumbing services in Rockwall, TX and surrounding areas. Licensed & insured. Monday-Friday, 8 AM - 5 PM.",
     images: [
@@ -63,13 +63,13 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Downright Plumbing - Professional Plumbing Services",
+        alt: "Down Right Plumbing - Professional Plumbing Services",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Downright Plumbing | Professional Plumbing Services in Rockwall, TX",
+    title: "Down Right Plumbing | Professional Plumbing Services in Rockwall, TX",
     description:
       "Professional plumbing services in Rockwall, TX and surrounding areas. Licensed & insured. Monday-Friday, 8 AM - 5 PM.",
     images: ["/og-image.jpg"],
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "Downright Plumbing",
+  name: "Down Right Plumbing",
   image: "https://downrightplumbingtx.com/logo.jpg",
   "@id": "https://downrightplumbingtx.com",
   url: "https://downrightplumbingtx.com",

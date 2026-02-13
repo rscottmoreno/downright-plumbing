@@ -15,11 +15,11 @@ import {
 import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Downright Plumbing',
-  description: 'Privacy Policy for Downright Plumbing. Learn how we collect, use, and protect your personal information when you use our plumbing services in Rockwall, TX.',
+  title: 'Privacy Policy | Down Right Plumbing',
+  description: 'Privacy Policy for Down Right Plumbing. Learn how we collect, use, and protect your personal information when you use our plumbing services in Rockwall, TX.',
   openGraph: {
-    title: 'Privacy Policy | Downright Plumbing',
-    description: 'Learn how Downright Plumbing protects your privacy and personal information.',
+    title: 'Privacy Policy | Down Right Plumbing',
+    description: 'Learn how Down Right Plumbing protects your privacy and personal information.',
     type: 'website',
   },
   robots: {
@@ -76,7 +76,7 @@ export default function PrivacyPolicyPage() {
                     Introduction
                   </h2>
                   <p className="text-gray-700 leading-relaxed">
-                    Downright Plumbing ("we," "our," or "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our services, or contact us. Please read this policy carefully.
+                    Down Right Plumbing ("we," "our," or "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our services, or contact us. Please read this policy carefully.
                   </p>
                 </div>
               </div>
@@ -485,7 +485,7 @@ export default function PrivacyPolicyPage() {
                     <div>
                       <p className="font-semibold text-gray-900">Mailing Address</p>
                       <p className="text-gray-700">
-                        Downright Plumbing
+                        Down Right Plumbing
                         <br />
                         504 E Interstate 30 #424
                         <br />

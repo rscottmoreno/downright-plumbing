@@ -49,7 +49,7 @@ export const blogPosts: BlogPost[] = [
           title: '1. Burst Pipes and Major Water Leaks',
           content: `A burst pipe is one of the most serious plumbing issues you can face in your Rockwall home. Texas weather can be unpredictable, and sudden temperature drops can cause pipes to freeze and burst, leading to significant water damage within minutes.
 
-If you notice water gushing from walls, ceilings, or under sinks, turn off your main water supply immediately and call Downright Plumbing at (214) 802-3042 during business hours (Monday-Friday, 8 AM - 5 PM). Our professional team serves Rockwall, Heath, and surrounding DFW areas.
+If you notice water gushing from walls, ceilings, or under sinks, turn off your main water supply immediately and call Down Right Plumbing at (214) 802-3042 during business hours (Monday-Friday, 8 AM - 5 PM). Our professional team serves Rockwall, Heath, and surrounding DFW areas.
 
 The damage from a burst pipe compounds rapidly. Within the first hour, water can saturate drywall, flooring, and furniture. After 24 hours, mold growth can begin, creating health hazards and requiring expensive remediation. Knowing your main water shutoff location is essential to minimize damage until we can help.`,
         },
@@ -61,7 +61,7 @@ This could signal a broken water main, a severe leak in your home's plumbing sys
         },
         {
           title: '3. Sewage Backup or Toilet Overflow',
-          content: `A sewage backup is not only unpleasant—it's a serious health hazard. Raw sewage contains harmful bacteria, viruses, and parasites that can make your family sick. If you notice sewage backing up into your toilets, bathtubs, or sinks, evacuate the affected area and contact a professional plumber as soon as possible. Call Downright Plumbing at (214) 802-3042 during business hours.
+          content: `A sewage backup is not only unpleasant—it's a serious health hazard. Raw sewage contains harmful bacteria, viruses, and parasites that can make your family sick. If you notice sewage backing up into your toilets, bathtubs, or sinks, evacuate the affected area and contact a professional plumber as soon as possible. Call Down Right Plumbing at (214) 802-3042 during business hours.
 
 Common causes of sewage backups in Rockwall homes include tree root intrusion into sewer lines, collapsed pipes, or blockages in the main sewer line. The clay soil common in North Texas can shift and crack pipes over time, making this a recurring issue for some properties.
 
@@ -79,7 +79,7 @@ Our experienced plumbers can assess whether your water heater needs repair or re
           title: '5. Gas Smell Near Water Heater or Gas Lines',
           content: `If you smell gas anywhere in your Rockwall home, especially near your water heater, gas furnace, or along gas pipe runs, this is a life-threatening situation. Gas leaks can lead to explosions and carbon monoxide poisoning.
 
-Immediately evacuate your home, do not use any electrical switches or open flames, and call 911 from a safe distance. Then contact a licensed plumber once the gas company has secured the situation. Downright Plumbing is equipped to handle gas line repairs during our business hours (Monday-Friday, 8 AM - 5 PM). Call (214) 802-3042.
+Immediately evacuate your home, do not use any electrical switches or open flames, and call 911 from a safe distance. Then contact a licensed plumber once the gas company has secured the situation. Down Right Plumbing is equipped to handle gas line repairs during our business hours (Monday-Friday, 8 AM - 5 PM). Call (214) 802-3042.
 
 Natural gas has a distinctive "rotten egg" smell added specifically so leaks can be detected. Never ignore this warning sign or assume it will resolve on its own.`,
         },
@@ -121,10 +121,10 @@ Our professional plumbers use video camera inspection to identify the exact prob
 
 Water and electricity are a dangerous combination. If water is leaking anywhere near your electrical system, shut off power to that area if you can do so safely, turn off the main water supply, and call for professional plumbing service during business hours.
 
-The cost of prompt plumbing service is always less than the cost of extensive water damage repairs, mold remediation, and structural repairs that result from delayed action. Contact Downright Plumbing at (214) 802-3042, Monday-Friday, 8 AM - 5 PM.`,
+The cost of prompt plumbing service is always less than the cost of extensive water damage repairs, mold remediation, and structural repairs that result from delayed action. Contact Down Right Plumbing at (214) 802-3042, Monday-Friday, 8 AM - 5 PM.`,
         },
         {
-          title: 'When to Call Downright Plumbing for Urgent Service',
+          title: 'When to Call Down Right Plumbing for Urgent Service',
           content: `Our plumbing service is available during business hours throughout Rockwall, Heath, Fate, Royse City, and the entire DFW metroplex. We're open Monday through Friday, 8 AM to 5 PM, ready to help with your urgent plumbing needs.
 
 When you call (214) 802-3042 during business hours, Doug can schedule service at your location. The truck is fully stocked with common parts and equipment, allowing most repairs to be completed efficiently on the first visit.
@@ -140,10 +140,10 @@ Regular maintenance includes water heater flushing (critical in our hard water a
 Knowing where your main water shutoff valve is located and how to use it can minimize damage if a serious issue occurs outside business hours. Every family member should know this location so they can stop water flow until we can help during business hours.`,
         },
         {
-          title: 'Trust Downright Plumbing for Professional Service',
-          content: `Downright Plumbing has served Rockwall and the surrounding communities for years, building a reputation for reliable, honest, and expert plumbing service. Our professional plumbers are licensed, insured, and experienced in handling all types of plumbing issues.
+          title: 'Trust Down Right Plumbing for Professional Service',
+          content: `Down Right Plumbing has served Rockwall and the surrounding communities for years, building a reputation for reliable, honest, and expert plumbing service. Our professional plumbers are licensed, insured, and experienced in handling all types of plumbing issues.
 
-We stand behind our work with solid warranties and guarantee your satisfaction. When you're facing a plumbing issue in Rockwall, TX, you can count on Downright Plumbing to fix the problem right the first time.
+We stand behind our work with solid warranties and guarantee your satisfaction. When you're facing a plumbing issue in Rockwall, TX, you can count on Down Right Plumbing to fix the problem right the first time.
 
 Don't wait until a small problem becomes a major issue. Call us at (214) 802-3042 during business hours (Monday-Friday, 8 AM - 5 PM) for plumbing service throughout Rockwall, Heath, Fate, Royse City, and the DFW area.`,
         },
@@ -281,7 +281,7 @@ Tank water heaters need annual flushing to remove sediment, anode rod inspection
 
 Tankless water heaters require annual descaling to remove mineral buildup (critical in hard water areas), air filter cleaning, burner inspection and cleaning, and checking for error codes or performance issues.
 
-Regular maintenance by Downright Plumbing can double your water heater's lifespan and maintain efficiency, saving you money in the long run. We offer maintenance plans specifically designed for Rockwall's water conditions.`,
+Regular maintenance by Down Right Plumbing can double your water heater's lifespan and maintain efficiency, saving you money in the long run. We offer maintenance plans specifically designed for Rockwall's water conditions.`,
         },
         {
           title: 'Making Your Decision: Expert Recommendations',
@@ -298,14 +298,14 @@ For new construction or major renovations: Install tankless water heaters and in
 For budget-conscious homeowners: A traditional tank water heater offers reliable performance at the lowest upfront cost. Choose a well-reviewed model and maintain it properly.`,
         },
         {
-          title: 'Trust Downright Plumbing for Water Heater Installation',
-          content: `Choosing the right water heater is just the first step—proper installation is equally important. Downright Plumbing has installed hundreds of water heaters throughout Rockwall, Heath, Fate, and the surrounding areas.
+          title: 'Trust Down Right Plumbing for Water Heater Installation',
+          content: `Choosing the right water heater is just the first step—proper installation is equally important. Down Right Plumbing has installed hundreds of water heaters throughout Rockwall, Heath, Fate, and the surrounding areas.
 
 Our licensed plumbers will assess your specific needs, recommend the best option for your home and budget, and install your new water heater to manufacturer specifications and local codes. We handle all permits, inspections, and disposal of your old unit.
 
 We offer various water heater brands and models to fit every budget and need, from budget-friendly options to premium, high-efficiency models. Our upfront pricing means no surprises, and our warranties give you peace of mind.
 
-Schedule a free consultation with Downright Plumbing to discuss your water heater options. Call us at (214) 802-3042 or visit our website to learn more about our water heater services in Rockwall, TX.`,
+Schedule a free consultation with Down Right Plumbing to discuss your water heater options. Call us at (214) 802-3042 or visit our website to learn more about our water heater services in Rockwall, TX.`,
         },
       ],
     },
@@ -335,13 +335,13 @@ The mineral content creates scale buildup inside pipes, gradually restricting wa
 
 The solution is water softening. A whole-house water softener removes minerals before they enter your plumbing system, protecting pipes, fixtures, and appliances. While this represents an investment ($1,500-$3,000 installed), it pays for itself through extended appliance life, reduced energy costs, and less cleaning.
 
-For existing fixtures, CLR or white vinegar can remove hard water deposits. However, this is ongoing maintenance rather than a permanent solution. Downright Plumbing can assess your water hardness and recommend the right softening system for your Rockwall home.`,
+For existing fixtures, CLR or white vinegar can remove hard water deposits. However, this is ongoing maintenance rather than a permanent solution. Down Right Plumbing can assess your water hardness and recommend the right softening system for your Rockwall home.`,
         },
         {
           title: 'Dripping Faucets and Running Toilets',
           content: `That annoying drip from your bathroom faucet isn't just irritating—it's wasteful and costly. A faucet dripping once per second wastes over 3,000 gallons annually. In Rockwall's hard water conditions, mineral deposits often cause these drips by preventing washers and seals from closing completely.
 
-Most dripping faucets need new washers, O-rings, or cartridges. This is often a DIY fix for handy homeowners, though our hard water means you might need repairs more frequently than homes in soft water areas. If you're uncomfortable working on plumbing, Downright Plumbing can repair any dripping faucet quickly and affordably.
+Most dripping faucets need new washers, O-rings, or cartridges. This is often a DIY fix for handy homeowners, though our hard water means you might need repairs more frequently than homes in soft water areas. If you're uncomfortable working on plumbing, Down Right Plumbing can repair any dripping faucet quickly and affordably.
 
 Running toilets are another common water-waster, often caused by worn flapper valves, improperly adjusted float mechanisms, or mineral buildup affecting the fill valve. A running toilet can waste 200+ gallons daily—check by adding food coloring to the tank and seeing if it appears in the bowl without flushing.
 
@@ -357,7 +357,7 @@ For minor clogs, try a plunger first—it's often effective and doesn't risk dam
 
 Avoid chemical drain cleaners. They're harsh on pipes, especially older ones, and often don't work on tough clogs. They're also dangerous to handle. Instead, use a drain snake (also called an auger) to physically remove clogs.
 
-For persistent or recurring clogs, professional drain cleaning is the answer. Downright Plumbing uses video camera inspection to identify the exact problem and hydro-jetting to thoroughly clear main drain lines. This is especially important if multiple drains are slow, suggesting a problem with your main sewer line.`,
+For persistent or recurring clogs, professional drain cleaning is the answer. Down Right Plumbing uses video camera inspection to identify the exact problem and hydro-jetting to thoroughly clear main drain lines. This is especially important if multiple drains are slow, suggesting a problem with your main sewer line.`,
         },
         {
           title: 'Slab Leaks: A Serious Foundation Concern',
@@ -367,7 +367,7 @@ North Texas clay soil expands when wet and contracts when dry, creating pressure
 
 Warning signs of slab leaks include unexplained increases in water bills, sound of running water when all fixtures are off, warm spots on floors (from hot water line leaks), cracks in walls or flooring, foundation movement or settling, and moisture or mildew smell.
 
-Slab leaks are serious. They can undermine your foundation, cause structural damage, promote mold growth, and waste thousands of gallons of water. If you suspect a slab leak, call Downright Plumbing immediately for electronic leak detection.
+Slab leaks are serious. They can undermine your foundation, cause structural damage, promote mold growth, and waste thousands of gallons of water. If you suspect a slab leak, call Down Right Plumbing immediately for electronic leak detection.
 
 We use specialized equipment to pinpoint leak locations without destructive exploratory digging. Depending on the situation, we may recommend spot repair, pipe rerouting, or whole-house repiping. Acting quickly minimizes damage and repair costs.`,
         },
@@ -383,7 +383,7 @@ Single-fixture low pressure usually means a clogged aerator. Unscrew the aerator
 
 For persistent whole-house low pressure, your home may need repiping. Older galvanized steel pipes corrode internally, drastically reducing flow. Modern PEX or copper repiping restores proper pressure and water quality.
 
-Downright Plumbing can diagnose pressure problems and recommend the most cost-effective solution, from simple aerator cleaning to whole-house repiping.`,
+Down Right Plumbing can diagnose pressure problems and recommend the most cost-effective solution, from simple aerator cleaning to whole-house repiping.`,
         },
         {
           title: 'Water Heater Problems and Failures',
@@ -395,7 +395,7 @@ Regular maintenance extends water heater life significantly. Annual flushing rem
 
 If your water heater is over 10 years old and having problems, replacement usually makes more sense than repair. Modern water heaters are more efficient and may qualify for utility rebates or tax credits.
 
-Downright Plumbing offers both water heater repair and replacement services. We'll assess your situation honestly and recommend the most cost-effective solution. We install all types of water heaters, including tank, tankless, and hybrid models.`,
+Down Right Plumbing offers both water heater repair and replacement services. We'll assess your situation honestly and recommend the most cost-effective solution. We install all types of water heaters, including tank, tankless, and hybrid models.`,
         },
         {
           title: 'Leaking Pipes and Fixtures',
@@ -407,7 +407,7 @@ Pipe leaks can result from corrosion (especially in older galvanized or copper p
 
 Never ignore even small leaks. That drip may seem minor, but it can waste thousands of gallons annually and often indicates developing problems. Small leaks frequently become big leaks, especially when pipes are already compromised by corrosion or age.
 
-For any leaking pipes, especially those inside walls or under your foundation, call Downright Plumbing. We use leak detection equipment to locate problems without unnecessary damage to your home, and our repairs are guaranteed.`,
+For any leaking pipes, especially those inside walls or under your foundation, call Down Right Plumbing. We use leak detection equipment to locate problems without unnecessary damage to your home, and our repairs are guaranteed.`,
         },
         {
           title: 'Garbage Disposal Issues',
@@ -419,7 +419,7 @@ If your disposal is jammed, turn off power at the breaker before attempting anyt
 
 For clogs beyond the disposal, you may need to remove the P-trap and snake the drain line. Leaks often occur at the sink flange connection or discharge pipe—these may just need tightening.
 
-Most disposals last 8-12 years. If yours is old and having repeated problems, replacement is usually the best option. Downright Plumbing can install a new, properly sized disposal quickly and professionally.`,
+Most disposals last 8-12 years. If yours is old and having repeated problems, replacement is usually the best option. Down Right Plumbing can install a new, properly sized disposal quickly and professionally.`,
         },
         {
           title: 'Sewer Line Problems and Tree Root Intrusion',
@@ -441,7 +441,7 @@ Pipes most at risk are those in unheated areas (attics, garages, crawl spaces), 
 
 Prevention is key. Before freezing weather, disconnect and drain garden hoses, shut off and drain outdoor faucet lines if possible, insulate pipes in vulnerable areas, seal cracks in exterior walls near pipes, and keep cabinet doors open to allow warm air circulation during freezes.
 
-If pipes do freeze, never use open flames to thaw them. Use a hair dryer, heat lamp, or portable heater, working from the faucet toward the frozen section. If you can't locate the freeze or can't safely thaw pipes, call Downright Plumbing during business hours at (214) 802-3042.
+If pipes do freeze, never use open flames to thaw them. Use a hair dryer, heat lamp, or portable heater, working from the faucet toward the frozen section. If you can't locate the freeze or can't safely thaw pipes, call Down Right Plumbing during business hours at (214) 802-3042.
 
 If a pipe bursts, immediately shut off the main water supply to minimize damage, then contact us during business hours (Monday-Friday, 8 AM - 5 PM) for prompt repair service. Taking quick action to stop the water flow is essential.`,
         },
@@ -459,7 +459,7 @@ If odors persist despite these measures, you may have a broken or improperly ins
         },
         {
           title: 'When to Call a Professional Plumber',
-          content: `While handy homeowners can handle some minor plumbing issues, many problems require professional expertise and tools. Call Downright Plumbing during business hours (Monday-Friday, 8 AM - 5 PM) at (214) 802-3042 when you encounter recurring clogs despite your efforts, any sewage backups, slab leak symptoms, major leaks or burst pipes, water heater problems beyond basic maintenance, low water pressure throughout your home, or frozen pipes you can't safely thaw.
+          content: `While handy homeowners can handle some minor plumbing issues, many problems require professional expertise and tools. Call Down Right Plumbing during business hours (Monday-Friday, 8 AM - 5 PM) at (214) 802-3042 when you encounter recurring clogs despite your efforts, any sewage backups, slab leak symptoms, major leaks or burst pipes, water heater problems beyond basic maintenance, low water pressure throughout your home, or frozen pipes you can't safely thaw.
 
 Also call us for any project requiring new pipes or fixtures, gas line work, or anything involving your sewer line. These aren't appropriate DIY projects and often require permits and inspections.
 
@@ -471,13 +471,13 @@ Texas law requires licensed plumbers for many tasks, and homeowner's insurance m
 
 Regular maintenance catches small problems before they become expensive emergencies. This is especially important in Rockwall given our hard water and soil conditions.
 
-Downright Plumbing offers comprehensive maintenance plans designed specifically for North Texas homes. Our plans include scheduled maintenance visits, priority emergency service, and discounts on repairs and replacements.
+Down Right Plumbing offers comprehensive maintenance plans designed specifically for North Texas homes. Our plans include scheduled maintenance visits, priority emergency service, and discounts on repairs and replacements.
 
 Investing in preventive maintenance saves money in the long run and gives you peace of mind knowing your plumbing system is in good condition.`,
         },
         {
-          title: 'Trust Downright Plumbing for All Your Rockwall Plumbing Needs',
-          content: `Whether you're dealing with a minor annoyance or a major plumbing issue, Downright Plumbing is here to help during business hours. We've served Rockwall, Heath, Fate, Royse City, and surrounding communities for years, and we understand the unique challenges local homeowners face.
+          title: 'Trust Down Right Plumbing for All Your Rockwall Plumbing Needs',
+          content: `Whether you're dealing with a minor annoyance or a major plumbing issue, Down Right Plumbing is here to help during business hours. We've served Rockwall, Heath, Fate, Royse City, and surrounding communities for years, and we understand the unique challenges local homeowners face.
 
 Our licensed, insured plumbers provide honest assessments, upfront pricing, and quality workmanship backed by solid warranties. We treat your home with respect and stand behind our work.
 
@@ -579,7 +579,7 @@ Foul odors from drains can mean decaying organic matter stuck in pipes, or worse
 
 Water backing up in unusual places—like the shower running when you flush the toilet—is a red flag indicating main line problems.
 
-If you notice any of these signs, call Downright Plumbing before a minor issue becomes a major emergency. Our camera inspection can identify exactly what's wrong and how to fix it.`,
+If you notice any of these signs, call Down Right Plumbing before a minor issue becomes a major emergency. Our camera inspection can identify exactly what's wrong and how to fix it.`,
         },
         {
           title: 'Special Considerations for Rockwall\'s Plumbing Challenges',
@@ -649,7 +649,7 @@ For environmentally-conscious Rockwall homeowners, professional drain cleaning a
 
 Consider a comprehensive plumbing maintenance plan that includes annual drain cleaning and inspection, water heater maintenance and flushing, leak detection survey, and fixture and valve inspection. This holistic approach catches problems early and keeps your entire plumbing system in optimal condition.
 
-Downright Plumbing offers customized maintenance plans for Rockwall homeowners. Our plans include scheduled services at discounted rates, priority scheduling for emergencies, and detailed service records for your home files.
+Down Right Plumbing offers customized maintenance plans for Rockwall homeowners. Our plans include scheduled services at discounted rates, priority scheduling for emergencies, and detailed service records for your home files.
 
 Many homeowners find that annual maintenance plans cost less than they expect—and far less than the average emergency repair call.`,
         },
@@ -667,13 +667,13 @@ Transparent, upfront pricing—you should know costs before work begins, with no
 
 Positive reviews from other Rockwall homeowners provide insight into reliability and quality.
 
-Downright Plumbing meets all these criteria. We're licensed, insured, and equipped with the latest technology. We provide written estimates before beginning work, and we stand behind our services with solid warranties.`,
+Down Right Plumbing meets all these criteria. We're licensed, insured, and equipped with the latest technology. We provide written estimates before beginning work, and we stand behind our services with solid warranties.`,
         },
         {
-          title: 'Schedule Your Drain Cleaning with Downright Plumbing',
+          title: 'Schedule Your Drain Cleaning with Down Right Plumbing',
           content: `Don't wait for a drain emergency to think about drain cleaning. Protect your Rockwall home and save money with regular preventive maintenance.
 
-Downright Plumbing makes drain cleaning easy and affordable. We serve Rockwall, Heath, Fate, Royse City, and throughout the DFW area with reliable, professional service.
+Down Right Plumbing makes drain cleaning easy and affordable. We serve Rockwall, Heath, Fate, Royse City, and throughout the DFW area with reliable, professional service.
 
 Our comprehensive drain cleaning service includes video camera inspection, hydro-jetting or snaking as needed, cleaning of main sewer line and key drains, detailed report of findings and recommendations, and competitive, upfront pricing with no hidden fees.
 
@@ -745,11 +745,11 @@ Foundation heaving or settling occurs when leaked water undermines your foundati
 
 Low water pressure throughout your home can occur when a significant leak diverts water before it reaches fixtures.
 
-If you notice any of these signs, call Downright Plumbing immediately for slab leak detection. The sooner we find and fix the leak, the less damage your home sustains.`,
+If you notice any of these signs, call Down Right Plumbing immediately for slab leak detection. The sooner we find and fix the leak, the less damage your home sustains.`,
         },
         {
           title: 'How Professional Slab Leak Detection Works',
-          content: `Detecting slab leaks requires specialized equipment and expertise. Downright Plumbing uses multiple technologies to pinpoint leaks without unnecessary destruction of your flooring or foundation.
+          content: `Detecting slab leaks requires specialized equipment and expertise. Down Right Plumbing uses multiple technologies to pinpoint leaks without unnecessary destruction of your flooring or foundation.
 
 Electronic leak detection is our primary method. We use sensitive listening devices that detect the sound of water escaping from pressurized pipes. These devices can hear leaks through concrete, allowing us to pinpoint the location accurately.
 
@@ -807,7 +807,7 @@ Typically, insurance covers water damage to your home's structure and contents, 
 
 Insurance often doesn't cover the actual plumbing repair (fixing or replacing the leaky pipe), damage caused by long-term, undetected leaks that a reasonable homeowner should have noticed, and foundation damage if deemed a maintenance issue rather than sudden damage.
 
-When you discover a slab leak, call Downright Plumbing immediately to stop the leak and prevent further damage. Document everything with photos and videos. Then contact your insurance company promptly to file a claim.
+When you discover a slab leak, call Down Right Plumbing immediately to stop the leak and prevent further damage. Document everything with photos and videos. Then contact your insurance company promptly to file a claim.
 
 Work with both your plumber and insurance adjuster. We provide detailed documentation of the leak, damage, and necessary repairs to support your claim. Our experience working with insurance companies helps ensure you receive appropriate coverage.
 
@@ -843,7 +843,7 @@ If you have both foundation problems and plumbing symptoms, address the plumbing
 
 Some foundation repair companies recommend plumbing inspections before doing foundation work for exactly this reason. A foundation company that doesn't ask about plumbing issues may not be thorough.
 
-Downright Plumbing works with reputable foundation repair companies throughout Rockwall. We can coordinate with foundation specialists to ensure both issues are properly addressed in the right sequence.`,
+Down Right Plumbing works with reputable foundation repair companies throughout Rockwall. We can coordinate with foundation specialists to ensure both issues are properly addressed in the right sequence.`,
         },
         {
           title: 'Repiping as a Long-Term Solution',
@@ -871,11 +871,11 @@ Moisture under your home creates ideal conditions for mold growth, which can spr
 
 Leaked water can affect neighboring properties, potentially making you liable for damage to others' homes—costs your insurance may not fully cover.
 
-If you notice any warning signs of a slab leak, call Downright Plumbing promptly during business hours at (214) 802-3042. We serve Rockwall, Heath, Fate, Royse City, and the entire DFW area Monday-Friday, 8 AM - 5 PM. Our prompt response minimizes damage and gets your home back to normal. If you discover a leak outside business hours, turn off your main water supply to minimize damage until we can help.`,
+If you notice any warning signs of a slab leak, call Down Right Plumbing promptly during business hours at (214) 802-3042. We serve Rockwall, Heath, Fate, Royse City, and the entire DFW area Monday-Friday, 8 AM - 5 PM. Our prompt response minimizes damage and gets your home back to normal. If you discover a leak outside business hours, turn off your main water supply to minimize damage until we can help.`,
         },
         {
-          title: 'Why Choose Downright Plumbing for Slab Leak Detection',
-          content: `Slab leak detection and repair require specialized expertise and equipment that not all plumbers possess. Here's why Rockwall homeowners trust Downright Plumbing for this critical service:
+          title: 'Why Choose Down Right Plumbing for Slab Leak Detection',
+          content: `Slab leak detection and repair require specialized expertise and equipment that not all plumbers possess. Here's why Rockwall homeowners trust Down Right Plumbing for this critical service:
 
 We invest in the latest detection technology—electronic listening devices, infrared cameras, video inspection equipment, and pressure testing tools. This technology allows us to find leaks accurately without unnecessary destruction.
 
@@ -895,11 +895,11 @@ We're available Monday-Friday, 8 AM - 5 PM to help with slab leak detection and 
           title: 'Schedule Slab Leak Detection Today',
           content: `If you suspect a slab leak in your Rockwall home, don't wait. The longer a leak continues, the more damage it causes and the higher your repair costs.
 
-Downright Plumbing is ready to help with professional slab leak detection and repair throughout Rockwall, Heath, Fate, Royse City, and the DFW area. Our expert team will accurately locate your leak, explain your repair options, and get your home back to normal.
+Down Right Plumbing is ready to help with professional slab leak detection and repair throughout Rockwall, Heath, Fate, Royse City, and the DFW area. Our expert team will accurately locate your leak, explain your repair options, and get your home back to normal.
 
 Call us today at (214) 802-3042 to schedule a slab leak inspection. We're available Monday-Friday, 8 AM - 5 PM and offer convenient scheduling for inspections and repairs.
 
-Don't let a hidden slab leak destroy your foundation and your home's value. Trust the slab leak experts at Downright Plumbing to protect your most valuable investment. Contact us today during business hours for professional detection and repair services you can count on.`,
+Don't let a hidden slab leak destroy your foundation and your home's value. Trust the slab leak experts at Down Right Plumbing to protect your most valuable investment. Contact us today during business hours for professional detection and repair services you can count on.`,
         },
       ],
     },

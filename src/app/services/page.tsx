@@ -6,10 +6,10 @@ import { Button } from '@/components/ui/button';
 import { Phone, ArrowRight, CheckCircle2, Clock, Award, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Complete Plumbing Services in Rockwall, TX | Downright Plumbing',
+  title: 'Complete Plumbing Services in Rockwall, TX | Down Right Plumbing',
   description: 'Professional plumbing services in Rockwall and the DFW area. From repairs to installations, drain cleaning to repiping, we handle all your plumbing needs with expert care. Monday-Friday, 8 AM - 5 PM.',
   openGraph: {
-    title: 'Complete Plumbing Services in Rockwall, TX | Downright Plumbing',
+    title: 'Complete Plumbing Services in Rockwall, TX | Down Right Plumbing',
     description: 'Professional plumbing services in Rockwall and the DFW area. From repairs to installations, drain cleaning to repiping, we handle all your plumbing needs with expert care. Monday-Friday, 8 AM - 5 PM.',
     type: 'website',
   },
@@ -128,7 +128,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-center mb-12">
-              Why Choose Downright Plumbing?
+              Why Choose Down Right Plumbing?
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8">
@@ -194,7 +194,7 @@ export default function ServicesPage() {
             </h2>
             
             <p className="text-brand-text-secondary leading-relaxed mb-6">
-              At Downright Plumbing, we understand that your home's plumbing system is essential to your daily comfort and quality of life. That's why we've built our reputation on providing reliable, professional plumbing services throughout Rockwall, Heath, Fate, Royse City, McLendon-Chisholm, and the entire DFW area. Whether you're dealing with an urgent plumbing issue or planning a renovation that requires expert installation, Doug brings the expertise and dedication needed to deliver lasting results during business hours: Monday-Friday, 8 AM - 5 PM.
+              At Down Right Plumbing, we understand that your home's plumbing system is essential to your daily comfort and quality of life. That's why we've built our reputation on providing reliable, professional plumbing services throughout Rockwall, Heath, Fate, Royse City, McLendon-Chisholm, and the entire DFW area. Whether you're dealing with an urgent plumbing issue or planning a renovation that requires expert installation, Doug brings the expertise and dedication needed to deliver lasting results during business hours: Monday-Friday, 8 AM - 5 PM.
             </p>
 
             <p className="text-brand-text-secondary leading-relaxed mb-6">
@@ -206,7 +206,7 @@ export default function ServicesPage() {
             </h3>
             
             <p className="text-brand-text-secondary leading-relaxed mb-6">
-              At Downright Plumbing, we provide professional plumbing services Monday through Friday, 8 AM to 5 PM. When you call during business hours, you'll speak with a real person who can schedule service at a convenient time. We offer same-day service availability when you call early in the day for urgent situations like burst pipes, sewer backups, water heater failures, and other pressing plumbing issues. Doug responds promptly with the professionalism and expertise you need.
+              At Down Right Plumbing, we provide professional plumbing services Monday through Friday, 8 AM to 5 PM. When you call during business hours, you'll speak with a real person who can schedule service at a convenient time. We offer same-day service availability when you call early in the day for urgent situations like burst pipes, sewer backups, water heater failures, and other pressing plumbing issues. Doug responds promptly with the professionalism and expertise you need.
             </p>
 
             <h3 className="text-2xl font-heading font-bold text-brand-text-primary mb-4 mt-8">
@@ -238,11 +238,11 @@ export default function ServicesPage() {
             </h3>
             
             <p className="text-brand-text-secondary leading-relaxed mb-6">
-              As a locally-focused plumbing company, we're proud to serve homeowners and businesses throughout Rockwall County and the surrounding DFW communities. We understand the unique characteristics of homes in our area, from foundation types common to Texas to water quality issues specific to our region. This local expertise, combined with a commitment to customer service and quality workmanship, makes Downright Plumbing the right choice for homeowners who want honest, reliable plumbing service.
+              As a locally-focused plumbing company, we're proud to serve homeowners and businesses throughout Rockwall County and the surrounding DFW communities. We understand the unique characteristics of homes in our area, from foundation types common to Texas to water quality issues specific to our region. This local expertise, combined with a commitment to customer service and quality workmanship, makes Down Right Plumbing the right choice for homeowners who want honest, reliable plumbing service.
             </p>
 
             <p className="text-brand-text-secondary leading-relaxed">
-              Whether you need emergency repairs, routine maintenance, new installations, or major plumbing projects, Downright Plumbing delivers the professional service and lasting results you deserve. Contact us today to experience the difference that expertise, integrity, and dedication make in plumbing services.
+              Whether you need emergency repairs, routine maintenance, new installations, or major plumbing projects, Down Right Plumbing delivers the professional service and lasting results you deserve. Contact us today to experience the difference that expertise, integrity, and dedication make in plumbing services.
             </p>
           </div>
         </div>
@@ -256,7 +256,7 @@ export default function ServicesPage() {
               Ready to Experience Professional Plumbing Service?
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              Contact Downright Plumbing today for expert service throughout Rockwall and the DFW area. We're ready to help with all your plumbing needs.
+              Contact Down Right Plumbing today for expert service throughout Rockwall and the DFW area. We're ready to help with all your plumbing needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>

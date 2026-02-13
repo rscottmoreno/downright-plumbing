@@ -1,4 +1,4 @@
-# Image Assets for Downright Plumbing
+# Image Assets for Down Right Plumbing
 
 This directory contains image assets for the website.
 
@@ -9,7 +9,7 @@ This directory contains image assets for the website.
   - Should show professional plumbing work or team
   - Will have gradient overlay applied
   
-- `family-team.jpg` - Why Downright Plumbing section (1200x900px recommended)
+- `family-team.jpg` - Why Down Right Plumbing section (1200x900px recommended)
   - Photo of the family/team
   - Will be displayed in 4:3 aspect ratio
 

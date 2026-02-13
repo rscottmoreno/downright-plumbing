@@ -62,7 +62,7 @@ export const sampleServices = [
 export const sampleTestimonials = [
   {
     quote:
-      "Downright Plumbing saved the day! They responded quickly to our emergency and fixed our burst pipe professionally. Highly recommend!",
+      "Down Right Plumbing saved the day! They responded quickly to our emergency and fixed our burst pipe professionally. Highly recommend!",
     author: "Sarah Johnson",
     role: "Homeowner, Edmond",
     rating: 5,
@@ -76,7 +76,7 @@ export const sampleTestimonials = [
   },
   {
     quote:
-      "I've used Downright Plumbing for several projects now. They're always on time, fair-priced, and do excellent work. My go-to plumbers!",
+      "I've used Down Right Plumbing for several projects now. They're always on time, fair-priced, and do excellent work. My go-to plumbers!",
     author: "Jennifer Martinez",
     role: "Property Manager",
     rating: 5,
@@ -124,7 +124,7 @@ export const sampleFAQs = [
   {
     question: "Are you licensed and insured?",
     answer:
-      "Absolutely. Downright Plumbing is fully licensed, bonded, and insured. Our technicians are highly trained professionals with years of experience.",
+      "Absolutely. Down Right Plumbing is fully licensed, bonded, and insured. Our technicians are highly trained professionals with years of experience.",
   },
   {
     question: "Do you provide free estimates?",

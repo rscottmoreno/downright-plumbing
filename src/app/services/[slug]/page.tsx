@@ -28,10 +28,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${service.title} in Rockwall, TX | Downright Plumbing`,
+    title: `${service.title} in Rockwall, TX | Down Right Plumbing`,
     description: service.description,
     openGraph: {
-      title: `${service.title} in Rockwall, TX | Downright Plumbing`,
+      title: `${service.title} in Rockwall, TX | Down Right Plumbing`,
       description: service.description,
       type: 'website',
     },
@@ -60,7 +60,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         serviceType="Plumbing Service"
         url={`https://downrightplumbingtx.com/services/${service.slug}`}
         provider={{
-          name: "Downright Plumbing",
+          name: "Down Right Plumbing",
           telephone: "+1-214-802-3042"
         }}
         areaServed={[
@@ -178,7 +178,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 Ready to Get Started?
               </h2>
               <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                Contact Downright Plumbing today for expert {service.title.toLowerCase()} services in Rockwall and the DFW area.
+                Contact Down Right Plumbing today for expert {service.title.toLowerCase()} services in Rockwall and the DFW area.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="secondary" asChild>
@@ -212,7 +212,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               Our Service Process
             </h2>
             <p className="text-xl text-brand-text-secondary text-center mb-12 max-w-2xl mx-auto">
-              When you choose Downright Plumbing, you can expect professional service from start to finish.
+              When you choose Down Right Plumbing, you can expect professional service from start to finish.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -276,7 +276,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               Transparent Pricing You Can Trust
             </h2>
             <p className="text-xl text-brand-text-secondary text-center mb-12">
-              At Downright Plumbing, we believe in upfront, honest pricing with no hidden fees or surprise charges.
+              At Down Right Plumbing, we believe in upfront, honest pricing with no hidden fees or surprise charges.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8">
@@ -355,7 +355,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-brand-text-primary mb-6">
-              Experience the Downright Difference
+              Experience the Down Right Difference
             </h2>
             <p className="text-xl text-brand-text-secondary mb-8 max-w-2xl mx-auto">
               Professional {service.title.toLowerCase()} backed by years of experience, quality workmanship, and customer satisfaction. Serving Rockwall, Heath, Fate, Royse City, and throughout the DFW area.

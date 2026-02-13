@@ -84,7 +84,7 @@ function TestimonialCarousel() {
       name: 'Jennifer Martinez',
       city: 'Fate, TX',
       rating: 5,
-      text: 'Downright Plumbing cleared our stubborn drain when others couldn\'t. Professional, honest, and reasonably priced.',
+      text: 'Down Right Plumbing cleared our stubborn drain when others couldn\'t. Professional, honest, and reasonably priced.',
     },
     {
       name: 'David Thompson',
@@ -317,11 +317,11 @@ export default function HomePage() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Downright Honest.
+              Down Right Honest.
               <br />
-              <span className="text-amber-400">Downright Reliable.</span>
+              <span className="text-amber-400">Down Right Reliable.</span>
               <br />
-              Downright the Best Plumbers in Rockwall.
+              Down Right the Best Plumbers in Rockwall.
             </h1>
           </motion.div>
 
@@ -545,7 +545,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Section 4: Why Downright Plumbing */}
+      {/* Section 4: Why Down Right Plumbing */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -556,7 +556,7 @@ export default function HomePage() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                Why Choose Downright Plumbing?
+                Why Choose Down Right Plumbing?
               </h2>
               <p className="text-xl text-gray-600 mb-8">
                 We're not just plumbers—we're your neighbors, committed to delivering 
@@ -626,7 +626,7 @@ export default function HomePage() {
               <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-amber-900 rounded-2xl shadow-2xl p-8 md:p-10 text-white">
                 <div className="text-center mb-8">
                   <Wrench className="w-16 h-16 text-amber-400 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold mb-2">The Downright Promise</h3>
+                  <h3 className="text-2xl font-bold mb-2">The Down Right Promise</h3>
                   <p className="text-white/80 text-sm">New company. Veteran plumber.</p>
                 </div>
                 <div className="grid grid-cols-2 gap-6">
@@ -673,13 +673,13 @@ export default function HomePage() {
 
             <blockquote className="text-2xl md:text-3xl font-serif italic text-gray-800 mb-8 leading-relaxed">
               &quot;Our daughter was born with Down syndrome in 2006. She inspired 
-              the name &apos;Downright&apos;—and after 20 years as a plumber, she 
+              the name &apos;Down Right&apos;—and after 20 years as a plumber, she 
               inspired me to finally build something of my own.&quot;
             </blockquote>
 
             <p className="text-lg text-gray-700 mb-4 leading-relaxed max-w-2xl mx-auto">
-              Downright Plumbing is more than a business—it&apos;s a family mission. 
-              After two decades of plumbing experience, Doug White launched Downright 
+              Down Right Plumbing is more than a business—it&apos;s a family mission. 
+              After two decades of plumbing experience, Doug White launched Down Right 
               Plumbing in January 2026, naming it after the daughter who taught him 
               what truly matters: integrity, heart, and doing things the right way.
             </p>
@@ -914,7 +914,7 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
               Ready to Experience the
               <br />
-              <span className="text-amber-400">Downright Difference?</span>
+              <span className="text-amber-400">Down Right Difference?</span>
             </h2>
             <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-3xl mx-auto">
               20+ years of experience. Brand new company. Same commitment 

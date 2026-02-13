@@ -177,7 +177,7 @@ export default function BlogPage() {
                 Need Professional Plumbing Help?
               </h2>
               <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                Don't let plumbing problems disrupt your life. Contact Downright Plumbing for expert service in Rockwall and throughout the DFW area.
+                Don't let plumbing problems disrupt your life. Contact Down Right Plumbing for expert service in Rockwall and throughout the DFW area.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="secondary" asChild>

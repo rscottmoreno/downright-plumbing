@@ -39,7 +39,7 @@ export default function OurStoryPage() {
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-8 leading-tight">
               Why We're Called
               <br />
-              <span className="text-amber-400">Downright</span>
+              <span className="text-amber-400">Down Right</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-white/95 max-w-3xl mx-auto leading-relaxed">
@@ -106,18 +106,18 @@ export default function OurStoryPage() {
                 For two decades I worked for other companies, learning the trade inside and out. 
                 But I always knew that one day I&apos;d build something of my own—something that 
                 reflected who I really am and what our family stands for. In January 2026, 
-                I finally took that leap and started Downright Plumbing.
+                I finally took that leap and started Down Right Plumbing.
               </p>
 
               <p className="text-lg md:text-xl text-gray-800 leading-relaxed mb-6">
-                The name was never in question. We chose <span className="font-bold text-amber-600">&quot;Downright&quot;</span> to 
+                The name was never in question. We chose <span className="font-bold text-amber-600">&quot;Down Right&quot;</span> to 
                 honor our daughter and everything she&apos;s taught us about heart, honesty, 
                 and showing up with your whole self. She reminds us every day that what 
                 matters most isn&apos;t perfection—it&apos;s being genuine.
               </p>
 
               <p className="text-lg md:text-xl text-gray-800 leading-relaxed mb-6">
-                &quot;Downright&quot; means even more than that. It&apos;s a word that describes 
+                &quot;Down Right&quot; means even more than that. It&apos;s a word that describes 
                 who I strive to be every single day:
               </p>
 
@@ -125,19 +125,19 @@ export default function OurStoryPage() {
                 <ul className="space-y-4 text-lg md:text-xl text-gray-900">
                   <li className="flex items-start gap-4">
                     <CheckCircle2 className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
-                    <span><strong className="text-amber-900">Downright honest</strong> — No hidden fees. No upselling. Just transparent, truthful service.</span>
+                    <span><strong className="text-amber-900">Down Right honest</strong> — No hidden fees. No upselling. Just transparent, truthful service.</span>
                   </li>
                   <li className="flex items-start gap-4">
                     <CheckCircle2 className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
-                    <span><strong className="text-amber-900">Downright reliable</strong> — We show up when we say we will and do the job right, every time.</span>
+                    <span><strong className="text-amber-900">Down Right reliable</strong> — We show up when we say we will and do the job right, every time.</span>
                   </li>
                   <li className="flex items-start gap-4">
                     <CheckCircle2 className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
-                    <span><strong className="text-amber-900">Downright caring</strong> — We treat your home and family with respect, compassion, and genuine concern.</span>
+                    <span><strong className="text-amber-900">Down Right caring</strong> — We treat your home and family with respect, compassion, and genuine concern.</span>
                   </li>
                   <li className="flex items-start gap-4">
                     <CheckCircle2 className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
-                    <span><strong className="text-amber-900">Downright excellent</strong> — We go above and beyond because that's the only way we know how to work.</span>
+                    <span><strong className="text-amber-900">Down Right excellent</strong> — We go above and beyond because that's the only way we know how to work.</span>
                   </li>
                 </ul>
               </div>
@@ -179,7 +179,7 @@ export default function OurStoryPage() {
             <blockquote className="text-2xl md:text-3xl lg:text-4xl font-serif italic text-white mb-8 leading-relaxed">
               &quot;She didn&apos;t just inspire our name. She inspired our mission: 
               to serve with heart, integrity, and an unwavering commitment 
-              to doing things the right way—the Downright way.&quot;
+              to doing things the right way—the Down Right way.&quot;
             </blockquote>
             <div className="text-amber-400 text-xl font-semibold">
               — Doug White, Owner
@@ -200,7 +200,7 @@ export default function OurStoryPage() {
           >
             <Calendar className="w-12 h-12 text-amber-600 mx-auto mb-6" />
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              The Road to Downright
+              The Road to Down Right
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               20 years of experience. One daughter&apos;s inspiration. A brand new chapter.
@@ -227,11 +227,11 @@ export default function OurStoryPage() {
                 },
                 {
                   title: 'The Dream Takes Shape',
-                  description: 'The name was always clear: "Downright"—a tribute to our daughter and a commitment to doing everything the downright best way.',
+                  description: 'The name was always clear: "Down Right"—a tribute to our daughter and a commitment to doing everything the downright best way.',
                 },
                 {
-                  title: 'Downright Plumbing Is Born — January 2026',
-                  description: 'After 20 years in the industry, Doug launched Downright Plumbing in Fate, TX. New company, veteran experience, and a mission rooted in family.',
+                  title: 'Down Right Plumbing Is Born — January 2026',
+                  description: 'After 20 years in the industry, Doug launched Down Right Plumbing in Fate, TX. New company, veteran experience, and a mission rooted in family.',
                 },
               ].map((milestone, index) => (
                 <motion.div
@@ -262,7 +262,7 @@ export default function OurStoryPage() {
         </div>
       </section>
 
-      {/* What Downright Means Section */}
+      {/* What Down Right Means Section */}
       <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -273,7 +273,7 @@ export default function OurStoryPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              What "Downright" Means to Us
+              What "Down Right" Means to Us
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               These aren't just values on a wall. They're the principles we live by every day.
@@ -284,25 +284,25 @@ export default function OurStoryPage() {
             {[
               {
                 icon: CheckCircle2,
-                title: 'Downright Honest',
+                title: 'Down Right Honest',
                 description: 'We give you the truth, even if it means less profit for us. Upfront pricing. No hidden fees. No unnecessary upsells. Just honest advice you can trust.',
                 color: 'from-blue-500 to-blue-600',
               },
               {
                 icon: Award,
-                title: 'Downright Reliable',
+                title: 'Down Right Reliable',
                 description: 'When we say we\'ll be there at 2 PM, we\'re there at 2 PM. When we quote a price, that\'s the price. We do what we say and stand behind every job with a guarantee.',
                 color: 'from-amber-500 to-orange-600',
               },
               {
                 icon: Heart,
-                title: 'Downright Caring',
+                title: 'Down Right Caring',
                 description: 'Your home is sacred. We wear booties, lay down protection, and treat every space with respect. We listen, we care, and we go the extra mile because that\'s who we are.',
                 color: 'from-pink-500 to-rose-600',
               },
               {
                 icon: Star,
-                title: 'Downright Excellent',
+                title: 'Down Right Excellent',
                 description: 'Good enough isn\'t in our vocabulary. We use the best materials, stay current with training, and take pride in workmanship that lasts. Excellence is our baseline.',
                 color: 'from-purple-500 to-indigo-600',
               },
@@ -455,7 +455,7 @@ export default function OurStoryPage() {
             <Heart className="w-16 h-16 text-amber-500 mx-auto mb-8" />
             
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 leading-tight">
-              When You Choose Downright Plumbing, 
+              When You Choose Down Right Plumbing, 
               <br className="hidden md:block" />
               You're Supporting a Family That Believes in Making a Difference
             </h2>

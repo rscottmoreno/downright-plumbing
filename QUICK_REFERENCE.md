@@ -1,4 +1,4 @@
-# 🚀 Quick Reference - Downright Plumbing Components
+# 🚀 Quick Reference - Down Right Plumbing Components
 
 ## Common Imports
 

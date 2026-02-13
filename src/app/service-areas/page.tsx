@@ -6,11 +6,11 @@ import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 
 export const metadata: Metadata = {
-  title: "Service Areas - Rockwall & DFW Metroplex | Downright Plumbing",
+  title: "Service Areas - Rockwall & DFW Metroplex | Down Right Plumbing",
   description:
-    "Downright Plumbing serves Rockwall and 24+ cities throughout the DFW metroplex with professional plumbing services. Find your area and schedule service today!",
+    "Down Right Plumbing serves Rockwall and 24+ cities throughout the DFW metroplex with professional plumbing services. Find your area and schedule service today!",
   openGraph: {
-    title: "Service Areas - Rockwall & DFW Metroplex | Downright Plumbing",
+    title: "Service Areas - Rockwall & DFW Metroplex | Down Right Plumbing",
     description:
       "Professional plumbing services throughout Rockwall, Heath, Fate, Royse City, Garland, and 20+ more DFW cities. Monday-Friday 8 AM - 5 PM.",
     type: "website",
@@ -77,7 +77,7 @@ export default function ServiceAreasPage() {
 
             <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
               <p className="text-xl leading-relaxed">
-                Downright Plumbing proudly serves Rockwall and more than 24 cities throughout the Dallas-Fort Worth metroplex. Based in Rockwall, our strategic location allows us to provide rapid response to communities throughout Rockwall County, Dallas County, and beyond.
+                Down Right Plumbing proudly serves Rockwall and more than 24 cities throughout the Dallas-Fort Worth metroplex. Based in Rockwall, our strategic location allows us to provide rapid response to communities throughout Rockwall County, Dallas County, and beyond.
               </p>
 
               <h3 className="text-2xl font-bold text-brand-text-primary mt-8 mb-4">
@@ -85,7 +85,7 @@ export default function ServiceAreasPage() {
               </h3>
 
               <p>
-                When you choose Downright Plumbing, you're not just getting a plumbing company—you're partnering with local professionals who understand your community. We know the unique plumbing challenges each area faces, from hard water issues near Lake Ray Hubbard to aging infrastructure in established neighborhoods to builder-grade systems in rapidly growing developments.
+                When you choose Down Right Plumbing, you're not just getting a plumbing company—you're partnering with local professionals who understand your community. We know the unique plumbing challenges each area faces, from hard water issues near Lake Ray Hubbard to aging infrastructure in established neighborhoods to builder-grade systems in rapidly growing developments.
               </p>
 
               <p>
@@ -109,7 +109,7 @@ export default function ServiceAreasPage() {
               </p>
 
               <p>
-                Each city we serve receives the same professional expertise, transparent pricing, and commitment to customer satisfaction that has built our reputation throughout the region. Whether you're in downtown Rockwall or on a rural property in Caddo Mills, you can count on Downright Plumbing for expert plumbing service.
+                Each city we serve receives the same professional expertise, transparent pricing, and commitment to customer satisfaction that has built our reputation throughout the region. Whether you're in downtown Rockwall or on a rural property in Caddo Mills, you can count on Down Right Plumbing for expert plumbing service.
               </p>
 
               <h3 className="text-2xl font-bold text-brand-text-primary mt-8 mb-4">
@@ -117,7 +117,7 @@ export default function ServiceAreasPage() {
               </h3>
 
               <p>
-                No matter which community you call home, Downright Plumbing provides complete plumbing services including:
+                No matter which community you call home, Down Right Plumbing provides complete plumbing services including:
               </p>
 
               <ul className="space-y-2 ml-6">
@@ -136,7 +136,7 @@ export default function ServiceAreasPage() {
               </h3>
 
               <p>
-                We're more than just a service company—we're invested in the communities we serve. We support local schools, sponsor youth sports teams, and participate in community events throughout our service area. When you choose Downright Plumbing, you're supporting a local business that gives back to the community you love.
+                We're more than just a service company—we're invested in the communities we serve. We support local schools, sponsor youth sports teams, and participate in community events throughout our service area. When you choose Down Right Plumbing, you're supporting a local business that gives back to the community you love.
               </p>
 
               <p>
@@ -216,7 +216,7 @@ export default function ServiceAreasPage() {
       <CTASection
         variant="standard"
         title="Ready to Experience Local Plumbing Excellence?"
-        description="Contact Downright Plumbing today for professional plumbing service in your community. Monday-Friday 8 AM - 5 PM."
+        description="Contact Down Right Plumbing today for professional plumbing service in your community. Monday-Friday 8 AM - 5 PM."
         primaryButtonText="Schedule Service"
         primaryButtonHref="/contact"
         showPhoneButton={true}

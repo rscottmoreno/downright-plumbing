@@ -1,6 +1,6 @@
 # ✅ Components Build Complete
 
-All **18 reusable components** have been successfully created for the Downright Plumbing Next.js website!
+All **18 reusable components** have been successfully created for the Down Right Plumbing Next.js website!
 
 ---
 
@@ -262,6 +262,6 @@ All components use these well-documented libraries:
 
 ---
 
-**All components are ready to use! Start building your Downright Plumbing website! 🚀**
+**All components are ready to use! Start building your Down Right Plumbing website! 🚀**
 
 For questions or detailed usage, refer to `src/components/README.md`
