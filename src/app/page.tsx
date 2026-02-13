@@ -525,14 +525,14 @@ export default function HomePage() {
             ].map((service, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 40, scale: 0.95 }}
+                initial={{ opacity: 0, y: 30, scale: 0.97 }}
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
-                viewport={{ once: true, margin: "-50px" }}
+                viewport={{ once: true, margin: "0px 0px -20px 0px" }}
                 transition={{
                   type: "spring",
-                  stiffness: 100,
-                  damping: 12,
-                  delay: index * 0.08,
+                  stiffness: 180,
+                  damping: 18,
+                  delay: index * 0.05,
                 }}
                 whileHover={{ y: -8, transition: { duration: 0.2 } }}
                 className="fm-hide-initial bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow p-6 group"

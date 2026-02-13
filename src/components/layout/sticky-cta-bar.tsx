@@ -1,17 +1,12 @@
 "use client";
 
 import { Phone, Calendar } from "lucide-react";
-import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export function StickyCTABar() {
   return (
-    <motion.div
-      initial={{ y: 100 }}
-      animate={{ y: 0 }}
-      className="fixed bottom-0 left-0 right-0 z-40 lg:hidden"
-    >
+    <div className="fixed bottom-0 left-0 right-0 z-40 lg:hidden animate-[slideUp_0.3s_ease-out_both]">
       <div className="bg-white border-t shadow-2xl">
         <div className="grid grid-cols-2 gap-2 p-2">
           <Button
@@ -37,6 +32,6 @@ export function StickyCTABar() {
           </Button>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }

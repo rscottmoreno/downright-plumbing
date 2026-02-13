@@ -63,11 +63,27 @@
   }
 }
 
+@keyframes slideDown {
+  from { transform: translateY(-100%); }
+  to   { transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+
 /* Prevent FOUC: hide service cards from the very first SSR paint so
    there's no visible→hidden flash when Framer Motion hydrates.
    Framer Motion inline styles take precedence once animation runs. */
 .fm-hide-initial {
   opacity: 0;
+}
+
+/* Slide-up for sticky CTA bar */
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
 }
 
 /* Respect reduced motion preference */

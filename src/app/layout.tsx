@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
-import { ThemeProvider } from "next-themes";
-import { Toaster } from "@/components/ui/sonner";
+
 import { Header } from "@/components/layout/header";
 import { AnnouncementBar } from "@/components/layout/announcement-bar";
 import { Footer } from "@/components/layout/footer";
@@ -171,7 +170,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <head>
         <script
           type="application/ld+json"
@@ -181,25 +180,17 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${plusJakartaSans.variable} antialiased`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem={false}
-          disableTransitionOnChange
-        >
-          <div className="flex min-h-screen flex-col">
-            <a href="#main-content" className="skip-to-content">
-              Skip to main content
-            </a>
-            <AnnouncementBar />
-            <Header />
-            <main id="main-content" className="flex-1">{children}</main>
-            <Footer />
-            <StickyCTABar />
-            <FloatingCTA />
-          </div>
-          <Toaster />
-        </ThemeProvider>
+        <div className="flex min-h-screen flex-col">
+          <a href="#main-content" className="skip-to-content">
+            Skip to main content
+          </a>
+          <AnnouncementBar />
+          <Header />
+          <main id="main-content" className="flex-1">{children}</main>
+          <Footer />
+          <StickyCTABar />
+          <FloatingCTA />
+        </div>
       </body>
     </html>
   );

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { motion } from "framer-motion";
+
 import { Phone, Mail, Clock, Heart, Shield, Award, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
@@ -77,16 +77,15 @@ export function Footer() {
             </p>
             <div className="flex gap-3">
               {trustBadges.slice(0, 3).map((badge, index) => (
-                <motion.div
+                <div
                   key={badge.label}
-                  whileHover={{ scale: 1.1 }}
-                  className="flex flex-col items-center gap-1 text-xs"
+                  className="flex flex-col items-center gap-1 text-xs hover:scale-110 transition-transform"
                 >
                   <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
                     <badge.icon className="h-5 w-5 text-brand-accent" />
                   </div>
                   <span className="text-gray-500 text-[10px]">{badge.label}</span>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>

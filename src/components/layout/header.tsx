@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { motion } from "framer-motion";
+
 import {
   Phone,
   Calendar,
@@ -64,32 +64,26 @@ export function Header() {
   }, []);
 
   return (
-    <motion.header
+    <header
       className={cn(
-        "sticky top-0 z-50 w-full transition-all duration-300",
+        "sticky top-0 z-50 w-full transition-all duration-300 animate-[slideDown_0.3s_ease-out_both]",
         isScrolled
           ? "bg-white/95 backdrop-blur-md shadow-lg py-2"
           : "bg-white py-4"
       )}
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.3 }}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between gap-4">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 400 }}
-            >
+            <div className="hover:scale-105 transition-transform">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src="/images/downright-logo.png"
                 alt="Down Right Plumbing, LLC"
                 className="h-10 md:h-14 w-auto object-contain"
               />
-            </motion.div>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -335,7 +329,7 @@ export function Header() {
           </div>
         </div>
       </div>
-    </motion.header>
+    </header>
   );
 }
 

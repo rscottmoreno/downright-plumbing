@@ -1,7 +1,6 @@
 "use client";
 
 import { Calendar } from "lucide-react";
-import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -11,7 +10,6 @@ export function FloatingCTA() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Show after scrolling 300px down
       setIsVisible(window.scrollY > 300);
     };
 
@@ -20,14 +18,12 @@ export function FloatingCTA() {
   }, []);
 
   return (
-    <motion.div
-      initial={{ scale: 0, opacity: 0 }}
-      animate={{
-        scale: isVisible ? 1 : 0,
+    <div
+      className="fixed bottom-8 right-8 z-40 hidden lg:block transition-all duration-300 ease-out"
+      style={{
+        transform: isVisible ? "scale(1)" : "scale(0)",
         opacity: isVisible ? 1 : 0,
       }}
-      transition={{ type: "spring", stiffness: 260, damping: 20 }}
-      className="fixed bottom-8 right-8 z-40 hidden lg:block"
     >
       <Button
         asChild
@@ -39,6 +35,6 @@ export function FloatingCTA() {
           Schedule Service
         </Link>
       </Button>
-    </motion.div>
+    </div>
   );
 }
