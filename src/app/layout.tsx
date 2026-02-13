@@ -189,13 +189,13 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
-          <div className="flex min-h-screen flex-col overflow-x-hidden">
+          <div className="flex min-h-screen flex-col">
             <a href="#main-content" className="skip-to-content">
               Skip to main content
             </a>
             <AnnouncementBar />
             <Header />
-            <main id="main-content" className="flex-1">{children}</main>
+            <main id="main-content" className="flex-1 overflow-x-hidden">{children}</main>
             <Footer />
             <StickyCTABar />
             <FloatingCTA />
