@@ -546,7 +546,7 @@ export default function HomePage() {
       </section>
 
       {/* Section 4: Why Down Right Plumbing */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -648,9 +648,9 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-              <div className="absolute -bottom-6 -right-6 bg-amber-500 text-white p-6 rounded-xl shadow-xl">
-                <div className="text-4xl font-bold">5.0★</div>
-                <div className="text-sm">Google Rating</div>
+              <div className="absolute -bottom-4 right-4 sm:-bottom-6 sm:-right-6 bg-amber-500 text-white p-4 sm:p-6 rounded-xl shadow-xl">
+                <div className="text-3xl sm:text-4xl font-bold">5.0★</div>
+                <div className="text-xs sm:text-sm">Google Rating</div>
               </div>
             </motion.div>
           </div>

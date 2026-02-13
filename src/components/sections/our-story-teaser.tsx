@@ -26,7 +26,7 @@ export function OurStoryTeaser({
   return (
     <section
       className={cn(
-        "py-16 md:py-24 bg-gradient-to-b from-white to-brand-primary/5",
+        "py-16 md:py-24 bg-gradient-to-b from-white to-brand-primary/5 overflow-hidden",
         className
       )}
     >
