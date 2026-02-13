@@ -249,10 +249,15 @@ function FAQAccordion() {
       {faqs.map((faq, index) => (
         <motion.div
           key={index}
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: index * 0.1 }}
+          viewport={{ once: true, margin: "-30px" }}
+          transition={{
+            type: "spring",
+            stiffness: 120,
+            damping: 14,
+            delay: index * 0.1,
+          }}
           className="bg-white rounded-xl shadow-md overflow-hidden"
         >
           <button
@@ -520,10 +525,15 @@ export default function HomePage() {
             ].map((service, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.05 }}
+                initial={{ opacity: 0, y: 40, scale: 0.95 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 12,
+                  delay: index * 0.08,
+                }}
                 whileHover={{ y: -8, transition: { duration: 0.2 } }}
                 className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-6 group"
               >
@@ -600,8 +610,13 @@ export default function HomePage() {
                     key={index}
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                    viewport={{ once: true, margin: "-30px" }}
+                    transition={{
+                      type: "spring",
+                      stiffness: 120,
+                      damping: 14,
+                      delay: index * 0.12,
+                    }}
                     className="flex gap-4"
                   >
                     <div className="bg-amber-100 w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -793,10 +808,15 @@ export default function HomePage() {
             ].map((city, index) => (
               <motion.div
                 key={city}
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.3, delay: index * 0.02 }}
+                initial={{ opacity: 0, y: 15, scale: 0.9 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                viewport={{ once: true, margin: "-20px" }}
+                transition={{
+                  type: "spring",
+                  stiffness: 150,
+                  damping: 15,
+                  delay: index * 0.03,
+                }}
                 whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
               >
                 <Link
