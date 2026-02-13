@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: "%s | Down Right Plumbing",
   },
   description:
-    "Professional plumbing services in Rockwall, TX and surrounding areas. Licensed & insured. Expert repairs, installations, and maintenance with heart. Monday-Friday, 8 AM - 5 PM.",
+    "Professional plumbing services in Rockwall, TX and surrounding areas. Licensed & insured. Expert repairs, installations, and maintenance with heart. Call (214) 802-3042.",
   keywords: [
     "plumbing",
     "plumber",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     siteName: "Down Right Plumbing",
     title: "Down Right Plumbing | Professional Plumbing Services in Rockwall, TX",
     description:
-      "Professional plumbing services in Rockwall, TX and surrounding areas. Licensed & insured. Monday-Friday, 8 AM - 5 PM.",
+      "Professional plumbing services in Rockwall, TX and surrounding areas. Licensed & insured. Call (214) 802-3042.",
     images: [
       {
         url: "/og-image.jpg",
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Down Right Plumbing | Professional Plumbing Services in Rockwall, TX",
     description:
-      "Professional plumbing services in Rockwall, TX and surrounding areas. Licensed & insured. Monday-Friday, 8 AM - 5 PM.",
+      "Professional plumbing services in Rockwall, TX and surrounding areas. Licensed & insured. Call (214) 802-3042.",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -195,7 +195,7 @@ export default function RootLayout({
             </a>
             <AnnouncementBar />
             <Header />
-            <main id="main-content" className="flex-1 overflow-x-hidden">{children}</main>
+            <main id="main-content" className="flex-1">{children}</main>
             <Footer />
             <StickyCTABar />
             <FloatingCTA />

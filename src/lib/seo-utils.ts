@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 export const SITE_CONFIG = {
   name: 'Down Right Plumbing',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://downrightplumbingtx.com',
-  description: 'Professional plumbing services in Rockwall, TX and surrounding areas. Licensed & insured plumbers serving Monday-Friday, 8 AM - 5 PM.',
+  description: 'Professional plumbing services in Rockwall, TX and surrounding areas. Licensed & insured plumber. Call (214) 802-3042.',
   phone: '+1-214-802-3042',
   email: 'dougw@downrightplumbingtx.com',
   serviceArea: {

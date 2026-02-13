@@ -366,7 +366,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               Expert Plumbing Services in Rockwall, TX
             </h2>
             <p className="text-xl text-brand-text-secondary mb-8 max-w-2xl mx-auto">
-              24/7 emergency service, licensed and insured plumbers, upfront pricing, and satisfaction guaranteed. Serving Rockwall, Heath, Fate, Royse City, and the entire DFW area.
+              Licensed and insured plumber, upfront pricing, and clear communication throughout every job. Serving Rockwall, Heath, Fate, Royse City, and the entire DFW area.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>

@@ -107,7 +107,7 @@ export function ContactForm({ className, onSuccess }: ContactFormProps) {
 
       if (response.ok) {
         toast.success("Thank you!", {
-          description: "We'll get back to you within 1 hour during business hours.",
+          description: "We'll get back to you as soon as possible.",
         });
         form.reset();
         onSuccess?.();

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Service Areas - Rockwall & DFW Metroplex | Down Right Plumbing",
     description:
-      "Professional plumbing services throughout Rockwall, Heath, Fate, Royse City, Garland, and 20+ more DFW cities. Monday-Friday 8 AM - 5 PM.",
+      "Professional plumbing services throughout Rockwall, Heath, Fate, Royse City, Garland, and 20+ more DFW cities. Call (214) 802-3042.",
     type: "website",
     url: "https://downrightplumbingtx.com/service-areas",
   },
@@ -28,7 +28,7 @@ export default function ServiceAreasPage() {
         variant="service"
         title="Service Areas - Rockwall & DFW Metroplex"
         subtitle="Professional Plumbing Throughout the Area"
-        description="Serving 24+ cities with a licensed plumber and upfront pricing. Monday-Friday 8 AM - 5 PM. Find your city below."
+        description="Serving 24+ cities with a licensed plumber and upfront pricing. Find your city below."
         showCTA={true}
         ctaText="Call for Service"
         ctaHref="tel:+12148023042"
@@ -45,7 +45,7 @@ export default function ServiceAreasPage() {
             </div>
             <div className="flex flex-col items-center text-center">
               <Clock className="w-8 h-8 mb-2" aria-hidden="true" />
-              <p className="font-bold text-lg">Mon-Fri 8-5</p>
+              <p className="font-bold text-lg">Call Today</p>
               <p className="text-sm text-white/90">Regular Hours</p>
             </div>
             <div className="flex flex-col items-center text-center">
@@ -89,7 +89,7 @@ export default function ServiceAreasPage() {
               </p>
 
               <p>
-                Our local presence means faster response times, typically arriving within 30-60 minutes throughout our primary service area. We're familiar with local building codes, permitting requirements, and the specific plumbing considerations of each community we serve. We're available Monday-Friday 8 AM - 5 PM.
+                Our local presence means faster response times, typically arriving within 30-60 minutes throughout our primary service area. We're familiar with local building codes, permitting requirements, and the specific plumbing considerations of each community we serve. Give us a call and we'll be there.
               </p>
 
               <h3 className="text-2xl font-bold text-brand-text-primary mt-8 mb-4">
@@ -216,7 +216,7 @@ export default function ServiceAreasPage() {
       <CTASection
         variant="standard"
         title="Ready to Experience Local Plumbing Excellence?"
-        description="Contact Down Right Plumbing today for professional plumbing service in your community. Monday-Friday 8 AM - 5 PM."
+        description="Contact Down Right Plumbing today for professional plumbing service in your community. Call (214) 802-3042."
         primaryButtonText="Schedule Service"
         primaryButtonHref="/contact"
         showPhoneButton={true}
@@ -226,7 +226,7 @@ export default function ServiceAreasPage() {
       <CTASection
         variant="emergency"
         title="Need Plumbing Service in Your Area?"
-        description="Call us for professional plumbing service throughout our service area. Monday-Friday 8 AM - 5 PM."
+        description="Call us for professional plumbing service throughout our service area. Call (214) 802-3042."
         primaryButtonText="Call Now"
         primaryButtonHref="tel:+12148023042"
         showPhoneButton={true}

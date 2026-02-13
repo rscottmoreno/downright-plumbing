@@ -7,10 +7,10 @@ import { Phone, ArrowRight, CheckCircle2, Clock, Award, Shield } from 'lucide-re
 
 export const metadata: Metadata = {
   title: 'Complete Plumbing Services in Rockwall, TX | Down Right Plumbing',
-  description: 'Professional plumbing services in Rockwall and the DFW area. From repairs to installations, drain cleaning to repiping, we handle all your plumbing needs with expert care. Monday-Friday, 8 AM - 5 PM.',
+  description: 'Professional plumbing services in Rockwall and the DFW area. From repairs to installations, drain cleaning to repiping, we handle all your plumbing needs with expert care. Call (214) 802-3042.',
   openGraph: {
     title: 'Complete Plumbing Services in Rockwall, TX | Down Right Plumbing',
-    description: 'Professional plumbing services in Rockwall and the DFW area. From repairs to installations, drain cleaning to repiping, we handle all your plumbing needs with expert care. Monday-Friday, 8 AM - 5 PM.',
+    description: 'Professional plumbing services in Rockwall and the DFW area. From repairs to installations, drain cleaning to repiping, we handle all your plumbing needs with expert care. Call (214) 802-3042.',
     type: 'website',
   },
 };
@@ -61,7 +61,7 @@ export default function ServicesPage() {
                 <Clock className="w-6 h-6 text-brand-primary" />
               </div>
               <div>
-                <p className="font-semibold text-brand-text-primary">Mon-Fri 8AM-5PM</p>
+                <p className="font-semibold text-brand-text-primary">Call for Service</p>
                 <p className="text-sm text-brand-text-secondary">Same-Day Service</p>
               </div>
             </div>
@@ -88,8 +88,8 @@ export default function ServicesPage() {
                 <CheckCircle2 className="w-6 h-6 text-brand-primary" />
               </div>
               <div>
-                <p className="font-semibold text-brand-text-primary">100% Satisfaction</p>
-                <p className="text-sm text-brand-text-secondary">Guaranteed</p>
+                <p className="font-semibold text-brand-text-primary">Upfront Pricing</p>
+                <p className="text-sm text-brand-text-secondary">No Surprises</p>
               </div>
             </div>
           </div>
@@ -146,12 +146,12 @@ export default function ServicesPage() {
                 {
                   icon: CheckCircle2,
                   title: 'Same-Day Service',
-                  description: "Most plumbing issues can't wait. We offer same-day service during business hours (Monday-Friday, 8 AM - 5 PM) throughout Rockwall and the DFW area when you call early."
+                  description: "Most plumbing issues can't wait. We offer same-day service throughout Rockwall and the DFW area. Call us and we'll get to you as quickly as possible."
                 },
                 {
                   icon: CheckCircle2,
-                  title: 'Satisfaction Guaranteed',
-                  description: 'We stand behind our work with comprehensive warranties and a commitment to your complete satisfaction on every job.'
+                  title: 'Clear Communication',
+                  description: 'We keep you informed throughout the entire repair process, from diagnosis to completion, so you always know what to expect.'
                 },
                 {
                   icon: CheckCircle2,
@@ -194,7 +194,7 @@ export default function ServicesPage() {
             </h2>
             
             <p className="text-brand-text-secondary leading-relaxed mb-6">
-              At Down Right Plumbing, we understand that your home's plumbing system is essential to your daily comfort and quality of life. That's why we've built our reputation on providing reliable, professional plumbing services throughout Rockwall, Heath, Fate, Royse City, McLendon-Chisholm, and the entire DFW area. Whether you're dealing with an urgent plumbing issue or planning a renovation that requires expert installation, Doug brings the expertise and dedication needed to deliver lasting results during business hours: Monday-Friday, 8 AM - 5 PM.
+              At Down Right Plumbing, we understand that your home's plumbing system is essential to your daily comfort and quality of life. That's why we've built our reputation on providing reliable, professional plumbing services throughout Rockwall, Heath, Fate, Royse City, McLendon-Chisholm, and the entire DFW area. Whether you're dealing with an urgent plumbing issue or planning a renovation that requires expert installation, Doug brings the expertise and dedication needed to deliver lasting results.
             </p>
 
             <p className="text-brand-text-secondary leading-relaxed mb-6">
@@ -202,11 +202,11 @@ export default function ServicesPage() {
             </p>
 
             <h3 className="text-2xl font-heading font-bold text-brand-text-primary mb-4 mt-8">
-              Reliable Plumbing Service During Business Hours
+              Reliable Plumbing Service When You Need It
             </h3>
             
             <p className="text-brand-text-secondary leading-relaxed mb-6">
-              At Down Right Plumbing, we provide professional plumbing services Monday through Friday, 8 AM to 5 PM. When you call during business hours, you'll speak with a real person who can schedule service at a convenient time. We offer same-day service availability when you call early in the day for urgent situations like burst pipes, sewer backups, water heater failures, and other pressing plumbing issues. Doug responds promptly with the professionalism and expertise you need.
+              At Down Right Plumbing, when you call, you'll speak with a real person who can schedule service at a convenient time. We offer same-day service availability for urgent situations like burst pipes, sewer backups, water heater failures, and other pressing plumbing issues. Doug responds promptly with the professionalism and expertise you need.
             </p>
 
             <h3 className="text-2xl font-heading font-bold text-brand-text-primary mb-4 mt-8">

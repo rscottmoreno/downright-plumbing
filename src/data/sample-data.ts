@@ -59,40 +59,41 @@ export const sampleServices = [
 ];
 
 // ===== TESTIMONIALS DATA =====
+// Real Google Reviews
 export const sampleTestimonials = [
   {
     quote:
-      "Down Right Plumbing saved the day! They responded quickly to our emergency and fixed our burst pipe professionally. Highly recommend!",
-    author: "Sarah Johnson",
-    role: "Homeowner, Edmond",
+      "My water heater broke late in the afternoon. I called Down Right Plumbing and they were able to get to me very quickly. I had both my tanks replaced and was back up and running the same day. Doug was very professional and did a great job leaving my home in great shape.",
+    author: "Mark Harper",
+    role: "Google Review",
     rating: 5,
   },
   {
     quote:
-      "Professional, courteous, and efficient. They installed our new water heater and explained everything clearly. Great experience!",
-    author: "Michael Chen",
-    role: "Business Owner, OKC",
+      "We thought we had a burst pipe. Over the phone, he asked some questions and knew exactly what was wrong. He came quickly and fixed the issue within 30 minutes. He charged less than half of what another plumber was going to charge. Highly recommend!",
+    author: "Alex Hernandez",
+    role: "Google Review",
     rating: 5,
   },
   {
     quote:
-      "I've used Down Right Plumbing for several projects now. They're always on time, fair-priced, and do excellent work. My go-to plumbers!",
-    author: "Jennifer Martinez",
-    role: "Property Manager",
+      "Quick to answer & communicate, realistic expectations, trustworthy, affordable - THANK YOU Doug for saving us before the winter storm recently.",
+    author: "Joe & Chantelle Marchant",
+    role: "Google Review",
     rating: 5,
   },
   {
     quote:
-      "Called them for a clogged drain and they came out the same day. The technician was knowledgeable and fixed it quickly. Very satisfied!",
-    author: "Robert Thompson",
-    role: "Homeowner, Norman",
+      "Doug was amazing, very good value. Prompt and efficient.",
+    author: "Jason Erwin",
+    role: "Google Review",
     rating: 5,
   },
   {
     quote:
-      "Outstanding service from start to finish. They repiped our entire house and it was a seamless experience. True professionals!",
-    author: "Lisa Anderson",
-    role: "Homeowner, Yukon",
+      "You can trust him completely, he's as honest as they come.",
+    author: "Morgan",
+    role: "Google Review",
     rating: 5,
   },
 ];
@@ -158,7 +159,7 @@ export const sampleStats = [
   { value: 20, label: "Years Experience", suffix: "+" },
   { value: 5, label: "Star Google Rating", prefix: "" },
   { value: 5, label: "Days a Week Service" },
-  { value: 100, label: "Satisfaction Guarantee", suffix: "%" },
+  { value: 0, label: "Hidden Fees", suffix: "" },
 ];
 
 // ===== WHY CHOOSE US DATA =====

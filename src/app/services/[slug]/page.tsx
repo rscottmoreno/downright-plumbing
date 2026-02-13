@@ -126,7 +126,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <div className="flex flex-wrap items-center gap-6 mt-8 pt-8 border-t border-white/20">
               <div className="flex items-center gap-2 text-white/90">
                 <Clock className="w-5 h-5" />
-                <span className="font-semibold">Mon-Fri 8AM-5PM</span>
+                <span className="font-semibold">Call for Service</span>
               </div>
               <div className="flex items-center gap-2 text-white/90">
                 <CheckCircle2 className="w-5 h-5" />
@@ -134,7 +134,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               </div>
               <div className="flex items-center gap-2 text-white/90">
                 <CheckCircle2 className="w-5 h-5" />
-                <span className="font-semibold">Satisfaction Guaranteed</span>
+                <span className="font-semibold">Upfront Pricing</span>
               </div>
             </div>
           </div>
@@ -234,7 +234,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 },
                 {
                   step: '4',
-                  title: 'Satisfaction Guarantee',
+                  title: 'Clear Communication',
                   description: 'We test our work thoroughly, clean up completely, and ensure your complete satisfaction.'
                 }
               ].map((item) => (

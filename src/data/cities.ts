@@ -60,7 +60,7 @@ export const citiesData: CityData[] = [
 
 Rockwall is more than just where we work—it's our home. We live here, raise our families here, and take immense pride in being part of this thriving community. From the historic downtown area to the luxurious waterfront homes at The Shores and Chandlers Landing, we understand the unique plumbing needs of Rockwall properties.
 
-Being based right here in Rockwall means we can respond faster than any other plumbing company in the area. Whether you need routine maintenance or have a plumbing issue, Doug is just minutes away, ready to provide prompt, professional service Monday-Friday 8 AM - 5 PM.
+Being based right here in Rockwall means we can respond faster than any other plumbing company in the area. Whether you need routine maintenance or have a plumbing issue, Doug is just minutes away, ready to provide prompt, professional service.
 
 **Understanding Rockwall's Unique Plumbing Challenges**
 
@@ -72,7 +72,7 @@ The explosive growth Rockwall has experienced in recent years means we also serv
 
 **Comprehensive Plumbing Services Throughout Rockwall**
 
-Doug handles everything from minor repairs to major installations. When you call us during business hours (Monday-Friday 8 AM - 5 PM), we respond promptly and typically arrive at your Rockwall home within the hour.
+Doug handles everything from minor repairs to major installations. When you call us, we respond promptly and typically arrive at your Rockwall home within the hour.
 
 Drain cleaning is one of our most common services. Rockwall's mature trees (beautiful as they are) often send roots searching for water, and unfortunately, they frequently find sewer lines. We use advanced video camera inspection technology to diagnose root intrusion and other drain problems, then provide solutions ranging from hydro-jetting to trenchless sewer line repair.
 
@@ -94,9 +94,9 @@ From the charming historic homes downtown to the elegant estates overlooking the
 
 We maintain strong relationships with Rockwall's best builders, property managers, and real estate professionals. Whether you're buying a new home and need a pre-purchase plumbing inspection, selling a property and discovered issues during the inspection, or managing rental properties and need reliable maintenance, we're the plumber Rockwall professionals trust.
 
-**Quality Plumbing Service During Business Hours**
+**Quality Plumbing Service When You Need It**
 
-Plumbing issues can be stressful, which is why we're committed to providing prompt, professional service during our business hours (Monday-Friday 8 AM - 5 PM). Whether it's a burst pipe, a backed-up sewer line, or a water heater that needs replacement, we respond quickly to minimize damage and restore your plumbing system. Our service vehicles are fully equipped to handle most situations on the first visit, getting your life back to normal as quickly as possible.
+Plumbing issues can be stressful, which is why we're committed to providing prompt, professional service. Whether it's a burst pipe, a backed-up sewer line, or a water heater that needs replacement, we respond quickly to minimize damage and restore your plumbing system. Our service vehicles are fully equipped to handle most situations on the first visit, getting your life back to normal as quickly as possible.
 
 **Preventive Maintenance for Rockwall Homes**
 
@@ -108,11 +108,10 @@ Many of our Rockwall customers are on annual maintenance plans that include prio
 
 At Down Right Plumbing, we're not looking for one-time transactions—we're building lasting relationships with Rockwall families and businesses. We want to be the plumbing company you trust for decades to come, the plumber you recommend to your friends and neighbors, the professionals you call whenever you need plumbing service.
 
-Whether you're planning a bathroom renovation, considering a water heater upgrade, or just need a reliable plumber you can trust for future needs, we're here for you Monday-Friday 8 AM - 5 PM. Call Down Right Plumbing today and experience the difference of working with Rockwall's premier plumbing company.`,
+Whether you're planning a bathroom renovation, considering a water heater upgrade, or just need a reliable plumber you can trust for future needs, we're here for you. Call Down Right Plumbing today and experience the difference of working with Rockwall's premier plumbing company.`,
     testimonial: {
-      quote: "As a long-time Rockwall resident, I've used several plumbers over the years, but Down Right Plumbing is by far the best. They fixed a complex slab leak in our Chandlers Landing home quickly and professionally. They're now the only plumber I'll call!",
-      author: "Jennifer Morrison",
-      neighborhood: "Chandlers Landing"
+      quote: "My water heater broke late in the afternoon. I called Down Right Plumbing and they were able to get to me very quickly. I had both my tanks replaced and was back up and running the same day. Doug was very professional and did a great job leaving my home in great shape.",
+      author: "Mark Harper"
     },
     faqs: [
       {
@@ -121,7 +120,7 @@ Whether you're planning a bathroom renovation, considering a water heater upgrad
       },
       {
         question: "How quickly can you respond to service calls in Rockwall?",
-        answer: "Because we're based in Rockwall, we typically arrive within 30-60 minutes for service calls during our business hours (Monday-Friday 8 AM - 5 PM). Doug maintains a fully-equipped service vehicle ready to respond promptly. Whether you're in downtown Rockwall, The Shores, or any surrounding neighborhood, we'll get to you quickly to address your plumbing needs."
+        answer: "Because we're based in Rockwall, we typically arrive within 30-60 minutes for service calls. Doug maintains a fully-equipped service vehicle ready to respond promptly. Whether you're in downtown Rockwall, The Shores, or any surrounding neighborhood, we'll get to you quickly to address your plumbing needs."
       },
       {
         question: "Do I really need to worry about hard water in Rockwall?",
@@ -156,8 +155,6 @@ Whether you're planning a bathroom renovation, considering a water heater upgrad
       "Sonoma Verde"
     ],
     commonIssues: [
-      "Well water system maintenance",
-      "Septic system concerns",
       "Lake property plumbing",
       "Outdoor irrigation systems",
       "Hard water treatment",
@@ -167,15 +164,15 @@ Whether you're planning a bathroom renovation, considering a water heater upgrad
       lat: 32.9373,
       lng: -96.4722
     },
-    content: `Down Right Plumbing is proud to serve the beautiful community of Heath, Texas, where lakeside living meets small-town charm. Heath's unique character—with its larger lots, lake properties, and mix of well water and municipal supply—requires plumbers who understand the specific challenges of this area. That's exactly what we provide.
+    content: `Down Right Plumbing is proud to serve the beautiful community of Heath, Texas, where lakeside living meets small-town charm. Heath's unique character—with its larger lots, lake properties, and municipal water systems—requires plumbers who understand the specific challenges of this area. That's exactly what we provide.
 
 **Understanding Heath's Unique Plumbing Landscape**
 
-Heath is unlike many surrounding communities. With its emphasis on preserving the natural landscape, larger property sizes, and significant number of homes on well and septic systems, Heath presents unique plumbing considerations. Many properties in neighborhoods like Coventry, Bella Vista, and Waterford feature private well systems that require specialized knowledge for repairs and maintenance.
+Heath is unlike many surrounding communities. With its emphasis on preserving the natural landscape, larger property sizes, and beautiful lakeside homes, Heath presents unique plumbing considerations. Properties in neighborhoods like Coventry, Bella Vista, and Waterford feature expansive homes with complex plumbing systems that require specialized knowledge for repairs and maintenance.
 
-We've become experts in well water systems, including pressure tanks, pressure switches, well pumps, and water treatment systems specific to well water. Hard water is particularly common in Heath's well systems, and we regularly install and maintain whole-house water softeners and filtration systems to protect plumbing fixtures and improve water quality.
+Hard water is particularly common in the Heath area, and we regularly install and maintain whole-house water softeners and filtration systems to protect plumbing fixtures and improve water quality. From water treatment solutions to addressing the effects of mineral buildup on pipes, fixtures, and appliances, we help Heath homeowners keep their plumbing systems running smoothly for years to come.
 
-For homes on septic systems—common in Heath—we work closely with septic professionals and understand how plumbing decisions impact septic system health. From recommending septic-safe fixtures and products to diagnosing issues that might affect your septic tank or drain field, we provide comprehensive care for Heath's semi-rural properties.
+Heath's larger properties often feature extensive plumbing infrastructure including multiple bathrooms, outdoor living areas, and long water supply lines that require expert attention. We understand the demands that larger homes place on plumbing systems and provide solutions designed to maintain optimal water pressure, reliable hot water delivery, and efficient drainage throughout your property.
 
 **Lake Property Plumbing Specialists**
 
@@ -183,11 +180,11 @@ Many Heath residents enjoy the privilege of lakefront living on Lake Ray Hubbard
 
 **Comprehensive Services for Heath Homes**
 
-Whether you're in the luxurious estates of Coventry, the family-friendly neighborhoods near Amy Parks Heath Elementary, or anywhere else in Heath, we provide complete plumbing services. We handle everything from burst pipes to water heater failures, backed-up drains, and sewer line issues during our business hours (Monday-Friday 8 AM - 5 PM).
+Whether you're in the luxurious estates of Coventry, the family-friendly neighborhoods near Amy Parks Heath Elementary, or anywhere else in Heath, we provide complete plumbing services. We handle everything from burst pipes to water heater failures, backed-up drains, and sewer line issues.
 
 Given Heath's larger lots, outdoor plumbing is a significant focus. We install, repair, and maintain irrigation systems, outdoor kitchens, pool plumbing, and hose bibs. We understand Heath's watering restrictions and can help you design efficient irrigation systems that keep your landscape beautiful while conserving water.
 
-Indoor plumbing services include fixture installations and repairs, kitchen and bathroom remodels, garbage disposal service, sump pump installation and repair, and all drain cleaning services. We're experienced with both standard municipal water systems and private well systems, adapting our approach to your specific setup.
+Indoor plumbing services include fixture installations and repairs, kitchen and bathroom remodels, garbage disposal service, sump pump installation and repair, and all drain cleaning services. We're experienced with the municipal water systems serving Heath and adapt our approach to your specific setup and water quality needs.
 
 **Why Heath Residents Trust Down Right Plumbing**
 
@@ -197,29 +194,20 @@ We understand that Heath homeowners have invested significantly in their propert
 
 **Local Presence, Rapid Response**
 
-Based just three miles away in Rockwall, we provide remarkably fast response times to Heath during our business hours (Monday-Friday 8 AM - 5 PM). We typically arrive within 30-45 minutes. This proximity, combined with our well-stocked service vehicles, means we can often resolve issues on the first visit, minimizing disruption to your life.
+Based just three miles away in Rockwall, we provide remarkably fast response times to Heath. We typically arrive within 30-45 minutes. This proximity, combined with our fully-stocked service vehicles, means we can often resolve issues on the first visit, minimizing disruption to your life.
 
 Our local knowledge extends beyond plumbing. We're familiar with Heath's local regulations, building codes, and permitting requirements. When work requires permits, we handle that process efficiently, ensuring everything is done correctly and legally.
 
 **Preventive Maintenance for Peace of Mind**
 
-Many of our Heath customers are on preventive maintenance programs that include regular well pump checks, water heater inspections, drain cleaning, and irrigation system tune-ups. These programs catch small issues before they become expensive repairs and extend the life of your plumbing systems—particularly important for well systems and lake property plumbing that face unique challenges.
+Many of our Heath customers are on preventive maintenance programs that include regular water heater inspections, drain cleaning, irrigation system tune-ups, and plumbing system checkups. These programs catch small issues before they become expensive repairs and extend the life of your plumbing systems—particularly important for lake property plumbing and the larger homes in Heath that face unique challenges.
 
-Whether you need routine maintenance or a major installation project, Down Right Plumbing is Heath's trusted local choice. Call us today to experience professional plumbing service from a plumber who understands Heath's unique needs. We're available Monday-Friday 8 AM - 5 PM.`,
+Whether you need routine maintenance or a major installation project, Down Right Plumbing is Heath's trusted local choice. Call us today to experience professional plumbing service from a plumber who understands Heath's unique needs.`,
     testimonial: {
-      quote: "Our well pump failed and we needed help fast. Down Right Plumbing had Doug at our Heath home within an hour—he diagnosed the issue and had us back in service the same day. Incredible response and expertise with well systems!",
-      author: "Mark and Susan Taylor",
-      neighborhood: "Coventry"
+      quote: "We thought we had a burst pipe. Over the phone, he asked some questions and knew exactly what was wrong. He came quickly and fixed the issue within 30 minutes. He charged less than half of what another plumber was going to charge. Highly recommend!",
+      author: "Alex Hernandez"
     },
     faqs: [
-      {
-        question: "Do you work on well water systems in Heath?",
-        answer: "Yes! We're experienced with all types of well water systems common in Heath, including submersible and jet pumps, pressure tanks, pressure switches, and related equipment. We can diagnose and repair well pump issues, install water treatment systems for well water, and maintain your entire well water system."
-      },
-      {
-        question: "How often should I have my well system inspected in Heath?",
-        answer: "We recommend annual well system inspections for Heath homes. This includes checking the pressure tank, testing pressure switches, inspecting visible components for wear, and testing water quality. Regular maintenance prevents unexpected failures and extends the life of expensive components like well pumps."
-      },
       {
         question: "What plumbing issues are most common in Heath lake properties?",
         answer: "Lake properties in Heath often face challenges including corrosion from moisture and humidity, freezing of outdoor plumbing lines in winter, drainage issues that can threaten foundations near the water, and hard water problems. We specialize in lake property plumbing and can provide solutions for all these issues."
@@ -229,12 +217,8 @@ Whether you need routine maintenance or a major installation project, Down Right
         answer: "Absolutely. Given Heath's larger lots, irrigation systems are essential for many homeowners. We install, repair, and maintain all types of irrigation systems, including sprinkler systems, drip irrigation, and smart controllers. We can also help ensure your system complies with Heath's watering restrictions while keeping your landscape healthy."
       },
       {
-        question: "Do Heath's septic systems affect plumbing choices?",
-        answer: "Yes, homes on septic systems need to be more mindful of what goes down drains. We can recommend septic-safe fixtures, garbage disposals designed for septic systems, and appropriate toilet paper and cleaning products. We also coordinate with septic professionals when needed and ensure all plumbing work supports healthy septic system operation."
-      },
-      {
         question: "How quickly can you respond to service calls in Heath?",
-        answer: "We're based just 3 miles away in Rockwall, so we typically reach Heath homes within 30-45 minutes for service calls during our business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped trucks allow us to handle most situations on the first visit."
+        answer: "We're based just 3 miles away in Rockwall, so we typically reach Heath homes within 30-45 minutes for service calls. Our fully-equipped trucks allow us to handle most situations on the first visit."
       }
     ]
   },
@@ -281,7 +265,7 @@ Sewer line issues can occur in new developments, from improperly graded lines to
 
 **Comprehensive Plumbing Services Throughout Fate**
 
-We provide professional plumbing service to Fate residents Monday-Friday 8 AM - 5 PM. Whether you're dealing with a burst pipe, overflowing toilet, backed-up sewer line, or water heater failure, we respond quickly during business hours—typically within 45 minutes to an hour anywhere in Fate. Our service vehicles are fully stocked to handle most situations immediately.
+We provide professional plumbing service to Fate residents. Whether you're dealing with a burst pipe, overflowing toilet, backed-up sewer line, or water heater failure, we respond quickly—typically within 45 minutes to an hour anywhere in Fate. Our service vehicles are fully stocked to handle most situations immediately.
 
 For planned services, we offer complete plumbing installations and repairs including fixture upgrades (faucets, toilets, showerheads), water heater installation and replacement, garbage disposal service, sump pump installation, whole-house re-piping if needed, and comprehensive drain cleaning services.
 
@@ -297,17 +281,16 @@ We believe in transparent, upfront pricing. Before starting any work, we'll expl
 
 Based nearby in Rockwall, we're perfectly positioned to serve Fate with rapid response times and genuine local knowledge. We understand Fate's local codes and requirements, work regularly with Fate's building department when permits are needed, and we've built strong relationships with Fate builders, realtors, and property managers.
 
-Our proximity means we can respond quickly during business hours (Monday-Friday 8 AM - 5 PM), and we're convenient for routine service. Need a plumbing inspection before closing on your new Fate home? We'll be there promptly. Want to schedule water heater maintenance or seasonal drain cleaning? We'll work around your schedule with convenient appointment times.
+Our proximity means we can respond quickly, and we're convenient for routine service. Need a plumbing inspection before closing on your new Fate home? We'll be there promptly. Want to schedule water heater maintenance or seasonal drain cleaning? We'll work around your schedule with convenient appointment times.
 
 **Growing with Fate**
 
-As Fate continues to grow and thrive, Down Right Plumbing is committed to growing alongside this wonderful community. We're here for the long haul—not just for one-time jobs, but to be your trusted plumbing partner for years to come. Whether you've just moved to Chamberlain Crossing or you've been in Old Town Fate for decades, we're here to serve you with professionalism, expertise, and genuine care during our business hours (Monday-Friday 8 AM - 5 PM).
+As Fate continues to grow and thrive, Down Right Plumbing is committed to growing alongside this wonderful community. We're here for the long haul—not just for one-time jobs, but to be your trusted plumbing partner for years to come. Whether you've just moved to Chamberlain Crossing or you've been in Old Town Fate for decades, we're here to serve you with professionalism, expertise, and genuine care.
 
 From repairs to major installations, from fixture upgrades to whole-house plumbing inspections, Down Right Plumbing is Fate's local plumbing company. Call us today and experience the difference of working with professionals who understand and value this growing community.`,
     testimonial: {
-      quote: "We bought a new home in Chamberlain Crossing and discovered the builder-grade water heater wasn't keeping up with our family's needs. Down Right Plumbing installed a beautiful tankless system, and now we have endless hot water! They were professional, clean, and thoroughly explained all our options. Highly recommend!",
-      author: "David and Rachel Chen",
-      neighborhood: "Chamberlain Crossing"
+      quote: "Quick to answer & communicate, realistic expectations, trustworthy, affordable - THANK YOU Doug for saving us before the winter storm recently.",
+      author: "Joe & Chantelle Marchant"
     },
     faqs: [
       {
@@ -324,7 +307,7 @@ From repairs to major installations, from fixture upgrades to whole-house plumbi
       },
       {
         question: "How quickly can you respond to service calls in Fate?",
-        answer: "We're based in Rockwall, just 7 miles from Fate, so we typically arrive within 45 minutes to an hour for service calls during our business hours (Monday-Friday 8 AM - 5 PM). Our service vehicles are fully equipped to handle most situations on the first visit."
+        answer: "We're based in Rockwall, just 7 miles from Fate, so we typically arrive within 45 minutes to an hour for service calls. Our service vehicles are fully equipped to handle most situations on the first visit."
       },
       {
         question: "Do you work with Fate builders and warranty plumbing issues?",
@@ -352,8 +335,6 @@ From repairs to major installations, from fixture upgrades to whole-house plumbi
     commonIssues: [
       "Mix of old and new plumbing systems",
       "Agricultural property plumbing",
-      "Water well services",
-      "Septic system coordination",
       "New development infrastructure",
       "Rural property irrigation"
     ],
@@ -361,7 +342,7 @@ From repairs to major installations, from fixture upgrades to whole-house plumbi
       lat: 32.9751,
       lng: -96.3310
     },
-    content: `Royse City perfectly blends small-town Texas charm with modern growth, and Down Right Plumbing is proud to serve this diverse community. From historic downtown properties to brand-new developments, from rural homesteads with wells and septic systems to modern subdivisions on municipal utilities, we understand the full spectrum of Royse City's plumbing needs.
+    content: `Royse City perfectly blends small-town Texas charm with modern growth, and Down Right Plumbing is proud to serve this diverse community. From historic downtown properties to brand-new developments, from rural homesteads with larger lots to modern subdivisions, we understand the full spectrum of Royse City's plumbing needs.
 
 **Understanding Royse City's Diverse Plumbing Landscape**
 
@@ -369,7 +350,7 @@ What makes Royse City unique is its remarkable diversity. The historic downtown 
 
 At the same time, Royse City is experiencing significant growth, with new developments like Dalton Ranch, Pulte Homes, and Heritage Landing bringing modern homes and infrastructure. These newer properties present entirely different considerations, from builder-grade upgrades to new irrigation systems for landscaping.
 
-Many Royse City properties remain rural or semi-rural, with well water systems, septic tanks, and larger lots requiring specialized outdoor plumbing. We've become experts at working with all these scenarios, adapting our services to match each property's unique characteristics.
+Many Royse City properties remain rural or semi-rural, with larger lots requiring specialized outdoor plumbing including irrigation systems, outdoor living spaces, and extended water lines. We've become experts at working with all these scenarios, adapting our services to match each property's unique characteristics.
 
 **Comprehensive Services for Historic and Modern Homes**
 
@@ -381,15 +362,15 @@ For newer Royse City homes, we offer builder-grade fixture upgrades, water heate
 
 **Rural and Agricultural Property Expertise**
 
-Many Royse City residents enjoy larger properties with agricultural or equestrian uses. We're experienced with the unique plumbing needs these properties present including well pump installation, repair, and maintenance, barn and stable plumbing, livestock water systems, irrigation for pastures and crops, and septic system considerations for multiple structures.
+Many Royse City residents enjoy larger properties with agricultural or equestrian uses. We're experienced with the unique plumbing needs these properties present including barn and stable plumbing, livestock water systems, irrigation for pastures and crops, outdoor hose bibs and hydrants, and multi-building water line installation and maintenance.
 
-We work closely with well drillers and septic professionals to ensure comprehensive care for rural Royse City properties. Whether you need a new water line run to a barn, pressure regulation for multiple buildings, or repair of a well pump, we have the expertise and equipment to handle it.
+Whether you need a new water line run to a barn, pressure regulation for multiple buildings, or irrigation system installation for larger acreage, we have the expertise and equipment to handle it. We understand the demands that larger rural properties place on plumbing infrastructure and provide solutions built to perform reliably.
 
 **Professional Service Across All of Royse City**
 
-Whether you're in downtown Royse City or on a large property on the outskirts, we provide professional plumbing service Monday-Friday 8 AM - 5 PM. Burst pipes, sewer backups, water heater failures, and other urgent issues receive prompt attention from Doug during business hours.
+Whether you're in downtown Royse City or on a large property on the outskirts, we provide professional plumbing service. Burst pipes, sewer backups, water heater failures, and other urgent issues receive prompt attention from Doug.
 
-We typically reach Royse City locations within 45 minutes to an hour for service calls, and Doug's well-equipped service vehicle allows us to resolve most issues on the first visit. This rapid response minimizes water damage and gets your life back to normal as quickly as possible.
+We typically reach Royse City locations within 45 minutes to an hour for service calls, and Doug's fully-equipped service vehicle allows us to resolve most issues on the first visit. This rapid response minimizes water damage and gets your life back to normal as quickly as possible.
 
 **Why Royse City Trusts Down Right Plumbing**
 
@@ -403,9 +384,8 @@ We understand Royse City's local codes, permitting processes, and specific ordin
 
 Whether you're maintaining a cherished historic home, settling into a new development, or managing a rural property, Down Right Plumbing is Royse City's trusted local plumber. Call us today for service that respects your property and exceeds your expectations.`,
     testimonial: {
-      quote: "Our family ranch has been in Royse City for three generations, and we've dealt with our share of plumbers over the years. Down Right Plumbing stands out for their expertise with our well system and barn plumbing. They're responsive, knowledgeable, and understand rural properties. Finally found a plumber we can count on!",
-      author: "Tom Henderson",
-      neighborhood: "Rural Royse City"
+      quote: "Doug was amazing, very good value. Prompt and efficient.",
+      author: "Jason Erwin"
     },
     faqs: [
       {
@@ -414,11 +394,7 @@ Whether you're maintaining a cherished historic home, settling into a new develo
       },
       {
         question: "Can you handle agricultural and rural property plumbing in Royse City?",
-        answer: "Yes, rural property plumbing is one of our specialties. We work on well systems, barn and stable plumbing, livestock watering systems, irrigation for pastures, and multi-building water distribution. We understand the unique demands of agricultural properties and have the equipment and expertise to handle these specialized needs."
-      },
-      {
-        question: "How do you handle the mix of well water and municipal water in Royse City?",
-        answer: "We're experienced with both systems. Some Royse City properties use well water, others have municipal connections, and some use both (well for irrigation, municipal for the house). We can service and maintain either type, install appropriate treatment systems for well water, and help with any transitions between systems."
+        answer: "Yes, rural property plumbing is one of our specialties. We work on barn and stable plumbing, livestock watering systems, irrigation for pastures, multi-building water distribution, and outdoor plumbing installations. We understand the unique demands of agricultural properties and have the equipment and expertise to handle these specialized needs."
       },
       {
         question: "Do you provide plumbing services for new construction in Royse City?",
@@ -430,7 +406,7 @@ Whether you're maintaining a cherished historic home, settling into a new develo
       },
       {
         question: "How quickly can you reach Royse City for service calls?",
-        answer: "We're based in Rockwall, about 10 miles from Royse City, and typically arrive within 45 minutes to an hour for service calls during business hours (Monday-Friday 8 AM - 5 PM)—even to rural properties on the outskirts. Our fully-equipped vehicles are ready to handle most situations immediately."
+        answer: "We're based in Rockwall, about 10 miles from Royse City, and typically arrive within 45 minutes to an hour for service calls—even to rural properties on the outskirts. Our fully-equipped vehicles are ready to handle most situations immediately."
       }
     ]
   },
@@ -492,7 +468,7 @@ This preventive approach protects your investment and ensures consistent, reliab
 
 **Professional Service When You Need It**
 
-Even the finest plumbing systems can experience unexpected failures. When they do, McLendon-Chisholm residents need prompt, professional response from a plumber who understands upscale systems. We provide service Monday-Friday 8 AM - 5 PM with typical response times under 45 minutes.
+Even the finest plumbing systems can experience unexpected failures. When they do, McLendon-Chisholm residents need prompt, professional response from a plumber who understands upscale systems. We provide service with typical response times under 45 minutes.
 
 Our service vehicles carry premium fixtures and parts, allowing us to provide same-day repairs even for high-end systems. We work quickly and carefully to resolve issues while protecting your beautiful property.
 
@@ -502,11 +478,10 @@ McLendon-Chisholm residents expect excellence, and that's exactly what we delive
 
 We provide transparent pricing appropriate for high-quality work, stand behind all our services with comprehensive warranties, and build long-term relationships with homeowners who trust us as their plumbing partner for life.
 
-From repairs to ambitious renovation projects, from routine maintenance to custom installations, Down Right Plumbing is McLendon-Chisholm's choice for professional plumbing service that matches the quality of this exceptional community. Call us Monday-Friday 8 AM - 5 PM to experience the difference of working with true professionals.`,
+From repairs to ambitious renovation projects, from routine maintenance to custom installations, Down Right Plumbing is McLendon-Chisholm's choice for professional plumbing service that matches the quality of this exceptional community. Call us today to experience the difference of working with true professionals.`,
     testimonial: {
-      quote: "We recently completed an extensive master bathroom renovation in our Kingsbridge home, including a custom shower with six body jets and a rainfall head. Down Right Plumbing handled the complex installation flawlessly. They're the only plumber in the area we trust with our luxury home's plumbing needs.",
-      author: "Richard and Patricia Walker",
-      neighborhood: "Kingsbridge"
+      quote: "You can trust him completely, he's as honest as they come.",
+      author: "Morgan"
     },
     faqs: [
       {
@@ -581,9 +556,9 @@ Foundation-related plumbing issues are another consideration in Rowlett. Texas c
 
 **Comprehensive Plumbing Services for All Rowlett Neighborhoods**
 
-Whether you're in the heart of the Main Street District, in a cozy Pecan Grove home, or enjoying lakefront living at Lake Vista or Waterford, we provide complete plumbing services during business hours (Monday-Friday 8 AM - 5 PM) including drain cleaning and sewer line services, water heater installation and replacement, leak detection and repair, fixture upgrades and installations, repiping and pipe repair, and whole-house plumbing inspections.
+Whether you're in the heart of the Main Street District, in a cozy Pecan Grove home, or enjoying lakefront living at Lake Vista or Waterford, we provide complete plumbing services including drain cleaning and sewer line services, water heater installation and replacement, leak detection and repair, fixture upgrades and installations, repiping and pipe repair, and whole-house plumbing inspections.
 
-Our response time for Rowlett is typically 45 minutes to an hour during business hours, and our fully-stocked service vehicles allow us to resolve most issues on the first visit. We offer convenient scheduling that works around your life.
+Our response time for Rowlett is typically 45 minutes to an hour, and our fully-stocked service vehicles allow us to resolve most issues on the first visit. We offer convenient scheduling that works around your life.
 
 **Lake Property Expertise**
 
@@ -603,9 +578,8 @@ Given the age of many Rowlett homes, preventive maintenance is particularly valu
 
 Whether you're maintaining an established Rowlett home, settling into a newer property, or managing a lakefront retreat, Down Right Plumbing is your local plumbing partner. Call us today for service that exceeds your expectations.`,
     testimonial: {
-      quote: "Our 1980s home in Pecan Grove had original galvanized pipes that were badly corroded. Down Right Plumbing re-piped the entire house with minimal disruption and at a fair price. Water pressure and quality are incredible now! They were professional, clean, and completed the work faster than expected.",
-      author: "James and Linda Martinez",
-      neighborhood: "Pecan Grove"
+      quote: "My water heater broke late in the afternoon. I called Down Right Plumbing and they were able to get to me very quickly. I had both my tanks replaced and was back up and running the same day. Doug was very professional and did a great job leaving my home in great shape.",
+      author: "Mark Harper"
     },
     faqs: [
       {
@@ -630,7 +604,7 @@ Whether you're maintaining an established Rowlett home, settling into a newer pr
       },
       {
         question: "How quickly can you respond to service calls in Rowlett?",
-        answer: "We're based just 8 miles away in Rockwall, so we typically reach Rowlett homes within 45 minutes to an hour for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped service vehicles allow us to handle most situations on the first visit. Whether you're in Pecan Grove, Lake Vista, or anywhere else in Rowlett, we'll get to you quickly."
+        answer: "We're based just 8 miles away in Rockwall, so we typically reach Rowlett homes within 45 minutes to an hour for service calls. Our fully-equipped service vehicles allow us to handle most situations on the first visit. Whether you're in Pecan Grove, Lake Vista, or anywhere else in Rowlett, we'll get to you quickly."
       }
     ]
   },
@@ -677,13 +651,13 @@ Water heaters work hard in Garland's climate and typically last 8-12 years. We r
 
 **Comprehensive Residential and Commercial Services**
 
-For Garland homeowners, we provide complete drain cleaning and sewer services during business hours (Monday-Friday 8 AM - 5 PM), water heater sales, installation, and repair, fixture installations and upgrades, repiping for aging homes, leak detection and repair, bathroom and kitchen plumbing for remodels, and comprehensive plumbing inspections.
+For Garland homeowners, we provide complete drain cleaning and sewer services, water heater sales, installation, and repair, fixture installations and upgrades, repiping for aging homes, leak detection and repair, bathroom and kitchen plumbing for remodels, and comprehensive plumbing inspections.
 
 We also serve Garland businesses with commercial plumbing services including routine maintenance contracts, fixture and equipment installation, backflow prevention testing, grease trap service, and ADA-compliant installations.
 
 **Fast Response Across All of Garland**
 
-Based in nearby Rockwall, we provide rapid response to service calls throughout Garland during business hours (Monday-Friday 8 AM - 5 PM)—typically within 45 minutes to an hour anywhere in the city. Doug's fully-equipped service vehicle means we can handle most situations on the first visit, minimizing disruption.
+Based in nearby Rockwall, we provide rapid response to service calls throughout Garland—typically within 45 minutes to an hour anywhere in the city. Doug's fully-equipped service vehicle means we can handle most situations on the first visit, minimizing disruption.
 
 We offer convenient scheduling to accommodate your needs. We offer flexible scheduling and respond quickly, so you spend less time waiting and more time getting your plumbing issues resolved.
 
@@ -695,14 +669,13 @@ We've built strong relationships throughout Garland, earning trust through consi
 
 Whether you're in Firewheel, Duck Creek, or anywhere else in Garland, Down Right Plumbing is your local plumbing partner. Call us today for service you can trust.`,
     testimonial: {
-      quote: "Our Garland home had terrible water pressure due to corroded galvanized pipes. Down Right Plumbing replaced all the supply lines in just two days. The difference is incredible—strong water pressure in every faucet! They were professional, affordable, and cleaned up perfectly after the job.",
-      author: "Carlos Rodriguez",
-      neighborhood: "Duck Creek"
+      quote: "We thought we had a burst pipe. Over the phone, he asked some questions and knew exactly what was wrong. He came quickly and fixed the issue within 30 minutes. He charged less than half of what another plumber was going to charge. Highly recommend!",
+      author: "Alex Hernandez"
     },
     faqs: [
       {
         question: "Do you serve all areas of Garland?",
-        answer: "Yes, we provide service throughout Garland including Firewheel, Duck Creek, Northlake, Pleasant Valley, and all surrounding neighborhoods. Our Rockwall base is just 12 miles away, allowing rapid response across the entire city during business hours (Monday-Friday 8 AM - 5 PM)."
+        answer: "Yes, we provide service throughout Garland including Firewheel, Duck Creek, Northlake, Pleasant Valley, and all surrounding neighborhoods. Our Rockwall base is just 12 miles away, allowing rapid response across the entire city."
       },
       {
         question: "Can you help with low water pressure in my Garland home?",
@@ -714,7 +687,7 @@ Whether you're in Firewheel, Duck Creek, or anywhere else in Garland, Down Right
       },
       {
         question: "How quickly can you respond to service calls in Garland?",
-        answer: "We typically reach Garland locations within 45 minutes to an hour for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped service vehicles allow us to resolve most situations on the first visit."
+        answer: "We typically reach Garland locations within 45 minutes to an hour for service calls. Our fully-equipped service vehicles allow us to resolve most situations on the first visit."
       },
       {
         question: "What's the typical cost to replace a water heater in Garland?",
@@ -770,7 +743,7 @@ Irrigation systems are essential for Sachse's beautiful yards. We install effici
 
 **Professional Service When You Need It**
 
-We provide professional plumbing service to Sachse residents Monday-Friday 8 AM - 5 PM. We respond promptly to burst pipes, sewer backups, water heater failures, and other urgent situations during business hours, typically arriving within 45 minutes anywhere in Sachse.
+We provide professional plumbing service to Sachse residents. We respond promptly to burst pipes, sewer backups, water heater failures, and other urgent situations, typically arriving within 45 minutes anywhere in Sachse.
 
 We offer convenient scheduling for drain cleaning, fixture installations, water heater maintenance, plumbing inspections, garbage disposal service, and any other plumbing needs.
 
@@ -784,11 +757,10 @@ Many Sachse families have made Down Right Plumbing their trusted plumber for all
 
 We're more than just a service provider—we're invested in the Sachse community's success. We support local schools, sponsor youth activities, and participate in community events. When you choose Down Right Plumbing, you're supporting a company that gives back to the community you love.
 
-Whether you need routine maintenance, fixture upgrades, or major installations, Down Right Plumbing is Sachse's local plumbing company. Call us Monday-Friday 8 AM - 5 PM and experience the quality service Sachse families trust.`,
+Whether you need routine maintenance, fixture upgrades, or major installations, Down Right Plumbing is Sachse's local plumbing company. Call us today and experience the quality service Sachse families trust.`,
     testimonial: {
-      quote: "We moved into our new Sachse home and quickly realized the builder-grade water heater couldn't keep up with our family of five. Down Right Plumbing installed a tankless system, and now we have endless hot water! They were professional, explained everything clearly, and completed the job in one day. Highly recommend!",
-      author: "Amanda Patterson",
-      neighborhood: "Woodbridge"
+      quote: "Quick to answer & communicate, realistic expectations, trustworthy, affordable - THANK YOU Doug for saving us before the winter storm recently.",
+      author: "Joe & Chantelle Marchant"
     },
     faqs: [
       {
@@ -805,7 +777,7 @@ Whether you need routine maintenance, fixture upgrades, or major installations, 
       },
       {
         question: "How quickly can you respond to service calls in Sachse?",
-        answer: "We're based just 9 miles away in Rockwall, so we typically reach Sachse homes within 45 minutes for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped service vehicles can handle most situations immediately."
+        answer: "We're based just 9 miles away in Rockwall, so we typically reach Sachse homes within 45 minutes for service calls. Our fully-equipped service vehicles can handle most situations immediately."
       },
       {
         question: "Do you install and service irrigation systems in Sachse?",
@@ -856,7 +828,7 @@ Lake properties along Lake Lavon present their own considerations, from moisture
 
 **Comprehensive Residential Services**
 
-Wylie homeowners rely on us for water heater installation and replacement, complete drain cleaning and sewer services, leak detection and repair, fixture upgrades and installations, repiping for older homes, irrigation system service, and whole-house plumbing inspections during our business hours (Monday-Friday 8 AM - 5 PM).
+Wylie homeowners rely on us for water heater installation and replacement, complete drain cleaning and sewer services, leak detection and repair, fixture upgrades and installations, repiping for older homes, irrigation system service, and whole-house plumbing inspections.
 
 Our response time to Wylie is typically 45 minutes, and our well-stocked vehicles allow us to resolve most issues immediately. We offer convenient scheduling to meet your needs.
 
@@ -874,7 +846,7 @@ These systems protect your plumbing and appliances, improve water taste and qual
 
 **Why Wylie Trusts Down Right Plumbing**
 
-Wylie residents value community, integrity, and quality work—values we share and demonstrate every day. We provide a licensed, experienced plumber, transparent, upfront pricing, clean, professional service, rapid response during business hours, and quality work backed by warranties.
+Wylie residents value community, integrity, and quality work—values we share and demonstrate every day. We provide a licensed, experienced plumber, transparent, upfront pricing, clean, professional service, rapid response, and quality work backed by warranties.
 
 We're active in the Wylie community, supporting local schools, sponsoring youth sports, and participating in community events. We're invested in Wylie's success and grateful for the trust this community has placed in us.
 
@@ -882,11 +854,10 @@ We're active in the Wylie community, supporting local schools, sponsoring youth 
 
 Wylie's location along Lake Lavon is one of its greatest assets. We've worked on numerous lakefront properties and understand their unique plumbing needs including moisture and corrosion management, outdoor plumbing for docks and lake houses, proper drainage near the water, and winterization for seasonal properties.
 
-Whether you're planning a renovation or just need a reliable plumber for routine maintenance, Down Right Plumbing is Wylie's local choice. Call us Monday-Friday 8 AM - 5 PM for service that exceeds your expectations.`,
+Whether you're planning a renovation or just need a reliable plumber for routine maintenance, Down Right Plumbing is Wylie's local choice. Call us today for service that exceeds your expectations.`,
     testimonial: {
-      quote: "Our historic home in downtown Wylie needed extensive plumbing updates. Down Right Plumbing replaced all the old galvanized pipes and updated fixtures while maintaining the character of our 1940s home. They were respectful of the property, communicated clearly, and did beautiful work. We couldn't be happier!",
-      author: "Gregory and Anne Chen",
-      neighborhood: "Downtown Wylie"
+      quote: "Doug was amazing, very good value. Prompt and efficient.",
+      author: "Jason Erwin"
     },
     faqs: [
       {
@@ -903,7 +874,7 @@ Whether you're planning a renovation or just need a reliable plumber for routine
       },
       {
         question: "How quickly can you respond to service calls in Wylie?",
-        answer: "We're based just 8 miles away in Rockwall, so we typically reach Wylie locations within 45 minutes for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped service vehicles can handle most situations on the first visit."
+        answer: "We're based just 8 miles away in Rockwall, so we typically reach Wylie locations within 45 minutes for service calls. Our fully-equipped service vehicles can handle most situations on the first visit."
       },
       {
         question: "Should I install a water softener in my Wylie home?",
@@ -959,7 +930,7 @@ Water treatment systems are common in Murphy as residents seek to protect their 
 
 **Professional Service When You Need It**
 
-Even the finest plumbing systems can experience unexpected problems. When they do, Murphy residents need professional response from a plumber who understands quality systems. We provide service Monday-Friday 8 AM - 5 PM with typical response times under 45 minutes anywhere in Murphy.
+Even the finest plumbing systems can experience unexpected problems. When they do, Murphy residents need professional response from a plumber who understands quality systems. We provide service with typical response times under 45 minutes anywhere in Murphy.
 
 For routine services, we offer flexible scheduling for annual maintenance, fixture upgrades, water heater service, drain cleaning, and plumbing inspections. Many Murphy homeowners are on preventive maintenance programs that catch small issues before they become expensive repairs.
 
@@ -973,11 +944,10 @@ We've built strong relationships throughout Murphy, earning trust through excell
 
 We're invested in Murphy's success, supporting local schools, sponsoring youth activities, and participating in community events. We're grateful for the trust Murphy residents have placed in us, and we work hard every day to maintain and deserve that trust.
 
-Whether you need routine maintenance, an upscale bathroom renovation, or any other plumbing service, Down Right Plumbing is Murphy's trusted local choice. Call us Monday-Friday 8 AM - 5 PM and experience the professional service Murphy residents recommend to their neighbors.`,
+Whether you need routine maintenance, an upscale bathroom renovation, or any other plumbing service, Down Right Plumbing is Murphy's trusted local choice. Call us today and experience the professional service Murphy residents recommend to their neighbors.`,
     testimonial: {
-      quote: "We completely renovated our master bathroom in our Maxwell Creek home, installing a walk-in shower with six spray heads and a beautiful soaking tub. Down Right Plumbing handled the complex installation flawlessly, ensuring perfect water pressure and drainage. They're true professionals who do exceptional work!",
-      author: "Robert and Jennifer Lee",
-      neighborhood: "Maxwell Creek"
+      quote: "You can trust him completely, he's as honest as they come.",
+      author: "Morgan"
     },
     faqs: [
       {
@@ -994,7 +964,7 @@ Whether you need routine maintenance, an upscale bathroom renovation, or any oth
       },
       {
         question: "How quickly can you respond to service calls in Murphy?",
-        answer: "We're based just 6 miles away in Rockwall, so we typically reach Murphy homes within 30-45 minutes for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped vehicles carry premium parts for quality systems."
+        answer: "We're based just 6 miles away in Rockwall, so we typically reach Murphy homes within 30-45 minutes for service calls. Our fully-equipped vehicles carry premium parts for quality systems."
       },
       {
         question: "What water treatment systems do you recommend for Murphy homes?",
@@ -1043,7 +1013,7 @@ West Plano and newer areas feature more recent construction with contemporary sy
 
 **Comprehensive Services Throughout Plano**
 
-For residential customers, we provide water heater installation and replacement during business hours (Monday-Friday 8 AM - 5 PM), drain cleaning and sewer line service, leak detection and repair, repiping for aging homes, fixture upgrades and installations, bathroom and kitchen remodeling plumbing, and whole-house plumbing inspections.
+For residential customers, we provide water heater installation and replacement, drain cleaning and sewer line service, leak detection and repair, repiping for aging homes, fixture upgrades and installations, bathroom and kitchen remodeling plumbing, and whole-house plumbing inspections.
 
 For commercial clients, we offer maintenance contracts for property managers, tenant improvement plumbing, backflow prevention testing, ADA-compliant installations, commercial water heater service, and grease trap cleaning and maintenance.
 
@@ -1057,9 +1027,8 @@ Plano residents and business owners expect professional, reliable service. We de
 
 Whether you're in a quiet East Plano neighborhood, a thriving West Plano community, or anywhere else in this great city, Down Right Plumbing is here to serve you with excellence. Call us today for all your plumbing needs.`,
     testimonial: {
-      quote: "Managing rental properties in Plano means dealing with plumbing issues regularly. Down Right Plumbing has become our go-to company because they're responsive, professional, and their work holds up. Tenants consistently report positive experiences with him.",
-      author: "Michael Tran, Property Manager",
-      neighborhood: "East Plano"
+      quote: "My water heater broke late in the afternoon. I called Down Right Plumbing and they were able to get to me very quickly. I had both my tanks replaced and was back up and running the same day. Doug was very professional and did a great job leaving my home in great shape.",
+      author: "Mark Harper"
     },
     faqs: [
       {
@@ -1068,7 +1037,7 @@ Whether you're in a quiet East Plano neighborhood, a thriving West Plano communi
       },
       {
         question: "How quickly can you respond to emergencies in Plano?",
-        answer: "We typically reach Plano locations within 45 minutes to an hour for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped vehicles are ready to handle most situations immediately."
+        answer: "We typically reach Plano locations within 45 minutes to an hour for service calls. Our fully-equipped vehicles are ready to handle most situations immediately."
       },
       {
         question: "Do you work with Plano property managers?",
@@ -1124,7 +1093,7 @@ We've earned the trust of Allen families through consistent, excellent service. 
 
 Allen homeowners frequently upgrade and improve their properties. Popular services include bathroom remodeling with spa-quality fixtures, kitchen upgrades with premium faucets and appliances, water treatment systems for quality and protection, irrigation systems for beautiful yards, outdoor kitchen and entertainment area plumbing, and tankless water heater installations.
 
-We also provide essential services during business hours (Monday-Friday 8 AM - 5 PM) like drain cleaning and sewer line service, leak detection and repair, water heater maintenance and replacement, fixture repairs and installations, and comprehensive plumbing inspections.
+We also provide essential services like drain cleaning and sewer line service, leak detection and repair, water heater maintenance and replacement, fixture repairs and installations, and comprehensive plumbing inspections.
 
 **Irrigation and Outdoor Living**
 
@@ -1138,11 +1107,10 @@ Allen residents expect professionalism and quality, and we consistently deliver 
 
 Many Allen families have made us their exclusive plumbing company, trusting us for everything from routine maintenance to major projects. We've earned this loyalty through excellence and genuine care for every customer.
 
-Whether you need routine maintenance or are planning a renovation, Down Right Plumbing is Allen's trusted local plumber. Call us Monday-Friday 8 AM - 5 PM and experience the quality service Allen families recommend.`,
+Whether you need routine maintenance or are planning a renovation, Down Right Plumbing is Allen's trusted local plumber. Call us today and experience the quality service Allen families recommend.`,
     testimonial: {
-      quote: "We've lived in Allen for 12 years and have used Down Right Plumbing for everything from urgent repairs to our recent master bathroom renovation. They're consistently professional, fairly priced, and do excellent work. They're the only plumber we'll use!",
-      author: "Kevin and Lisa Thompson",
-      neighborhood: "Twin Creeks"
+      quote: "We thought we had a burst pipe. Over the phone, he asked some questions and knew exactly what was wrong. He came quickly and fixed the issue within 30 minutes. He charged less than half of what another plumber was going to charge. Highly recommend!",
+      author: "Alex Hernandez"
     },
     faqs: [
       {
@@ -1151,7 +1119,7 @@ Whether you need routine maintenance or are planning a renovation, Down Right Pl
       },
       {
         question: "How quickly can you respond to plumbing emergencies in Allen?",
-        answer: "We typically reach Allen locations within 45 minutes to an hour for service calls during business hours (Monday-Friday 8 AM - 5 PM). Doug's fully-equipped vehicle and 20+ years of experience are ready to resolve most issues immediately."
+        answer: "We typically reach Allen locations within 45 minutes to an hour for service calls. Doug's fully-equipped vehicle and 20+ years of experience are ready to resolve most issues immediately."
       },
       {
         question: "Do you install and service irrigation systems in Allen?",
@@ -1208,7 +1176,7 @@ Luxury communities like Stonebridge Ranch, Craig Ranch, and Adriatica Village fe
 
 **Comprehensive Services Across McKinney**
 
-We provide residential plumbing service during business hours (Monday-Friday 8 AM - 5 PM) including water heater installation and service, complete drain and sewer services, leak detection and repair, repiping and pipe replacement, luxury fixture installations, historic home plumbing updates, and irrigation system service.
+We provide residential plumbing service including water heater installation and service, complete drain and sewer services, leak detection and repair, repiping and pipe replacement, luxury fixture installations, historic home plumbing updates, and irrigation system service.
 
 For McKinney's thriving business community, we offer commercial maintenance contracts, tenant improvement plumbing, backflow prevention testing, and commercial equipment installation.
 
@@ -1222,9 +1190,8 @@ McKinney's upscale communities expect exceptional service, and we deliver with h
 
 Whether you're in historic downtown, an established neighborhood, or a luxury development, Down Right Plumbing is McKinney's trusted plumber. Call us today for professional service throughout this great city.`,
     testimonial: {
-      quote: "Our 1905 home in downtown McKinney needed complete repiping. Down Right Plumbing did an amazing job updating the plumbing while being incredibly respectful of our home's historic character. They're true professionals who understand old homes!",
-      author: "Thomas and Elizabeth Sanders",
-      neighborhood: "Historic Downtown"
+      quote: "Quick to answer & communicate, realistic expectations, trustworthy, affordable - THANK YOU Doug for saving us before the winter storm recently.",
+      author: "Joe & Chantelle Marchant"
     },
     faqs: [
       {
@@ -1237,7 +1204,7 @@ Whether you're in historic downtown, an established neighborhood, or a luxury de
       },
       {
         question: "How quickly can you respond to emergencies throughout McKinney?",
-        answer: "We typically reach McKinney locations within 45 minutes to an hour for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped vehicles are ready to handle most situations immediately, anywhere in McKinney."
+        answer: "We typically reach McKinney locations within 45 minutes to an hour for service calls. Our fully-equipped vehicles are ready to handle most situations immediately, anywhere in McKinney."
       },
       {
         question: "Do you provide commercial plumbing in McKinney?",
@@ -1269,7 +1236,6 @@ Whether you're in historic downtown, an established neighborhood, or a luxury de
       "Rapid development plumbing",
       "Builder-grade upgrades",
       "Growing infrastructure",
-      "Well water in rural areas",
       "New construction concerns",
       "Irrigation installations"
     ],
@@ -1283,17 +1249,17 @@ Whether you're in historic downtown, an established neighborhood, or a luxury de
 
 Forney's rapid growth brings unique plumbing challenges. New neighborhoods mean builder-grade systems sometimes needing upgrades, rapidly expanding infrastructure occasionally having growing pains, and homeowners needing reliable local plumbers they can trust long-term. That's where Down Right Plumbing excels.
 
-We work extensively in Forney's newest developments, helping homeowners address post-construction issues, upgrade builder-grade components, and maintain new plumbing systems. We also serve Forney's established areas and rural properties with well systems and larger lots requiring specialized service.
+We work extensively in Forney's newest developments, helping homeowners address post-construction issues, upgrade builder-grade components, and maintain new plumbing systems. We also serve Forney's established areas and rural properties with larger lots requiring specialized service.
 
 **Common Services in Growing Forney**
 
 Popular services in Forney's new homes include water heater upgrades to larger or tankless units, builder-grade fixture replacements, irrigation system installations, water softener systems, garbage disposal upgrades, and post-construction plumbing corrections.
 
-We also provide essential services throughout Forney during business hours (Monday-Friday 8 AM - 5 PM) including complete drain and sewer services, leak detection and repair, repiping when needed, well system service for rural properties, and comprehensive plumbing inspections.
+We also provide essential services throughout Forney including complete drain and sewer services, leak detection and repair, repiping when needed, irrigation system service, and comprehensive plumbing inspections.
 
 **Rural Property Expertise**
 
-Many Forney properties remain rural or semi-rural with well water systems, septic tanks, and larger lots requiring specialized knowledge. We're experienced with well pumps and pressure systems, barn and livestock plumbing, agricultural water systems, irrigation for larger properties, and septic system considerations.
+Many Forney properties remain rural or semi-rural with larger lots requiring specialized knowledge. We're experienced with barn and livestock plumbing, agricultural water systems, irrigation for larger properties, outdoor plumbing installations, and multi-building water line service.
 
 **New Construction and Builder Support**
 
@@ -1301,13 +1267,12 @@ We work with several Forney builders and developers providing new construction p
 
 **Why Forney Trusts Down Right Plumbing**
 
-Forney residents are building their futures in this growing community and deserve plumbing service matching their investment. We provide a licensed, experienced plumber, transparent, fair pricing, clean, professional service, rapid response during business hours, and quality work built to last.
+Forney residents are building their futures in this growing community and deserve plumbing service matching their investment. We provide a licensed, experienced plumber, transparent, fair pricing, clean, professional service, rapid response, and quality work built to last.
 
 Whether you're in Gateway Parks, Valley Ranch, downtown Forney, or on a rural property, Down Right Plumbing is your trusted local plumber. Call us today for service you can count on.`,
     testimonial: {
-      quote: "We moved to Forney from out of state and bought a new home in Gateway Parks. The builder-grade water heater was tiny! Down Right Plumbing installed a tankless system that provides endless hot water for our family. Professional, efficient, and great price. Highly recommend!",
-      author: "Brandon and Nicole Williams",
-      neighborhood: "Gateway Parks"
+      quote: "Doug was amazing, very good value. Prompt and efficient.",
+      author: "Jason Erwin"
     },
     faqs: [
       {
@@ -1315,16 +1280,12 @@ Whether you're in Gateway Parks, Valley Ranch, downtown Forney, or on a rural pr
         answer: "Yes, we regularly work in Forney's new developments including Gateway Parks, Devonshire, and Valley Ranch. We provide pre-closing inspections, address builder warranty issues, and handle post-closing upgrades and corrections."
       },
       {
-        question: "Can you service well water systems in rural Forney?",
-        answer: "Absolutely. We're experienced with well water systems common in rural Forney including well pumps, pressure tanks, pressure switches, and water treatment for well water. We can diagnose, repair, and maintain complete well systems."
-      },
-      {
         question: "Should I upgrade builder-grade plumbing in my new Forney home?",
         answer: "Many Forney homeowners benefit from upgrades like larger or tankless water heaters for better capacity, higher-quality fixtures for improved durability and aesthetics, water softener systems to protect appliances, and upgraded garbage disposals. We'll assess your system and recommend beneficial upgrades."
       },
       {
         question: "How quickly can you respond to emergencies in Forney?",
-        answer: "We typically reach Forney locations within 45 minutes to an hour for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped vehicles are ready to handle most situations on the first visit."
+        answer: "We typically reach Forney locations within 45 minutes to an hour for service calls. Our fully-equipped vehicles are ready to handle most situations on the first visit."
       },
       {
         question: "Do you install irrigation systems in Forney?",
@@ -1370,7 +1331,7 @@ Common issues in Mesquite's established neighborhoods include corroded galvanize
 
 **Comprehensive Residential Services**
 
-Mesquite homeowners rely on us for water heater replacement and installation during business hours (Monday-Friday 8 AM - 5 PM), complete drain cleaning and sewer services, leak detection including slab leaks, repiping for corroded systems, fixture upgrades and repairs, and whole-house plumbing inspections.
+Mesquite homeowners rely on us for water heater replacement and installation, complete drain cleaning and sewer services, leak detection including slab leaks, repiping for corroded systems, fixture upgrades and repairs, and whole-house plumbing inspections.
 
 Our response time reaches anywhere in Mesquite typically within 45 minutes to an hour, and our well-stocked vehicles resolve most issues on the first visit.
 
@@ -1386,15 +1347,14 @@ Sewer line problems are particularly common in Mesquite's older neighborhoods. W
 
 **Why Mesquite Trusts Down Right Plumbing**
 
-Mesquite residents and business owners need reliable, affordable plumbing service, and that's what we provide. A licensed, experienced plumber, transparent, fair pricing, rapid response during business hours, professional, clean service, and quality work that lasts.
+Mesquite residents and business owners need reliable, affordable plumbing service, and that's what we provide. A licensed, experienced plumber, transparent, fair pricing, rapid response, professional, clean service, and quality work that lasts.
 
 Many Mesquite customers have relied on us for years, trusting us for everything from routine maintenance to major emergencies and renovations.
 
 Whether you're a homeowner, property manager, or business owner in Mesquite, Down Right Plumbing is your local plumbing partner. Call us today for service you can trust.`,
     testimonial: {
-      quote: "Our 1970s home in Meadowcreek had terrible water pressure and rust-colored water from corroded galvanized pipes. Down Right Plumbing repiped the entire house at a reasonable price and now our water is clear and pressure is excellent! Professional crew who cleaned up nicely afterward.",
-      author: "Daniel Jackson",
-      neighborhood: "Meadowcreek"
+      quote: "You can trust him completely, he's as honest as they come.",
+      author: "Morgan"
     },
     faqs: [
       {
@@ -1415,7 +1375,7 @@ Whether you're a homeowner, property manager, or business owner in Mesquite, Dow
       },
       {
         question: "How quickly can you respond to plumbing emergencies in Mesquite?",
-        answer: "We typically reach Mesquite locations within 45 minutes to an hour for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped service vehicles are ready to handle most situations immediately."
+        answer: "We typically reach Mesquite locations within 45 minutes to an hour for service calls. Our fully-equipped service vehicles are ready to handle most situations immediately."
       },
       {
         question: "What payment methods do you accept in Mesquite?",
@@ -1462,7 +1422,7 @@ For properties on well systems, we service well pumps and pressure equipment, in
 
 **Comprehensive Services for Sunnyvale**
 
-We provide professional plumbing service throughout Sunnyvale during business hours (Monday-Friday 8 AM - 5 PM) including water heater installation and service, drain cleaning and sewer work, leak detection and repair, fixture installations and upgrades, irrigation system service, well system maintenance, and comprehensive plumbing inspections.
+We provide professional plumbing service throughout Sunnyvale including water heater installation and service, drain cleaning and sewer work, leak detection and repair, fixture installations and upgrades, irrigation system service, well system maintenance, and comprehensive plumbing inspections.
 
 Our proximity means rapid response—typically within 30-45 minutes anywhere in Sunnyvale. We're close enough to respond quickly but far enough to serve multiple communities professionally.
 
@@ -1472,11 +1432,10 @@ Sunnyvale residents value honesty, reliability, and fair pricing—traditional v
 
 Many Sunnyvale families consider us their exclusive plumber, trusting us for everything from routine maintenance to major emergencies. We've earned this loyalty through consistent, excellent service.
 
-Whether you're planning upgrades or need routine maintenance, Down Right Plumbing is Sunnyvale's trusted local choice. Call us Monday-Friday 8 AM - 5 PM for friendly, professional service.`,
+Whether you're planning upgrades or need routine maintenance, Down Right Plumbing is Sunnyvale's trusted local choice. Call us today for friendly, professional service.`,
     testimonial: {
-      quote: "Living in Sunnyvale, we appreciate the small-town feel and personal service. Down Right Plumbing perfectly fits this community—they're friendly, professional, and treat us like neighbors. They've handled everything from our well pump issues to a bathroom remodel. Highly recommend!",
-      author: "Steve and Karen Mitchell",
-      neighborhood: "Sunnyvale Meadows"
+      quote: "My water heater broke late in the afternoon. I called Down Right Plumbing and they were able to get to me very quickly. I had both my tanks replaced and was back up and running the same day. Doug was very professional and did a great job leaving my home in great shape.",
+      author: "Mark Harper"
     },
     faqs: [
       {
@@ -1489,7 +1448,7 @@ Whether you're planning upgrades or need routine maintenance, Down Right Plumbin
       },
       {
         question: "How quickly can you respond to emergencies in Sunnyvale?",
-        answer: "We're very close to Sunnyvale and typically arrive within 30-45 minutes for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped vehicles are ready to handle most situations immediately."
+        answer: "We're very close to Sunnyvale and typically arrive within 30-45 minutes for service calls. Our fully-equipped vehicles are ready to handle most situations immediately."
       },
       {
         question: "Do you service irrigation systems for Sunnyvale's larger lots?",
@@ -1545,17 +1504,16 @@ Some Lavon properties serve as weekend retreats or seasonal homes. These require
 
 **Comprehensive Lavon Services**
 
-We provide plumbing service for Lavon during business hours (Monday-Friday 8 AM - 5 PM), lake property plumbing specialists, well system service and repair, water treatment installations, outdoor plumbing for docks and recreation areas, drain and sewer services, and fixture installations and repairs.
+We provide plumbing service for Lavon, lake property plumbing specialists, well system service and repair, water treatment installations, outdoor plumbing for docks and recreation areas, drain and sewer services, and fixture installations and repairs.
 
 **Why Lavon Trusts Us**
 
-Lavon residents value expertise with unique property types, understanding of lake and rural challenges, rapid response during business hours, professional, reliable service, and fair, transparent pricing.
+Lavon residents value expertise with unique property types, understanding of lake and rural challenges, rapid response, professional, reliable service, and fair, transparent pricing.
 
 Whether you're enjoying lakefront living, maintaining a rural property, or anywhere in Lavon, Down Right Plumbing is your trusted plumbing partner. Call us today for expert service.`,
     testimonial: {
-      quote: "Our lakefront property in Lavon is our weekend retreat. Down Right Plumbing winterized all our outdoor plumbing and dock systems perfectly—no freeze damage this year! They understand lake properties and the unique challenges they present.",
-      author: "Jim and Carol Peterson",
-      neighborhood: "Lake Lavon Estates"
+      quote: "We thought we had a burst pipe. Over the phone, he asked some questions and knew exactly what was wrong. He came quickly and fixed the issue within 30 minutes. He charged less than half of what another plumber was going to charge. Highly recommend!",
+      author: "Alex Hernandez"
     },
     faqs: [
       {
@@ -1572,7 +1530,7 @@ Whether you're enjoying lakefront living, maintaining a rural property, or anywh
       },
       {
         question: "How quickly can you respond to emergencies in Lavon?",
-        answer: "We typically reach Lavon within 45 minutes for service calls during business hours (Monday-Friday 8 AM - 5 PM). We understand that lake properties may require prompt response to prevent water damage."
+        answer: "We typically reach Lavon within 45 minutes for service calls. We understand that lake properties may require prompt response to prevent water damage."
       },
       {
         question: "Can you install plumbing for docks and boathouses in Lavon?",
@@ -1623,7 +1581,7 @@ Nevada includes older homes with aging plumbing systems. We specialize in pipe r
 
 **Comprehensive Nevada Services**
 
-We provide plumbing service for Nevada during business hours (Monday-Friday 8 AM - 5 PM) including well system service and maintenance, agricultural and rural property plumbing, older home plumbing updates, septic system coordination, water treatment installations, and all standard plumbing services.
+We provide plumbing service for Nevada including well system service and maintenance, agricultural and rural property plumbing, older home plumbing updates, septic system coordination, water treatment installations, and all standard plumbing services.
 
 **Why Nevada Trusts Us**
 
@@ -1631,11 +1589,10 @@ Nevada residents value honest, fair service from people who care about the commu
 
 In small towns, reputation is everything. We're proud Nevada residents trust and recommend us to their neighbors.
 
-Whether you're maintaining a historic Nevada home or managing a rural property, Down Right Plumbing is your trusted local plumber. Call us Monday-Friday 8 AM - 5 PM.`,
+Whether you're maintaining a historic Nevada home or managing a rural property, Down Right Plumbing is your trusted local plumber. Call us today.`,
     testimonial: {
-      quote: "Nevada is a small town where everyone knows everyone, so reputation really matters. Down Right Plumbing has earned a great reputation here by doing honest work at fair prices. They fixed our well pump quickly and didn't try to sell us things we didn't need. That's the kind of integrity we appreciate!",
-      author: "Billy and Martha Hayes",
-      neighborhood: "Nevada"
+      quote: "Quick to answer & communicate, realistic expectations, trustworthy, affordable - THANK YOU Doug for saving us before the winter storm recently.",
+      author: "Joe & Chantelle Marchant"
     },
     faqs: [
       {
@@ -1652,7 +1609,7 @@ Whether you're maintaining a historic Nevada home or managing a rural property, 
       },
       {
         question: "How quickly can you respond to emergencies in Nevada?",
-        answer: "We typically reach Nevada within 45 minutes for service calls during business hours (Monday-Friday 8 AM - 5 PM). We understand that in rural areas, prompt response is important."
+        answer: "We typically reach Nevada within 45 minutes for service calls. We understand that in rural areas, prompt response is important."
       },
       {
         question: "Do you service well water systems in Nevada?",
@@ -1703,19 +1660,18 @@ Well water and septic systems are common in Caddo Mills. We're experienced with 
 
 **Comprehensive Caddo Mills Services**
 
-We provide plumbing service for Caddo Mills during business hours (Monday-Friday 8 AM - 5 PM) including well system installation and service, agricultural property plumbing, septic system coordination, older home plumbing updates, irrigation systems for all property sizes, and water treatment installations.
+We provide plumbing service for Caddo Mills including well system installation and service, agricultural property plumbing, septic system coordination, older home plumbing updates, irrigation systems for all property sizes, and water treatment installations.
 
 **Why Caddo Mills Trusts Us**
 
-Caddo Mills residents value expertise with rural systems, understanding of agricultural needs, honest, straightforward service, fair pricing, and reliable response during business hours.
+Caddo Mills residents value expertise with rural systems, understanding of agricultural needs, honest, straightforward service, fair pricing, and reliable response.
 
 We understand country living and the unique requirements of rural properties. We're not just technically competent—we genuinely appreciate and respect the Caddo Mills lifestyle.
 
-Whether you're maintaining a working ranch or updating a country home, Down Right Plumbing is your trusted plumbing partner in Caddo Mills. Call us Monday-Friday 8 AM - 5 PM.`,
+Whether you're maintaining a working ranch or updating a country home, Down Right Plumbing is your trusted plumbing partner in Caddo Mills. Call us today.`,
     testimonial: {
-      quote: "Our family ranch in Caddo Mills depends on reliable well and livestock watering systems. Down Right Plumbing keeps everything running smoothly. They understand agricultural plumbing and respond quickly when we need them. Glad to have found a plumber who understands rural properties!",
-      author: "Travis Morrison",
-      neighborhood: "Rural Caddo Mills"
+      quote: "Doug was amazing, very good value. Prompt and efficient.",
+      author: "Jason Erwin"
     },
     faqs: [
       {
@@ -1732,7 +1688,7 @@ Whether you're maintaining a working ranch or updating a country home, Down Righ
       },
       {
         question: "How quickly can you respond to emergencies in Caddo Mills?",
-        answer: "We typically reach Caddo Mills within 45-60 minutes for service calls during business hours (Monday-Friday 8 AM - 5 PM). While it's a bit further from our Rockwall base, we understand that in rural areas prompt response is important and we respond as quickly as possible."
+        answer: "We typically reach Caddo Mills within 45-60 minutes for service calls. While it's a bit further from our Rockwall base, we understand that in rural areas prompt response is important and we respond as quickly as possible."
       },
       {
         question: "Do you work with septic systems in Caddo Mills?",
@@ -1779,7 +1735,7 @@ Residential neighborhoods feature homes of varying ages requiring services from 
 
 **Comprehensive Greenville Services**
 
-We provide plumbing service for Greenville during business hours (Monday-Friday 8 AM - 5 PM) including commercial and industrial plumbing services, historic building plumbing expertise, residential plumbing for all ages of homes, water heater installation and service, drain and sewer services, and comprehensive plumbing solutions.
+We provide plumbing service for Greenville including commercial and industrial plumbing services, historic building plumbing expertise, residential plumbing for all ages of homes, water heater installation and service, drain and sewer services, and comprehensive plumbing solutions.
 
 While Greenville is further from our base, we typically arrive within 60-90 minutes for service calls.
 
@@ -1789,14 +1745,13 @@ Greenville residents and business owners value reliable service from experienced
 
 Whether you're maintaining a historic downtown building, managing residential properties, or operating a Greenville business, Down Right Plumbing provides professional plumbing service you can trust. Call us today.`,
     testimonial: {
-      quote: "Our historic building in downtown Greenville needed extensive plumbing updates. Down Right Plumbing did excellent work updating the systems while being respectful of the building's character. Professional service and fair pricing. Glad we found them!",
-      author: "Margaret Phillips, Property Owner",
-      neighborhood: "Downtown Greenville"
+      quote: "You can trust him completely, he's as honest as they come.",
+      author: "Morgan"
     },
     faqs: [
       {
         question: "Do you serve Greenville even though it's further from Rockwall?",
-        answer: "Yes, we're happy to serve Greenville. While it's about 35 miles from our Rockwall base, we provide the same professional service during business hours (Monday-Friday 8 AM - 5 PM) for Greenville customers."
+        answer: "Yes, we're happy to serve Greenville. While it's about 35 miles from our Rockwall base, we provide the same professional service for Greenville customers."
       },
       {
         question: "Do you work on historic buildings in downtown Greenville?",
@@ -1808,7 +1763,7 @@ Whether you're maintaining a historic downtown building, managing residential pr
       },
       {
         question: "How quickly can you respond to emergencies in Greenville?",
-        answer: "We typically reach Greenville within 60-90 minutes for service calls during business hours (Monday-Friday 8 AM - 5 PM). While it's further from our base than some areas, we respond as quickly as possible for Greenville customers."
+        answer: "We typically reach Greenville within 60-90 minutes for service calls. While it's further from our base than some areas, we respond as quickly as possible for Greenville customers."
       },
       {
         question: "What types of properties do you service in Greenville?",
@@ -1852,7 +1807,7 @@ Downtown Terrell's historic properties often need updates to aging plumbing syst
 
 **Comprehensive Terrell Services**
 
-We provide plumbing service for Terrell during business hours (Monday-Friday 8 AM - 5 PM) including water heater installation and replacement, drain cleaning and sewer services, leak detection and repair, repiping for aging systems, fixture installations and upgrades, commercial plumbing services, and comprehensive plumbing inspections.
+We provide plumbing service for Terrell including water heater installation and replacement, drain cleaning and sewer services, leak detection and repair, repiping for aging systems, fixture installations and upgrades, commercial plumbing services, and comprehensive plumbing inspections.
 
 We typically reach Terrell within 60 minutes for service calls and offer flexible scheduling for routine services.
 
@@ -1864,13 +1819,12 @@ Terrell businesses trust us for maintenance contracts, equipment installation, b
 
 **Why Terrell Trusts Us**
 
-Terrell residents and business owners value reliable service, fair pricing, and experienced professionals. We provide a licensed, experienced plumber, transparent, upfront pricing, rapid response during business hours, professional, clean service, and quality work backed by warranties.
+Terrell residents and business owners value reliable service, fair pricing, and experienced professionals. We provide a licensed, experienced plumber, transparent, upfront pricing, rapid response, professional, clean service, and quality work backed by warranties.
 
 Whether you're a Terrell homeowner, property manager, or business owner, Down Right Plumbing provides professional plumbing service you can trust. Call us today.`,
     testimonial: {
-      quote: "Our Terrell home's original water heater finally gave out after 15 years. Down Right Plumbing came out quickly, explained our options clearly, and installed a new tankless system in one day. Professional service and great price. Highly recommend!",
-      author: "Robert and Linda Garcia",
-      neighborhood: "Terrell"
+      quote: "My water heater broke late in the afternoon. I called Down Right Plumbing and they were able to get to me very quickly. I had both my tanks replaced and was back up and running the same day. Doug was very professional and did a great job leaving my home in great shape.",
+      author: "Mark Harper"
     },
     faqs: [
       {
@@ -1879,7 +1833,7 @@ Whether you're a Terrell homeowner, property manager, or business owner, Down Ri
       },
       {
         question: "How quickly can you respond to plumbing emergencies in Terrell?",
-        answer: "We typically reach Terrell within 60 minutes for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped vehicles are ready to handle most situations immediately."
+        answer: "We typically reach Terrell within 60 minutes for service calls. Our fully-equipped vehicles are ready to handle most situations immediately."
       },
       {
         question: "Do you work on older homes in Terrell?",
@@ -1933,7 +1887,7 @@ Many East Dallas homes date from mid-century, now requiring plumbing updates inc
 
 **Comprehensive East Dallas Services**
 
-We provide plumbing service for East Dallas during business hours (Monday-Friday 8 AM - 5 PM) including water heater installation and service, drain cleaning and sewer line repairs, leak detection including slab leaks, repiping for aging homes, fixture upgrades and installations, bathroom and kitchen remodeling plumbing, and commercial plumbing services.
+We provide plumbing service for East Dallas including water heater installation and service, drain cleaning and sewer line repairs, leak detection including slab leaks, repiping for aging homes, fixture upgrades and installations, bathroom and kitchen remodeling plumbing, and commercial plumbing services.
 
 We typically reach East Dallas areas within 45-60 minutes for service calls.
 
@@ -1945,13 +1899,12 @@ East Dallas businesses trust us for commercial plumbing including maintenance co
 
 **Why East Dallas Chooses Us**
 
-East Dallas residents and business owners value reliable service from experienced professionals. We provide a licensed, experienced plumber, transparent, fair pricing, rapid response during business hours, professional, clean service, and quality work you can trust.
+East Dallas residents and business owners value reliable service from experienced professionals. We provide a licensed, experienced plumber, transparent, fair pricing, rapid response, professional, clean service, and quality work you can trust.
 
 Whether you're in Lake Highlands, Lakewood, White Rock, or surrounding East Dallas areas, Down Right Plumbing provides professional plumbing service. Call us today.`,
     testimonial: {
-      quote: "Our 1960s home in Lake Highlands had terrible plumbing issues—low pressure, rusty water, and frequent leaks. Down Right Plumbing replaced all the old pipes and now everything works perfectly. They were professional, efficient, and fairly priced. Excellent work!",
-      author: "Marcus Johnson",
-      neighborhood: "Lake Highlands"
+      quote: "We thought we had a burst pipe. Over the phone, he asked some questions and knew exactly what was wrong. He came quickly and fixed the issue within 30 minutes. He charged less than half of what another plumber was going to charge. Highly recommend!",
+      author: "Alex Hernandez"
     },
     faqs: [
       {
@@ -1960,7 +1913,7 @@ Whether you're in Lake Highlands, Lakewood, White Rock, or surrounding East Dall
       },
       {
         question: "How quickly can you respond to emergencies in East Dallas?",
-        answer: "We typically reach East Dallas areas within 45-60 minutes for service calls during business hours (Monday-Friday 8 AM - 5 PM) depending on traffic. Our fully-equipped vehicles are ready to handle most situations."
+        answer: "We typically reach East Dallas areas within 45-60 minutes for service calls depending on traffic. Our fully-equipped vehicles are ready to handle most situations."
       },
       {
         question: "Do you work on older Dallas homes?",
@@ -2014,7 +1967,7 @@ Richardson also has extensive commercial and multi-family properties requiring s
 
 **Comprehensive Richardson Services**
 
-We provide plumbing service for Richardson during business hours (Monday-Friday 8 AM - 5 PM) including water heater installation and replacement, drain cleaning and sewer line services, leak detection including slab leaks, repiping for corroded systems, fixture installations and upgrades, commercial plumbing services, and multi-family property maintenance.
+We provide plumbing service for Richardson including water heater installation and replacement, drain cleaning and sewer line services, leak detection including slab leaks, repiping for corroded systems, fixture installations and upgrades, commercial plumbing services, and multi-family property maintenance.
 
 We typically reach Richardson within 45-60 minutes for service calls.
 
@@ -2026,13 +1979,12 @@ Richardson businesses and property managers trust us for maintenance contracts, 
 
 **Why Richardson Chooses Us**
 
-Richardson residents and business owners value reliable service, fair pricing, and experienced professionals. We provide a licensed, experienced plumber, transparent, upfront pricing, rapid response during business hours, professional, clean service, and quality work backed by warranties.
+Richardson residents and business owners value reliable service, fair pricing, and experienced professionals. We provide a licensed, experienced plumber, transparent, upfront pricing, rapid response, professional, clean service, and quality work backed by warranties.
 
 Whether you're a Richardson homeowner, property manager, or business owner, Down Right Plumbing provides professional plumbing service you can trust. Call us today.`,
     testimonial: {
-      quote: "Our Richardson home needed complete repiping due to corroded galvanized pipes. Down Right Plumbing did excellent work replacing everything with PEX in just three days. Water pressure is amazing now and no more rusty water! Professional crew, fair price, and they cleaned up perfectly.",
-      author: "Paul and Susan Kim",
-      neighborhood: "Canyon Creek"
+      quote: "Quick to answer & communicate, realistic expectations, trustworthy, affordable - THANK YOU Doug for saving us before the winter storm recently.",
+      author: "Joe & Chantelle Marchant"
     },
     faqs: [
       {
@@ -2041,7 +1993,7 @@ Whether you're a Richardson homeowner, property manager, or business owner, Down
       },
       {
         question: "How quickly can you respond to emergencies in Richardson?",
-        answer: "We typically reach Richardson within 45-60 minutes for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our fully-equipped vehicles are ready to handle most situations immediately."
+        answer: "We typically reach Richardson within 45-60 minutes for service calls. Our fully-equipped vehicles are ready to handle most situations immediately."
       },
       {
         question: "Do you specialize in repiping for Richardson's older homes?",
@@ -2097,7 +2049,7 @@ Common services in Lucas include luxury bathroom installations, gourmet kitchen 
 
 **Comprehensive Lucas Services**
 
-We provide plumbing service for Lucas during business hours (Monday-Friday 8 AM - 5 PM) including luxury fixture installation and service, water treatment systems, irrigation design and installation, well system service, outdoor living space plumbing, water heater systems including tankless, and preventive maintenance programs.
+We provide plumbing service for Lucas including luxury fixture installation and service, water treatment systems, irrigation design and installation, well system service, outdoor living space plumbing, water heater systems including tankless, and preventive maintenance programs.
 
 We typically reach Lucas within 30-45 minutes for service calls.
 
@@ -2107,11 +2059,10 @@ Lucas residents expect excellence, and we deliver with experience with luxury sy
 
 Many Lucas families trust us as their exclusive plumbing partner for everything from routine maintenance to ambitious projects.
 
-Whether you need routine maintenance, luxury installations, or estate plumbing management, Down Right Plumbing is Lucas's trusted choice. Call us Monday-Friday 8 AM - 5 PM.`,
+Whether you need routine maintenance, luxury installations, or estate plumbing management, Down Right Plumbing is Lucas's trusted choice. Call us today.`,
     testimonial: {
-      quote: "Our Lucas estate has extensive irrigation, a pool, outdoor kitchen, and guest house. Down Right Plumbing maintains all our plumbing systems and has handled several upgrades including our master bathroom spa installation. They're professionals who understand upscale properties and deliver exceptional work.",
-      author: "Christopher and Diana Bennett",
-      neighborhood: "Brockdale"
+      quote: "Doug was amazing, very good value. Prompt and efficient.",
+      author: "Jason Erwin"
     },
     faqs: [
       {
@@ -2132,7 +2083,7 @@ Whether you need routine maintenance, luxury installations, or estate plumbing m
       },
       {
         question: "How quickly can you respond to service calls in Lucas?",
-        answer: "We're very close to Lucas and typically arrive within 30-45 minutes for service calls during business hours (Monday-Friday 8 AM - 5 PM). Our vehicles carry premium parts for quality systems."
+        answer: "We're very close to Lucas and typically arrive within 30-45 minutes for service calls. Our vehicles carry premium parts for quality systems."
       },
       {
         question: "Do you offer maintenance programs for Lucas estates?",
@@ -2167,6 +2118,6 @@ export function getCityMetadata(slug: string) {
 
   return {
     title: `Plumber in ${city.fullName} | Professional Plumbing Service | Down Right Plumbing`,
-    description: `Trusted plumbing services in ${city.fullName}. ${city.distance} from our Rockwall HQ. Licensed plumbers, upfront pricing. Mon-Fri 8 AM - 5 PM. Call today!`,
+    description: `Trusted plumbing services in ${city.fullName}. ${city.distance} from our Rockwall HQ. Licensed plumber, upfront pricing. Call (214) 802-3042 today!`,
   };
 }

@@ -250,7 +250,7 @@ export default function NotFound() {
               Need Plumbing Service?
             </h2>
             <p className="text-xl text-white/90 mb-6">
-              Call us during business hours: Monday-Friday, 8 AM - 5 PM
+              Give us a call — we're here to help
             </p>
             <Button
               size="lg"

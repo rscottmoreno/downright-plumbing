@@ -115,7 +115,7 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-5 h-5" aria-hidden="true" />
-              <span className="font-semibold">Mon-Fri 8 AM - 5 PM</span>
+              <span className="font-semibold">Call for Service</span>
             </div>
             <div className="flex items-center gap-2">
               <Star className="w-5 h-5" aria-hidden="true" />
@@ -284,7 +284,7 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
       <CTASection
         variant="standard"
         title={`Ready for Reliable Plumbing Service in ${cityData.name}?`}
-        description={`Contact Down Right Plumbing today for professional plumbing service throughout ${cityData.name}. Monday-Friday 8 AM - 5 PM.`}
+        description={`Contact Down Right Plumbing today for professional plumbing service throughout ${cityData.name}. Call (214) 802-3042.`}
         primaryButtonText="Schedule Service"
         primaryButtonHref="/contact"
         showPhoneButton={true}
@@ -303,7 +303,7 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
       <CTASection
         variant="emergency"
         title={`${cityData.name} Plumbing Issue?`}
-        description={`Call us for professional plumbing service in ${cityData.name}. Monday-Friday 8 AM - 5 PM.`}
+        description={`Call us for professional plumbing service in ${cityData.name}. Call (214) 802-3042.`}
         primaryButtonText="Call Now"
         primaryButtonHref="tel:+12148023042"
         showPhoneButton={true}

@@ -211,12 +211,12 @@ function FAQAccordion() {
 
   const faqs = [
     {
-      question: 'What are your business hours?',
-      answer: 'We are open Monday through Friday, 8 AM to 5 PM. We provide upfront pricing before we start any work, and we\'ll give you a detailed quote for the repair. Most service calls in Rockwall range from $150-$500 depending on complexity. We never surprise you with hidden fees.',
+      question: 'When are you available?',
+      answer: 'We provide upfront pricing before we start any work, and we\'ll give you a detailed quote for the repair. Most service calls in Rockwall range from $150-$500 depending on complexity. We never surprise you with hidden fees. Give us a call at (214) 802-3042.',
     },
     {
       question: 'Do you offer same-day service?',
-      answer: 'Yes! We offer same-day service for urgent plumbing issues throughout Rockwall and the DFW Metroplex whenever possible. When you call us during business hours (Monday-Friday, 8 AM - 5 PM) at (214) 802-3042, we\'ll work to get a licensed plumber to your location as quickly as we can.',
+      answer: 'Yes! We offer same-day service for urgent plumbing issues throughout Rockwall and the DFW Metroplex whenever possible. Call us at (214) 802-3042 and we\'ll work to get a licensed plumber to your location as quickly as we can.',
     },
     {
       question: 'How do I know if I need drain cleaning or pipe replacement?',
@@ -236,7 +236,7 @@ function FAQAccordion() {
     },
     {
       question: 'How quickly can you respond to service calls?',
-      answer: 'For urgent issues during business hours (Monday-Friday, 8 AM - 5 PM), we strive to arrive as quickly as possible, often within 1-2 hours in the Rockwall area. We also offer same-day and next-day scheduled appointments in most cases. We respect your time and always provide accurate arrival windows.',
+      answer: 'For urgent issues, we strive to arrive as quickly as possible, often within 1-2 hours in the Rockwall area. We also offer same-day and next-day scheduled appointments in most cases. We respect your time and always provide accurate arrival windows.',
     },
     {
       question: 'Do you offer free estimates?',
@@ -414,8 +414,8 @@ export default function HomePage() {
               <p className="text-white/90 mt-2 text-lg">Google Rating</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-amber-400">100%</div>
-              <p className="text-white/90 mt-2 text-lg">Satisfaction Guarantee</p>
+              <div className="text-4xl md:text-5xl font-bold text-amber-400">DFW</div>
+              <p className="text-white/90 mt-2 text-lg">Proudly Serving</p>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-amber-400">Fast</div>
@@ -582,8 +582,8 @@ export default function HomePage() {
                   },
                   {
                     icon: CheckCircle2,
-                    title: '100% Satisfaction Guarantee',
-                    description: 'We stand behind our work with a comprehensive warranty.',
+                    title: 'Clear Communication',
+                    description: 'We keep you informed throughout every step of the repair process.',
                   },
                   {
                     icon: Heart,
@@ -639,8 +639,8 @@ export default function HomePage() {
                     <div className="text-xs text-white/70 mt-1">Google Rating</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-amber-400">100%</div>
-                    <div className="text-xs text-white/70 mt-1">Satisfaction Guarantee</div>
+                    <div className="text-3xl font-bold text-amber-400">DFW</div>
+                    <div className="text-xs text-white/70 mt-1">Proudly Serving</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-amber-400">TX</div>
@@ -939,7 +939,7 @@ export default function HomePage() {
             </div>
 
             <p className="text-white/80 mt-8 text-sm">
-              Monday-Friday, 8 AM - 5 PM &bull; Licensed & Insured &bull; 100% Satisfaction Guaranteed
+              Licensed & Insured &bull; Upfront Pricing &bull; Serving Rockwall & DFW
             </p>
           </motion.div>
         </div>

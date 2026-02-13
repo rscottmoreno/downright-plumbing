@@ -17,7 +17,7 @@ interface TrustBarProps {
 
 const defaultStats: Stat[] = [
   { value: 20, label: "Years Experience", suffix: "+" },
-  { value: 100, label: "Satisfaction Guarantee", suffix: "%" },
+  { value: 0, label: "Hidden Fees", suffix: "" },
   { value: 5, label: "Star Google Rating", prefix: "" },
   { value: 5, label: "Days a Week Service" },
 ];

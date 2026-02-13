@@ -35,9 +35,9 @@ const defaultReasons: Reason[] = [
     icon: Shield,
   },
   {
-    title: "Reliable Business Hours",
+    title: "Reliable & Responsive",
     description:
-      "Available Monday-Friday, 8 AM - 5 PM for all your plumbing needs.",
+      "Prompt response times and flexible scheduling for all your plumbing needs.",
     icon: Clock,
   },
   {
@@ -55,7 +55,7 @@ const defaultReasons: Reason[] = [
   {
     title: "Customer Satisfaction",
     description:
-      "100% satisfaction guarantee on all our plumbing services.",
+      "We keep you informed throughout the entire repair process.",
     icon: ThumbsUp,
   },
   {

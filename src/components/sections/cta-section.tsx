@@ -40,7 +40,7 @@ export function CTASection({
       bg: "bg-gradient-to-r from-red-600 to-orange-600",
       title: title || "Urgent Plumbing Issue?",
       description:
-        description || "Call us during business hours (Mon-Fri, 8 AM - 5 PM) for prompt service!",
+        description || "Give us a call today for prompt, professional plumbing service!",
       icon: Clock,
     },
     warm: {

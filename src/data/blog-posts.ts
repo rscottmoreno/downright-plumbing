@@ -43,13 +43,13 @@ export const blogPosts: BlogPost[] = [
     category: 'Urgent Plumbing',
     image: '/images/blog/emergency-plumbing.jpg',
     content: {
-      intro: 'Serious plumbing problems can occur without warning, and knowing when to call for professional help during business hours can save you thousands of dollars in water damage repairs. As a homeowner in Rockwall, TX, understanding the warning signs of urgent plumbing issues is crucial for protecting your property and your family\'s safety.',
+      intro: 'Serious plumbing problems can occur without warning, and knowing when to call for professional help can save you thousands of dollars in water damage repairs. As a homeowner in Rockwall, TX, understanding the warning signs of urgent plumbing issues is crucial for protecting your property and your family\'s safety.',
       sections: [
         {
           title: '1. Burst Pipes and Major Water Leaks',
           content: `A burst pipe is one of the most serious plumbing issues you can face in your Rockwall home. Texas weather can be unpredictable, and sudden temperature drops can cause pipes to freeze and burst, leading to significant water damage within minutes.
 
-If you notice water gushing from walls, ceilings, or under sinks, turn off your main water supply immediately and call Down Right Plumbing at (214) 802-3042 during business hours (Monday-Friday, 8 AM - 5 PM). Our professional team serves Rockwall, Heath, and surrounding DFW areas.
+If you notice water gushing from walls, ceilings, or under sinks, turn off your main water supply immediately and call Down Right Plumbing at (214) 802-3042. Our professional team serves Rockwall, Heath, and surrounding DFW areas.
 
 The damage from a burst pipe compounds rapidly. Within the first hour, water can saturate drywall, flooring, and furniture. After 24 hours, mold growth can begin, creating health hazards and requiring expensive remediation. Knowing your main water shutoff location is essential to minimize damage until we can help.`,
         },
@@ -57,11 +57,11 @@ The damage from a burst pipe compounds rapidly. Within the first hour, water can
           title: '2. Complete Loss of Water Pressure',
           content: `If your entire home suddenly loses water pressure, this could indicate a major line break, a problem with your water heater, or issues with the municipal water supply affecting just your property. While low water pressure in a single faucet might be a minor issue, complete loss throughout your Rockwall home requires prompt professional attention.
 
-This could signal a broken water main, a severe leak in your home's plumbing system, or a major blockage. These issues can lead to water damage, foundation problems, and structural concerns if not addressed promptly. Our experienced plumbers in Rockwall can diagnose and repair the problem. Call us during business hours at (214) 802-3042.`,
+This could signal a broken water main, a severe leak in your home's plumbing system, or a major blockage. These issues can lead to water damage, foundation problems, and structural concerns if not addressed promptly. Our experienced plumbers in Rockwall can diagnose and repair the problem. Give us a call at (214) 802-3042.`,
         },
         {
           title: '3. Sewage Backup or Toilet Overflow',
-          content: `A sewage backup is not only unpleasant—it's a serious health hazard. Raw sewage contains harmful bacteria, viruses, and parasites that can make your family sick. If you notice sewage backing up into your toilets, bathtubs, or sinks, evacuate the affected area and contact a professional plumber as soon as possible. Call Down Right Plumbing at (214) 802-3042 during business hours.
+          content: `A sewage backup is not only unpleasant—it's a serious health hazard. Raw sewage contains harmful bacteria, viruses, and parasites that can make your family sick. If you notice sewage backing up into your toilets, bathtubs, or sinks, evacuate the affected area and contact a professional plumber as soon as possible. Give us a call at (214) 802-3042.
 
 Common causes of sewage backups in Rockwall homes include tree root intrusion into sewer lines, collapsed pipes, or blockages in the main sewer line. The clay soil common in North Texas can shift and crack pipes over time, making this a recurring issue for some properties.
 
@@ -73,13 +73,13 @@ Never attempt to clean up sewage yourself without proper protective equipment an
 
 A total hot water failure could mean a broken heating element, a blown circuit, gas line issues, or a failing water heater that could leak and cause water damage. In Rockwall's occasional freezing temperatures, this also means your pipes could be at risk.
 
-Our experienced plumbers can assess whether your water heater needs repair or replacement and get your hot water flowing again. Contact us during business hours at (214) 802-3042, Monday-Friday, 8 AM - 5 PM.`,
+Our experienced plumbers can assess whether your water heater needs repair or replacement and get your hot water flowing again. Give us a call today at (214) 802-3042.`,
         },
         {
           title: '5. Gas Smell Near Water Heater or Gas Lines',
           content: `If you smell gas anywhere in your Rockwall home, especially near your water heater, gas furnace, or along gas pipe runs, this is a life-threatening situation. Gas leaks can lead to explosions and carbon monoxide poisoning.
 
-Immediately evacuate your home, do not use any electrical switches or open flames, and call 911 from a safe distance. Then contact a licensed plumber once the gas company has secured the situation. Down Right Plumbing is equipped to handle gas line repairs during our business hours (Monday-Friday, 8 AM - 5 PM). Call (214) 802-3042.
+Immediately evacuate your home, do not use any electrical switches or open flames, and call 911 from a safe distance. Then contact a licensed plumber once the gas company has secured the situation. Down Right Plumbing is equipped to handle gas line repairs. Call us at (214) 802-3042.
 
 Natural gas has a distinctive "rotten egg" smell added specifically so leaks can be detected. Never ignore this warning sign or assume it will resolve on its own.`,
         },
@@ -87,15 +87,15 @@ Natural gas has a distinctive "rotten egg" smell added specifically so leaks can
           title: '6. Frozen Pipes',
           content: `Texas winters may be mild compared to northern states, but Rockwall still experiences freezing temperatures that can cause pipes to freeze. Frozen pipes can burst, causing significant water damage to your home.
 
-Signs of frozen pipes include no water flow when you turn on faucets, visible frost on exposed pipes, strange smells from faucets (caused by backflow), and bulging or cracked pipes. If you suspect frozen pipes, turn off the main water supply and contact a plumber as soon as possible during business hours.
+Signs of frozen pipes include no water flow when you turn on faucets, visible frost on exposed pipes, strange smells from faucets (caused by backflow), and bulging or cracked pipes. If you suspect frozen pipes, turn off the main water supply and contact a plumber as soon as possible.
 
-The key is acting before the pipe bursts. Our plumbers use specialized equipment to safely thaw frozen pipes and can insulate vulnerable pipes to prevent future freezing. Call (214) 802-3042 Monday-Friday, 8 AM - 5 PM.`,
+The key is acting before the pipe bursts. Our plumbers use specialized equipment to safely thaw frozen pipes and can insulate vulnerable pipes to prevent future freezing. Give us a call at (214) 802-3042.`,
         },
         {
           title: '7. Water Heater Leaking',
           content: `A leaking water heater is a serious issue. Most water heaters hold 40-50 gallons of water, and a catastrophic failure can flood your home with hundreds of gallons in minutes. Water heater leaks often occur in the garage or utility room, where the damage might not be immediately visible but can still affect your home's structure.
 
-If you notice water pooling around your water heater, hear hissing or banging sounds, or see corrosion on the tank, turn off the water supply to the heater and contact a plumber promptly. Our Rockwall plumbers can assess whether the water heater needs replacement or if a repair will suffice. Call (214) 802-3042 during business hours.
+If you notice water pooling around your water heater, hear hissing or banging sounds, or see corrosion on the tank, turn off the water supply to the heater and contact a plumber promptly. Our Rockwall plumbers can assess whether the water heater needs replacement or if a repair will suffice. Give us a call at (214) 802-3042.
 
 Water heaters typically last 8-12 years in Texas due to our hard water conditions. If yours is approaching this age and showing signs of failure, schedule an inspection before a complete breakdown occurs.`,
         },
@@ -105,7 +105,7 @@ Water heaters typically last 8-12 years in Texas due to our hard water condition
 
 Signs of sump pump failure include the pump running constantly but not removing water, strange noises, visible rust or corrosion, or the pump not turning on at all during rain. These issues require prompt attention to prevent flood damage.
 
-Our experienced plumbers can repair or replace failed sump pumps and ensure your home's foundation stays protected during heavy rain events. For service during business hours, call (214) 802-3042 Monday-Friday, 8 AM - 5 PM.`,
+Our experienced plumbers can repair or replace failed sump pumps and ensure your home's foundation stays protected during heavy rain events. Give us a call at (214) 802-3042.`,
         },
         {
           title: '9. Multiple Drain Clogs Throughout Your Home',
@@ -113,23 +113,23 @@ Our experienced plumbers can repair or replace failed sump pumps and ensure your
 
 This could be caused by tree root intrusion, a collapsed pipe, or a major blockage in the main line. The older trees common in established Rockwall neighborhoods can send roots seeking water into sewer lines, causing repeated backups.
 
-Our professional plumbers use video camera inspection to identify the exact problem in your sewer line and can perform hydro jetting or other repairs to clear the blockage and restore proper drainage. Call (214) 802-3042 during business hours, Monday-Friday, 8 AM - 5 PM.`,
+Our professional plumbers use video camera inspection to identify the exact problem in your sewer line and can perform hydro jetting or other repairs to clear the blockage and restore proper drainage. Give us a call at (214) 802-3042.`,
         },
         {
           title: '10. Plumbing Issues That Could Cause Property Damage',
           content: `Any plumbing issue that threatens to cause water damage, structural damage, or threatens the safety of your home requires prompt professional attention. This includes things like water leaking near electrical panels, water coming through light fixtures, or active leaks in walls or ceilings.
 
-Water and electricity are a dangerous combination. If water is leaking anywhere near your electrical system, shut off power to that area if you can do so safely, turn off the main water supply, and call for professional plumbing service during business hours.
+Water and electricity are a dangerous combination. If water is leaking anywhere near your electrical system, shut off power to that area if you can do so safely, turn off the main water supply, and give us a call at (214) 802-3042.
 
-The cost of prompt plumbing service is always less than the cost of extensive water damage repairs, mold remediation, and structural repairs that result from delayed action. Contact Down Right Plumbing at (214) 802-3042, Monday-Friday, 8 AM - 5 PM.`,
+The cost of prompt plumbing service is always less than the cost of extensive water damage repairs, mold remediation, and structural repairs that result from delayed action. Contact Down Right Plumbing today at (214) 802-3042.`,
         },
         {
           title: 'When to Call Down Right Plumbing for Urgent Service',
-          content: `Our plumbing service is available during business hours throughout Rockwall, Heath, Fate, Royse City, and the entire DFW metroplex. We're open Monday through Friday, 8 AM to 5 PM, ready to help with your urgent plumbing needs.
+          content: `Our plumbing service is available throughout Rockwall, Heath, Fate, Royse City, and the entire DFW metroplex. We're ready to help with your urgent plumbing needs.
 
-When you call (214) 802-3042 during business hours, Doug can schedule service at your location. The truck is fully stocked with common parts and equipment, allowing most repairs to be completed efficiently on the first visit.
+When you call (214) 802-3042, Doug can schedule service at your location. The truck is fully stocked with common parts and equipment, allowing most repairs to be completed efficiently on the first visit.
 
-We provide upfront pricing—no hidden fees or surprise charges. If you have a plumbing issue outside business hours, take steps to minimize damage (turn off main water supply, place buckets under leaks) and call us when we open.`,
+We provide upfront pricing—no hidden fees or surprise charges. If you have a plumbing issue, take steps to minimize damage (turn off main water supply, place buckets under leaks) and give us a call at (214) 802-3042 as soon as you can.`,
         },
         {
           title: 'Preventing Urgent Plumbing Issues in Rockwall Homes',
@@ -137,7 +137,7 @@ We provide upfront pricing—no hidden fees or surprise charges. If you have a p
 
 Regular maintenance includes water heater flushing (critical in our hard water area), drain cleaning, sewer line inspection, and checking for small leaks before they become major problems. Our maintenance plans can help you avoid costly urgent repairs.
 
-Knowing where your main water shutoff valve is located and how to use it can minimize damage if a serious issue occurs outside business hours. Every family member should know this location so they can stop water flow until we can help during business hours.`,
+Knowing where your main water shutoff valve is located and how to use it can minimize damage if a serious issue occurs. Every family member should know this location so they can stop water flow until we can help.`,
         },
         {
           title: 'Trust Down Right Plumbing for Professional Service',
@@ -145,7 +145,7 @@ Knowing where your main water shutoff valve is located and how to use it can min
 
 We stand behind our work with solid warranties and guarantee your satisfaction. When you're facing a plumbing issue in Rockwall, TX, you can count on Down Right Plumbing to fix the problem right the first time.
 
-Don't wait until a small problem becomes a major issue. Call us at (214) 802-3042 during business hours (Monday-Friday, 8 AM - 5 PM) for plumbing service throughout Rockwall, Heath, Fate, Royse City, and the DFW area.`,
+Don't wait until a small problem becomes a major issue. Call us today at (214) 802-3042 for plumbing service throughout Rockwall, Heath, Fate, Royse City, and the DFW area.`,
         },
       ],
     },
@@ -441,9 +441,9 @@ Pipes most at risk are those in unheated areas (attics, garages, crawl spaces), 
 
 Prevention is key. Before freezing weather, disconnect and drain garden hoses, shut off and drain outdoor faucet lines if possible, insulate pipes in vulnerable areas, seal cracks in exterior walls near pipes, and keep cabinet doors open to allow warm air circulation during freezes.
 
-If pipes do freeze, never use open flames to thaw them. Use a hair dryer, heat lamp, or portable heater, working from the faucet toward the frozen section. If you can't locate the freeze or can't safely thaw pipes, call Down Right Plumbing during business hours at (214) 802-3042.
+If pipes do freeze, never use open flames to thaw them. Use a hair dryer, heat lamp, or portable heater, working from the faucet toward the frozen section. If you can't locate the freeze or can't safely thaw pipes, give us a call at (214) 802-3042.
 
-If a pipe bursts, immediately shut off the main water supply to minimize damage, then contact us during business hours (Monday-Friday, 8 AM - 5 PM) for prompt repair service. Taking quick action to stop the water flow is essential.`,
+If a pipe bursts, immediately shut off the main water supply to minimize damage, then give us a call at (214) 802-3042 for prompt repair service. Taking quick action to stop the water flow is essential.`,
         },
         {
           title: 'Smelly Drains and Sewer Gas Odors',
@@ -459,7 +459,7 @@ If odors persist despite these measures, you may have a broken or improperly ins
         },
         {
           title: 'When to Call a Professional Plumber',
-          content: `While handy homeowners can handle some minor plumbing issues, many problems require professional expertise and tools. Call Down Right Plumbing during business hours (Monday-Friday, 8 AM - 5 PM) at (214) 802-3042 when you encounter recurring clogs despite your efforts, any sewage backups, slab leak symptoms, major leaks or burst pipes, water heater problems beyond basic maintenance, low water pressure throughout your home, or frozen pipes you can't safely thaw.
+          content: `While handy homeowners can handle some minor plumbing issues, many problems require professional expertise and tools. Give Down Right Plumbing a call at (214) 802-3042 when you encounter recurring clogs despite your efforts, any sewage backups, slab leak symptoms, major leaks or burst pipes, water heater problems beyond basic maintenance, low water pressure throughout your home, or frozen pipes you can't safely thaw.
 
 Also call us for any project requiring new pipes or fixtures, gas line work, or anything involving your sewer line. These aren't appropriate DIY projects and often require permits and inspections.
 
@@ -477,13 +477,13 @@ Investing in preventive maintenance saves money in the long run and gives you pe
         },
         {
           title: 'Trust Down Right Plumbing for All Your Rockwall Plumbing Needs',
-          content: `Whether you're dealing with a minor annoyance or a major plumbing issue, Down Right Plumbing is here to help during business hours. We've served Rockwall, Heath, Fate, Royse City, and surrounding communities for years, and we understand the unique challenges local homeowners face.
+          content: `Whether you're dealing with a minor annoyance or a major plumbing issue, Down Right Plumbing is here to help. We've served Rockwall, Heath, Fate, Royse City, and surrounding communities for years, and we understand the unique challenges local homeowners face.
 
 Our licensed, insured plumbers provide honest assessments, upfront pricing, and quality workmanship backed by solid warranties. We treat your home with respect and stand behind our work.
 
 From simple faucet repairs to complete repiping projects, from routine maintenance to urgent repairs, we're your trusted plumbing partner in Rockwall, TX.
 
-Call us today at (214) 802-3042 to schedule service or request a free estimate. We're open Monday-Friday, 8 AM - 5 PM and offer convenient scheduling for all your plumbing needs.`,
+Call us today at (214) 802-3042 to schedule service or request a free estimate. We offer convenient scheduling for all your plumbing needs.`,
         },
       ],
     },
@@ -507,7 +507,7 @@ Call us today at (214) 802-3042 to schedule service or request a free estimate. 
           title: 'The Hidden Costs of Neglected Drains',
           content: `When drains work properly, you don't think about them. But neglected drains gradually accumulate buildup that eventually causes problems—and the costs add up quickly.
 
-A severe clog that requires emergency service can cost $300-$500 or more, especially if it occurs outside business hours. If that clog causes a sewage backup, you're looking at thousands in cleanup, sanitization, and potential health hazards.
+A severe clog that requires emergency service can cost $300-$500 or more. If that clog causes a sewage backup, you're looking at thousands in cleanup, sanitization, and potential health hazards.
 
 Water damage from backed-up drains can destroy flooring, drywall, furniture, and personal belongings. Your homeowner's insurance may not cover damage resulting from poor maintenance, leaving you to pay out of pocket.
 
@@ -871,7 +871,7 @@ Moisture under your home creates ideal conditions for mold growth, which can spr
 
 Leaked water can affect neighboring properties, potentially making you liable for damage to others' homes—costs your insurance may not fully cover.
 
-If you notice any warning signs of a slab leak, call Down Right Plumbing promptly during business hours at (214) 802-3042. We serve Rockwall, Heath, Fate, Royse City, and the entire DFW area Monday-Friday, 8 AM - 5 PM. Our prompt response minimizes damage and gets your home back to normal. If you discover a leak outside business hours, turn off your main water supply to minimize damage until we can help.`,
+If you notice any warning signs of a slab leak, call Down Right Plumbing promptly at (214) 802-3042. We serve Rockwall, Heath, Fate, Royse City, and the entire DFW area. Our prompt response minimizes damage and gets your home back to normal. If you discover a leak, turn off your main water supply to minimize damage while you wait for help, and give us a call at (214) 802-3042.`,
         },
         {
           title: 'Why Choose Down Right Plumbing for Slab Leak Detection',
@@ -889,7 +889,7 @@ We coordinate with insurance companies, providing documentation to support your 
 
 We stand behind our work with solid warranties, giving you confidence in the repairs.
 
-We're available Monday-Friday, 8 AM - 5 PM to help with slab leak detection and repair. If you discover a leak outside business hours, turn off your main water supply to minimize damage until we can assist you during business hours.`,
+We're here to help with slab leak detection and repair. If you discover a leak, turn off your main water supply to minimize damage while you wait for help, and give us a call at (214) 802-3042.`,
         },
         {
           title: 'Schedule Slab Leak Detection Today',
@@ -897,9 +897,9 @@ We're available Monday-Friday, 8 AM - 5 PM to help with slab leak detection and 
 
 Down Right Plumbing is ready to help with professional slab leak detection and repair throughout Rockwall, Heath, Fate, Royse City, and the DFW area. Our expert team will accurately locate your leak, explain your repair options, and get your home back to normal.
 
-Call us today at (214) 802-3042 to schedule a slab leak inspection. We're available Monday-Friday, 8 AM - 5 PM and offer convenient scheduling for inspections and repairs.
+Call us today at (214) 802-3042 to schedule a slab leak inspection. We offer convenient scheduling for inspections and repairs.
 
-Don't let a hidden slab leak destroy your foundation and your home's value. Trust the slab leak experts at Down Right Plumbing to protect your most valuable investment. Contact us today during business hours for professional detection and repair services you can count on.`,
+Don't let a hidden slab leak destroy your foundation and your home's value. Trust the slab leak experts at Down Right Plumbing to protect your most valuable investment. Contact us today for professional detection and repair services you can count on.`,
         },
       ],
     },

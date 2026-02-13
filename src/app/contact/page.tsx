@@ -189,7 +189,7 @@ export default function ContactPage() {
               <Clock className="w-6 h-6 text-white" />
               <span className="text-white font-bold text-lg">NEED SERVICE?</span>
             </div>
-            <span className="text-white/90">Call us during business hours:</span>
+            <span className="text-white/90">Give us a call today:</span>
             <a
               href="tel:2148023042"
               className="bg-white hover:bg-gray-100 text-blue-600 font-bold py-2 px-6 rounded-full transition-all inline-flex items-center gap-2"
@@ -367,7 +367,7 @@ export default function ContactPage() {
                         This is urgent - need service ASAP
                       </Label>
                       <p className="text-sm text-blue-700 mt-1">
-                        For fastest service, please call us at (214) 802-3042 during business hours
+                        For fastest service, please call us at (214) 802-3042
                       </p>
                     </div>
                   </div>
@@ -407,7 +407,7 @@ export default function ContactPage() {
                         <div>
                           <p className="font-semibold text-green-900">Message sent successfully!</p>
                           <p className="text-sm text-green-700 mt-1">
-                            We&apos;ll get back to you within 1 hour during business hours.
+                            We&apos;ll get back to you as soon as possible.
                           </p>
                         </div>
                       </div>
@@ -550,7 +550,7 @@ export default function ContactPage() {
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                    <span>100% satisfaction guarantee</span>
+                    <span>Clear communication throughout every job</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 flex-shrink-0 mt-0.5" />

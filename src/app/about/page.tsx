@@ -143,8 +143,8 @@ export default function AboutPage() {
               <p className="text-white/90 mt-2 text-lg">Est. Rockwall, TX</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-amber-400">100%</div>
-              <p className="text-white/90 mt-2 text-lg">Satisfaction Guarantee</p>
+              <div className="text-4xl md:text-5xl font-bold text-amber-400">DFW</div>
+              <p className="text-white/90 mt-2 text-lg">Proudly Serving</p>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-amber-400">5.0★</div>
@@ -183,7 +183,7 @@ export default function AboutPage() {
               {
                 icon: Shield,
                 title: 'Down Right Reliable',
-                description: 'Monday-Friday 8 AM - 5 PM service, on-time arrivals, and repairs done right the first time. You can count on us.',
+                description: 'Prompt response times, on-time arrivals, and repairs done right the first time. You can count on us.',
               },
               {
                 icon: Heart,
@@ -203,7 +203,7 @@ export default function AboutPage() {
               {
                 icon: Target,
                 title: 'Down Right Committed',
-                description: '100% satisfaction guarantee on every job. We stand behind our work and our word.',
+                description: 'We are committed to communicating with you throughout the entire repair process.',
               },
             ].map((value, index) => (
               <motion.div
@@ -331,24 +331,9 @@ export default function AboutPage() {
                 description: 'Comprehensive liability and workers compensation insurance for your protection.',
               },
               {
-                icon: Award,
-                title: 'BBB Accredited',
-                description: 'A+ rating with the Better Business Bureau for trust and reliability.',
-              },
-              {
-                icon: CheckCircle2,
-                title: 'EPA Certified',
-                description: 'Environmental Protection Agency certification for safe practices.',
-              },
-              {
                 icon: GraduationCap,
                 title: 'Ongoing Education',
                 description: 'Continuous training on latest techniques, codes, and technologies.',
-              },
-              {
-                icon: Star,
-                title: 'Manufacturer Certified',
-                description: 'Authorized installer for major brands and warranty compliance.',
               },
             ].map((cert, index) => (
               <motion.div
@@ -466,10 +451,10 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { icon: DollarSign, text: 'Upfront, Transparent Pricing' },
-              { icon: Clock, text: 'Monday-Friday 8 AM - 5 PM' },
+              { icon: Clock, text: 'Prompt & Reliable Service' },
               { icon: Shield, text: 'Licensed & Insured' },
               { icon: Star, text: '5-Star Average Rating' },
-              { icon: CheckCircle2, text: '100% Satisfaction Guarantee' },
+              { icon: CheckCircle2, text: 'Upfront Pricing, No Surprises' },
               { icon: TrendingUp, text: '20+ Years Experience' },
             ].map((item, index) => (
               <motion.div

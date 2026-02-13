@@ -29,7 +29,7 @@ const trustBadges = [
   { icon: Shield, label: "Licensed" },
   { icon: Shield, label: "Insured" },
   { icon: Shield, label: "Bonded" },
-  { icon: Award, label: "BBB Accredited" },
+  { icon: Award, label: "20+ Years Exp." },
   { icon: Star, label: "5-Star Google" },
 ];
 

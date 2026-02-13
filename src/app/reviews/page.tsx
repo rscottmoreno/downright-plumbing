@@ -1,283 +1,63 @@
 'use client';
 
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 import {
   Star,
-  Filter,
   MessageSquare,
-  MapPin,
-  Calendar,
   ThumbsUp,
-  Users,
   Award,
   ExternalLink,
   ChevronRight,
+  Quote,
 } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
 
-// Sample testimonials data (20+ reviews)
-const testimonials = [
+// Real Google Reviews - copy-pasted from actual Google page
+const googleReviews = [
   {
     id: 1,
-    name: 'Sarah Johnson',
-    city: 'Rockwall',
-    date: '2024-02-01',
+    name: 'Mark Harper',
     rating: 5,
-    service: 'Leak Repair',
-    text: 'Called them for a burst pipe issue. They came out promptly and fixed it professionally. The technician was courteous, explained everything, and cleaned up perfectly. Great service!',
+    timeAgo: '4 weeks ago',
+    text: 'My water heater broke late in the afternoon. I called Down Right Plumbing and they were able to get to me very quickly. I had both my tanks replaced (One was bad and the other was not far from failing) and was back up in running the same day. Doug was very professional and did a great job leaving my home in great shape.',
+    ownerReply: 'Thank you Mark!',
   },
   {
     id: 2,
-    name: 'Michael Chen',
-    city: 'Heath',
-    date: '2024-01-28',
+    name: 'Alex Hernandez',
     rating: 5,
-    service: 'Water Heater',
-    text: 'Best plumbers in DFW! They replaced our old water heater with a modern tankless unit. The pricing was upfront with no surprises. Highly professional and highly recommend!',
+    timeAgo: '3 weeks ago',
+    text: 'We thought we had a burst pipe. Over the phone, he asked some questions and knew exactly what was wrong. He came quickly and fixed the issue within 30 minutes. He charged less than half of what another plumber was going to charge. Highly recommend!',
+    ownerReply: 'Thank you Alex!',
   },
   {
     id: 3,
-    name: 'Jennifer Martinez',
-    city: 'Fate',
-    date: '2024-01-25',
+    name: 'Joe & Chantelle Marchant',
     rating: 5,
-    service: 'Drain Cleaning',
-    text: 'Down Right Plumbing cleared our stubborn drain when two other companies couldn\'t. They used camera inspection to find the issue and fixed it right away. Professional, honest, and reasonably priced.',
+    timeAgo: '2 weeks ago',
+    text: 'Quick to answer & communicate, realistic expectations, trustworthy, affordable - THANK YOU Doug for saving us before the winter storm recently.',
+    ownerReply: "I'm glad to help! Thank you for the review.",
   },
   {
     id: 4,
-    name: 'David Thompson',
-    city: 'Royse City',
-    date: '2024-01-20',
+    name: 'Jason Erwin',
     rating: 5,
-    service: 'Repiping',
-    text: 'They repiped our entire house! The crew was respectful, clean, and the quality is outstanding. They finished on schedule and the new plumbing works perfectly. Worth every penny.',
+    timeAgo: '3 weeks ago',
+    text: 'Doug was amazing, very good value. Prompt and efficient.',
+    ownerReply: 'Thank you Jason!',
   },
   {
     id: 5,
-    name: 'Lisa Anderson',
-    city: 'Garland',
-    date: '2024-01-18',
+    name: 'Morgan',
     rating: 5,
-    service: 'Leak Detection',
-    text: 'Found a hidden leak in our walls that could have caused major damage. Their leak detection technology is impressive! Saved us thousands in potential repairs. Thank you!',
+    timeAgo: '3 weeks ago',
+    text: "You can trust him completely, he's as honest as they come.",
+    ownerReply: 'Thank you Morgan!',
   },
-  {
-    id: 6,
-    name: 'Robert Williams',
-    city: 'Rowlett',
-    date: '2024-01-15',
-    rating: 5,
-    service: 'Faucet Repair',
-    text: 'Family-owned and it shows. They treat your home like their own. Fixed our kitchen faucet and checked everything else for free. This is how plumbing service should be done.',
-  },
-  {
-    id: 7,
-    name: 'Amanda Brown',
-    city: 'Wylie',
-    date: '2024-01-12',
-    rating: 5,
-    service: 'Bathroom Plumbing',
-    text: 'Bathroom renovation exceeded expectations! Beautiful work and they stayed on schedule. The attention to detail was remarkable. True professionals who care about their craft.',
-  },
-  {
-    id: 8,
-    name: 'James Davis',
-    city: 'Mesquite',
-    date: '2024-01-10',
-    rating: 5,
-    service: 'Sewer Line',
-    text: 'Sewer line repair done right the first time. No hidden fees, just honest work. They explained every step and left the yard cleaner than they found it. These guys are the real deal!',
-  },
-  {
-    id: 9,
-    name: 'Emily Rodriguez',
-    city: 'Rockwall',
-    date: '2024-01-08',
-    rating: 5,
-    service: 'Toilet Repair',
-    text: 'Toilet was running constantly and wasting water. They came out same day, diagnosed the issue, and fixed it quickly. Professional service at a fair price. Will definitely use again.',
-  },
-  {
-    id: 10,
-    name: 'Christopher Lee',
-    city: 'Heath',
-    date: '2024-01-05',
-    rating: 5,
-    service: 'Water Heater',
-    text: 'Water heater installation was seamless. They handled everything from permit to final inspection. The new unit is so much more efficient. Excellent work from start to finish!',
-  },
-  {
-    id: 11,
-    name: 'Michelle Taylor',
-    city: 'Fate',
-    date: '2024-01-03',
-    rating: 5,
-    service: 'Kitchen Plumbing',
-    text: 'Kitchen sink was completely clogged. They not only fixed it but showed me how to prevent it in the future. Educational and professional—exactly what you want in a plumber.',
-  },
-  {
-    id: 12,
-    name: 'Daniel White',
-    city: 'Royse City',
-    date: '2023-12-28',
-    rating: 5,
-    service: 'Pipe Repair',
-    text: 'Needed service before Christmas and they fit us in! Fixed our broken pipe quickly so we could host family. They saved our holiday. Forever grateful!',
-  },
-  {
-    id: 13,
-    name: 'Patricia Garcia',
-    city: 'Garland',
-    date: '2023-12-22',
-    rating: 5,
-    service: 'Gas Line',
-    text: 'Gas line installation for our new range was done perfectly. They coordinated with the gas company and got it inspected. Professional and thorough.',
-  },
-  {
-    id: 14,
-    name: 'Kevin Miller',
-    city: 'Rowlett',
-    date: '2023-12-18',
-    rating: 5,
-    service: 'Water Line',
-    text: 'Main water line had a leak. They located it quickly with their equipment and repaired it the same day. Impressive technology and service. Highly recommend!',
-  },
-  {
-    id: 15,
-    name: 'Rachel Moore',
-    city: 'Wylie',
-    date: '2023-12-15',
-    rating: 5,
-    service: 'Drain Cleaning',
-    text: 'Multiple drains were slow. They camera-inspected the lines and found tree roots. Cleared everything out and now drains work like new. Great service!',
-  },
-  {
-    id: 16,
-    name: 'Thomas Jackson',
-    city: 'Mesquite',
-    date: '2023-12-10',
-    rating: 5,
-    service: 'Garbage Disposal',
-    text: 'Garbage disposal replacement was quick and affordable. They showed me how to maintain it properly. Friendly technician and great service.',
-  },
-  {
-    id: 17,
-    name: 'Karen Martinez',
-    city: 'Rockwall',
-    date: '2023-12-05',
-    rating: 5,
-    service: 'Bathroom Plumbing',
-    text: 'Shower valve was leaking behind the wall. They repaired it perfectly and matched the tile. You can\'t even tell they were there. Excellent craftsmanship!',
-  },
-  {
-    id: 18,
-    name: 'Brian Wilson',
-    city: 'Heath',
-    date: '2023-12-01',
-    rating: 5,
-    service: 'Leak Detection',
-    text: 'High water bill led us to suspect a leak. They found it underground with their detection equipment. Fast, professional, and saved us money. Highly recommend!',
-  },
-  {
-    id: 19,
-    name: 'Angela Harris',
-    city: 'Fate',
-    date: '2023-11-28',
-    rating: 5,
-    service: 'Faucet Repair',
-    text: 'Replaced all the faucets in our house. Quality fixtures installed perfectly. They were clean, efficient, and the price was fair. Very happy with the results!',
-  },
-  {
-    id: 20,
-    name: 'Steven Clark',
-    city: 'Royse City',
-    date: '2023-11-22',
-    rating: 5,
-    service: 'Water Heater',
-    text: 'Water heater was making strange noises. They diagnosed it quickly and recommended repair over replacement, saving me money. Honest and trustworthy!',
-  },
-  {
-    id: 21,
-    name: 'Nicole Adams',
-    city: 'Garland',
-    date: '2023-11-18',
-    rating: 5,
-    service: 'Toilet Repair',
-    text: 'Installed a new toilet and it works perfectly. They removed the old one and disposed of it properly. Clean, professional, and courteous service.',
-  },
-  {
-    id: 22,
-    name: 'Gregory Turner',
-    city: 'Rowlett',
-    date: '2023-11-15',
-    rating: 5,
-    service: 'Plumbing Repair',
-    text: 'Had an urgent plumbing issue and they came out quickly. Fixed the problem efficiently and cleaned up afterward. Can\'t thank them enough!',
-  },
-  {
-    id: 23,
-    name: 'Deborah Scott',
-    city: 'Wylie',
-    date: '2023-11-10',
-    rating: 5,
-    service: 'Kitchen Plumbing',
-    text: 'Kitchen remodel plumbing was done perfectly. They coordinated with our contractor and everything went smoothly. Professional team that delivers quality work.',
-  },
-  {
-    id: 24,
-    name: 'Charles Phillips',
-    city: 'Mesquite',
-    date: '2023-11-05',
-    rating: 5,
-    service: 'Sewer Line',
-    text: 'Sewer camera inspection revealed issues before they became major problems. They provided video evidence and clear explanation of needed repairs. Trustworthy service!',
-  },
-];
-
-const cities = ['All Cities', 'Rockwall', 'Heath', 'Fate', 'Royse City', 'Garland', 'Rowlett', 'Wylie', 'Mesquite'];
-const services = [
-  'All Services',
-  'Water Heater',
-  'Drain Cleaning',
-  'Leak Detection',
-  'Leak Repair',
-  'Pipe Repair',
-  'Plumbing Repair',
-  'Bathroom Plumbing',
-  'Kitchen Plumbing',
-  'Sewer Line',
-  'Repiping',
-  'Toilet Repair',
-  'Faucet Repair',
-  'Gas Line',
-  'Water Line',
-  'Garbage Disposal',
 ];
 
 export default function ReviewsPage() {
-  const [selectedCity, setSelectedCity] = useState('All Cities');
-  const [selectedService, setSelectedService] = useState('All Services');
-
-  const filteredTestimonials = testimonials.filter((testimonial) => {
-    const cityMatch = selectedCity === 'All Cities' || testimonial.city === selectedCity;
-    const serviceMatch = selectedService === 'All Services' || testimonial.service === selectedService;
-    return cityMatch && serviceMatch;
-  });
-
-  const averageRating = (
-    testimonials.reduce((acc, t) => acc + t.rating, 0) / testimonials.length
-  ).toFixed(1);
-
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -302,131 +82,104 @@ export default function ReviewsPage() {
               What Our Customers Say
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-              Real reviews from real customers across Rockwall and the DFW Metroplex
+              Real reviews from real customers — straight from our Google Business page
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-8 py-4">
                 <div className="flex items-center gap-2 mb-1">
                   <Star className="w-6 h-6 fill-amber-400 text-amber-400" />
-                  <span className="text-3xl font-bold">{averageRating}</span>
+                  <span className="text-3xl font-bold">5.0</span>
                 </div>
-                <p className="text-sm text-white/80">Average Rating</p>
+                <p className="text-sm text-white/80">Google Rating</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-8 py-4">
-                <div className="flex items-center gap-2 mb-1">
-                  <Users className="w-6 h-6 text-amber-400" />
-                  <span className="text-3xl font-bold">{testimonials.length}+</span>
+                <div className="flex items-center gap-1 mb-1">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 fill-amber-400 text-amber-400" />
+                  ))}
                 </div>
-                <p className="text-sm text-white/80">Customer Reviews</p>
+                <p className="text-sm text-white/80">All 5-Star Reviews</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Filters Section */}
-      <section className="py-8 bg-gray-50 border-b sticky top-0 z-30 backdrop-blur-lg bg-gray-50/95">
+      {/* Reviews Section */}
+      <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row gap-4 items-center justify-between max-w-4xl mx-auto">
-            <div className="flex items-center gap-2">
-              <Filter className="w-5 h-5 text-gray-600" />
-              <span className="font-semibold text-gray-900">Filter Reviews:</span>
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Verified Google Reviews
+              </h2>
+              <p className="text-lg text-gray-600">
+                Every review below is from a real customer on our Google Business profile
+              </p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
-              <Select value={selectedCity} onValueChange={setSelectedCity}>
-                <SelectTrigger className="w-full sm:w-[200px] bg-white">
-                  <SelectValue placeholder="Select city" />
-                </SelectTrigger>
-                <SelectContent>
-                  {cities.map((city) => (
-                    <SelectItem key={city} value={city}>
-                      {city}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
 
-              <Select value={selectedService} onValueChange={setSelectedService}>
-                <SelectTrigger className="w-full sm:w-[200px] bg-white">
-                  <SelectValue placeholder="Select service" />
-                </SelectTrigger>
-                <SelectContent>
-                  {services.map((service) => (
-                    <SelectItem key={service} value={service}>
-                      {service}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-          </div>
-          <div className="text-center mt-4 text-sm text-gray-600">
-            Showing {filteredTestimonials.length} review{filteredTestimonials.length !== 1 ? 's' : ''}
-          </div>
-        </div>
-      </section>
-
-      {/* Reviews Grid */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-            {filteredTestimonials.map((testimonial, index) => (
-              <motion.div
-                key={testimonial.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.05 }}
-                className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-100 p-6 flex flex-col"
-              >
-                {/* Rating */}
-                <div className="flex gap-1 mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-amber-500 text-amber-500" />
-                  ))}
-                </div>
-
-                {/* Review Text */}
-                <blockquote className="text-gray-700 leading-relaxed mb-6 flex-grow">
-                  &ldquo;{testimonial.text}&rdquo;
-                </blockquote>
-
-                {/* Service Badge */}
-                <div className="mb-4">
-                  <span className="inline-flex items-center gap-1 bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">
-                    <MessageSquare className="w-3 h-3" />
-                    {testimonial.service}
-                  </span>
-                </div>
-
-                {/* Author Info */}
-                <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                  <div>
-                    <p className="font-bold text-gray-900">{testimonial.name}</p>
-                    <div className="flex items-center gap-1 text-sm text-gray-600">
-                      <MapPin className="w-3 h-3" />
-                      {testimonial.city}, TX
+            <div className="space-y-8">
+              {googleReviews.map((review, index) => (
+                <motion.div
+                  key={review.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow border border-gray-100 overflow-hidden"
+                >
+                  {/* Review Content */}
+                  <div className="p-6 md:p-8">
+                    <div className="flex items-start justify-between gap-4 mb-4">
+                      <div className="flex items-center gap-3">
+                        {/* Avatar Initial */}
+                        <div className="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg shrink-0">
+                          {review.name.charAt(0)}
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-gray-900 text-lg">{review.name}</h3>
+                          <p className="text-sm text-gray-500">{review.timeAgo}</p>
+                        </div>
+                      </div>
+                      {/* Google G icon */}
+                      <div className="shrink-0 w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
+                        <span className="text-sm font-bold text-gray-500">G</span>
+                      </div>
                     </div>
-                  </div>
-                  <div className="flex items-center gap-1 text-xs text-gray-500">
-                    <Calendar className="w-3 h-3" />
-                    {new Date(testimonial.date).toLocaleDateString('en-US', {
-                      month: 'short',
-                      year: 'numeric',
-                    })}
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
 
-          {filteredTestimonials.length === 0 && (
-            <div className="text-center py-16">
-              <MessageSquare className="w-16 h-16 text-gray-300 mx-auto mb-4" />
-              <p className="text-xl text-gray-600 mb-2">No reviews found</p>
-              <p className="text-gray-500">Try adjusting your filters to see more reviews</p>
+                    {/* Stars */}
+                    <div className="flex gap-0.5 mb-4">
+                      {[...Array(review.rating)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 fill-amber-500 text-amber-500" />
+                      ))}
+                    </div>
+
+                    {/* Review Text */}
+                    <p className="text-gray-700 leading-relaxed text-base md:text-lg">
+                      {review.text}
+                    </p>
+                  </div>
+
+                  {/* Owner Reply */}
+                  {review.ownerReply && (
+                    <div className="bg-blue-50 border-t border-blue-100 px-6 md:px-8 py-4">
+                      <div className="flex items-start gap-3">
+                        <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xs shrink-0 mt-0.5">
+                          DR
+                        </div>
+                        <div>
+                          <p className="text-sm font-semibold text-blue-900 mb-1">
+                            Down Right Plumbing (Owner)
+                          </p>
+                          <p className="text-sm text-blue-800">{review.ownerReply}</p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </motion.div>
+              ))}
             </div>
-          )}
+          </div>
         </div>
       </section>
 
@@ -439,12 +192,12 @@ export default function ReviewsPage() {
               Had a Great Experience?
             </h2>
             <p className="text-xl text-gray-700 mb-8">
-              We'd love to hear about your experience with Down Right Plumbing!
+              We&apos;d love to hear about your experience with Down Right Plumbing!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-white" asChild>
                 <a
-                  href="https://www.google.com/search?q=downright+plumbing+rockwall"
+                  href="https://www.google.com/search?q=down+right+plumbing+rockwall+tx"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -463,44 +216,40 @@ export default function ReviewsPage() {
         </div>
       </section>
 
-      {/* Google Reviews Embed Section */}
+      {/* Highlighted Quotes */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Find Us on Google Reviews
+                Why Customers Choose Down Right Plumbing
               </h2>
               <p className="text-xl text-gray-600">
-                Check out our reviews on Google and see why customers trust Down Right Plumbing
+                Hear it in their words
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-50 to-amber-50 rounded-2xl p-8 md:p-12 text-center">
-              <div className="max-w-2xl mx-auto">
-                <div className="bg-white rounded-xl p-8 shadow-lg mb-6">
-                  <div className="flex items-center justify-center gap-2 mb-4">
-                    <Star className="w-8 h-8 fill-amber-500 text-amber-500" />
-                    <span className="text-4xl font-bold text-gray-900">{averageRating}</span>
-                  </div>
-                  <p className="text-gray-700 mb-2">
-                    Based on Google reviews
-                  </p>
-                  <p className="text-sm text-gray-600">
-                    Quality plumbing service in Rockwall, TX
-                  </p>
-                </div>
-
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
-                  <a
-                    href="https://www.google.com/search?q=downright+plumbing+rockwall"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <ExternalLink className="mr-2 w-5 h-5" />
-                    View All Google Reviews
-                  </a>
-                </Button>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center p-6">
+                <Quote className="w-10 h-10 text-amber-500 mx-auto mb-4" />
+                <p className="text-lg font-medium text-gray-800 italic mb-4">
+                  &ldquo;He charged less than half of what another plumber was going to charge.&rdquo;
+                </p>
+                <p className="text-sm font-semibold text-blue-600">— Alex Hernandez</p>
+              </div>
+              <div className="text-center p-6">
+                <Quote className="w-10 h-10 text-amber-500 mx-auto mb-4" />
+                <p className="text-lg font-medium text-gray-800 italic mb-4">
+                  &ldquo;Quick to answer & communicate, realistic expectations, trustworthy, affordable.&rdquo;
+                </p>
+                <p className="text-sm font-semibold text-blue-600">— Joe & Chantelle Marchant</p>
+              </div>
+              <div className="text-center p-6">
+                <Quote className="w-10 h-10 text-amber-500 mx-auto mb-4" />
+                <p className="text-lg font-medium text-gray-800 italic mb-4">
+                  &ldquo;You can trust him completely, he&apos;s as honest as they come.&rdquo;
+                </p>
+                <p className="text-sm font-semibold text-blue-600">— Morgan</p>
               </div>
             </div>
           </div>
@@ -515,7 +264,7 @@ export default function ReviewsPage() {
               Experience the Down Right Difference
             </h2>
             <p className="text-xl text-white/90 mb-8">
-              Experience the Down Right difference. Professional, honest, and reliable plumbing service in Rockwall and DFW.
+              Professional, honest, and reliable plumbing service in Rockwall and DFW.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
