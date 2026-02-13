@@ -63,28 +63,31 @@
   }
 }
 
-/* ── Service-card scroll reveal (pure CSS, no JS hydration flash) ── */
+/* ── Service-card scroll reveal (pure CSS spring-like bounce) ── */
 @keyframes card-reveal {
-  from { opacity: 0; transform: translateY(24px); }
-  to   { opacity: 1; transform: translateY(0); }
+  0%   { opacity: 0;    transform: translateY(40px) scale(0.95); }
+  40%  { opacity: 1;    transform: translateY(-6px) scale(1.01); }
+  65%  { opacity: 1;    transform: translateY(3px)  scale(0.995); }
+  82%  { opacity: 1;    transform: translateY(-1px) scale(1); }
+  100% { opacity: 1;    transform: translateY(0)    scale(1); }
 }
 
 /* Before JS adds .revealed — cards are simply hidden */
 .service-card {
   opacity: 0;
-  transform: translateY(24px);
+  transform: translateY(40px) scale(0.95);
 }
 
-/* JS adds .revealed → animation plays once, then card stays visible */
+/* JS adds .revealed → spring-like bounce plays once */
 .service-card.revealed {
-  animation: card-reveal 0.5s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms) both;
+  animation: card-reveal 0.7s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms) both;
 }
 
 /* After reveal, enable hover lift via CSS transition */
 .service-card.done {
-  animation: none;            /* clear animation so transition works */
+  animation: none;
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
   transition: transform 0.22s ease, box-shadow 0.22s ease;
 }
 

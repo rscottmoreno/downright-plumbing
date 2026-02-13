@@ -325,7 +325,7 @@ function ServiceCard({ service, index }: { service: ServiceItem; index: number }
     <div
       ref={ref}
       className="service-card bg-white rounded-xl shadow-md p-6 group"
-      style={{ '--delay': `${index * 60}ms` } as React.CSSProperties}
+      style={{ '--delay': `${index * 80}ms` } as React.CSSProperties}
     >
       <div className="bg-amber-100 w-14 h-14 rounded-lg flex items-center justify-center mb-4 group-hover:bg-amber-500 transition-colors">
         <service.icon className="w-7 h-7 text-amber-600 group-hover:text-white transition-colors" />
