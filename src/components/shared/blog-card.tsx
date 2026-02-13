@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Calendar, Clock, User } from "lucide-react";
 import Link from "next/link";
@@ -22,6 +23,12 @@ interface BlogCardProps {
   delay?: number;
 }
 
+function useHydrated() {
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => { setHydrated(true); }, []);
+  return hydrated;
+}
+
 export function BlogCard({
   slug,
   title,
@@ -33,9 +40,10 @@ export function BlogCard({
   className,
   delay = 0,
 }: BlogCardProps) {
+  const hydrated = useHydrated();
   return (
     <motion.div
-      initial={{ opacity: 0, y: 20 }}
+      initial={hydrated ? { opacity: 0, y: 20 } : false}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay }}

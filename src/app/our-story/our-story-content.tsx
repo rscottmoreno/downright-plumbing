@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import {
   Heart,
@@ -16,6 +17,12 @@ import {
 } from 'lucide-react';
 import Link from 'next/link';
 
+function useHydrated() {
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => { setHydrated(true); }, []);
+  return hydrated;
+}
+
 // Shared spring config for consistent bouncy feel
 const springTransition = {
   type: "spring" as const,
@@ -24,6 +31,7 @@ const springTransition = {
 };
 
 export function OurStoryContent() {
+  const hydrated = useHydrated();
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section - Full Width */}
@@ -75,7 +83,7 @@ export function OurStoryContent() {
       <section className="py-24 bg-gradient-to-br from-amber-50 via-orange-50 to-pink-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={hydrated ? { opacity: 0, y: 30 } : false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={springTransition}
@@ -88,7 +96,7 @@ export function OurStoryContent() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={hydrated ? { opacity: 0, y: 20 } : false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={springTransition}
@@ -174,7 +182,7 @@ export function OurStoryContent() {
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={hydrated ? { opacity: 0, scale: 0.95 } : false}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={springTransition}
@@ -197,7 +205,7 @@ export function OurStoryContent() {
       <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={hydrated ? { opacity: 0, y: 20 } : false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={springTransition}
@@ -241,7 +249,7 @@ export function OurStoryContent() {
               ].map((milestone, index) => (
                 <motion.div
                   key={index}
-                  initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
+                  initial={hydrated ? { opacity: 0, x: index % 2 === 0 ? -30 : 30 } : false}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true, margin: "-40px" }}
                   transition={{ ...springTransition, delay: 0.05 }}
@@ -271,7 +279,7 @@ export function OurStoryContent() {
       <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={hydrated ? { opacity: 0, y: 20 } : false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={springTransition}
@@ -314,7 +322,7 @@ export function OurStoryContent() {
             ].map((value, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 30, scale: 0.95 }}
+                initial={hydrated ? { opacity: 0, y: 30, scale: 0.95 } : false}
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true, margin: "-40px" }}
                 transition={{
@@ -341,7 +349,7 @@ export function OurStoryContent() {
       <section className="py-24 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={hydrated ? { opacity: 0, y: 20 } : false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={springTransition}
@@ -358,7 +366,7 @@ export function OurStoryContent() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <motion.div
-              initial={{ opacity: 0, x: -30 }}
+              initial={hydrated ? { opacity: 0, x: -30 } : false}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={springTransition}
@@ -372,7 +380,7 @@ export function OurStoryContent() {
             </motion.div>
 
             <motion.div
-              initial={{ opacity: 0, x: 30 }}
+              initial={hydrated ? { opacity: 0, x: 30 } : false}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={springTransition}
@@ -423,7 +431,7 @@ export function OurStoryContent() {
 
           {/* Resources Banner */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={hydrated ? { opacity: 0, y: 20 } : false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-40px" }}
             transition={springTransition}
@@ -455,7 +463,7 @@ export function OurStoryContent() {
       <section className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={hydrated ? { opacity: 0, y: 20 } : false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={springTransition}

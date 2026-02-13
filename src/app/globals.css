@@ -63,6 +63,36 @@
   }
 }
 
+/* ── Service-card scroll reveal (pure CSS, no JS hydration flash) ── */
+@keyframes card-reveal {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Before JS adds .revealed — cards are simply hidden */
+.service-card {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+/* JS adds .revealed → animation plays once, then card stays visible */
+.service-card.revealed {
+  animation: card-reveal 0.5s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms) both;
+}
+
+/* After reveal, enable hover lift via CSS transition */
+.service-card.done {
+  animation: none;            /* clear animation so transition works */
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.service-card.done:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
 /* Respect reduced motion preference */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

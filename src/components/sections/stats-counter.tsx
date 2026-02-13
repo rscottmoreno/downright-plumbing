@@ -13,6 +13,12 @@ interface StatsCounterProps {
   className?: string;
 }
 
+function useHydrated() {
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => { setHydrated(true); }, []);
+  return hydrated;
+}
+
 export function StatsCounter({
   value,
   label,
@@ -21,6 +27,7 @@ export function StatsCounter({
   duration = 2,
   className,
 }: StatsCounterProps) {
+  const hydrated = useHydrated();
   const [count, setCount] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -56,7 +63,7 @@ export function StatsCounter({
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, scale: 0.5 }}
+      initial={hydrated ? { opacity: 0, scale: 0.5 } : false}
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}

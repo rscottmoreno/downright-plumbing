@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, LucideIcon } from "lucide-react";
 import Link from "next/link";
@@ -16,6 +17,12 @@ interface ServiceCardProps {
   delay?: number;
 }
 
+function useHydrated() {
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => { setHydrated(true); }, []);
+  return hydrated;
+}
+
 export function ServiceCard({
   title,
   description,
@@ -24,12 +31,13 @@ export function ServiceCard({
   className,
   delay = 0,
 }: ServiceCardProps) {
+  const hydrated = useHydrated();
   // Support both string icon names and direct icon components
   const Icon = typeof icon === 'string' ? getIconComponent(icon) : icon;
   
   return (
     <motion.div
-      initial={{ opacity: 0, y: 20 }}
+      initial={hydrated ? { opacity: 0, y: 20 } : false}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay }}
